@@ -1,10 +1,10 @@
-import ScrollToTop from "./Components/ScrollToTop";
+import ScrollToTop from "../Components/ScrollToTop";
 
-import Home from "./pages/Home/Home";
-import ErrorPage from "./pages/Error/Error";
-import Logement from "./pages/Logement/Logement";
-import Reservation from "./pages/Reservation/Reservation";
-import Blog from "./pages/Blog/Blog";
+import Home from "../pages/Home/Home";
+import ErrorPage from "../pages/Error/Error";
+import Logement from "../pages/Logement/Logement";
+import Reservation from "../pages/Reservation/Reservation";
+import Blog from "../pages/Blog/Blog";
 
 export const router = [
   {
