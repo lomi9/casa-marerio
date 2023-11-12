@@ -2,11 +2,9 @@ import ScrollToTop from "../Components/ScrollToTop";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "../pages/Home/Home";
-//import About from "../pages/AboutPage/about";
 import ErrorPage from "../pages/Error/Error";
 import Logement from "../pages/Logement/Logement";
 import Reservation from "./Reservation/Reservation";
-import SirvoyWidget from "../Components/widget";
 import Blog from "./Blog/Blog";
 
 const router = createBrowserRouter([
@@ -47,17 +45,6 @@ const router = createBrowserRouter([
       </>
     ),
   },
-  /* {
-   path: "/about",
- element: <About />,
- },
-  {
-    path: "/logementPage/:id",
-    element: <LogementPage />,
-    errorElement: <ErrorPage />,
-  },
-
-  */
   {
     path: "/error",
     element: <ErrorPage />,
