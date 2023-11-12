@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import "./styles/main.scss";
 import "./styles/utilities.scss";
 import "./styles/reset.scss";
-import { router } from "./router"; // Importez le routeur à partir du fichier correct
+import { router } from "./pages/router"; // Importez le routeur à partir du fichier correct
 
 function App() {
   useEffect(() => {
