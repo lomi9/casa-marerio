@@ -1,0 +1,236 @@
+@import "../../styles/utilities.scss";
+
+.navbar{
+  position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+
+  @include main-font-style;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  background-color:rgba(244, 239, 239, 0.3);
+  border-bottom: $page-border ;
+  transition: background-color 0.5s ease;
+&.scrolling {
+  background-color: #F1EBE4;
+}
+}
+  
+  
+.nav__items{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+flex: 1;
+gap: 9%;
+    &-language-dropdown {
+      select {
+        background-color: transparent;
+        border: 1px solid rgb(35, 25, 20);
+        padding: 0.2rem;
+        margin-left: 1rem;
+        border-radius: 5px;
+        color:rgb(35, 25, 20) ;
+        cursor: pointer;
+        &:hover, &:focus {
+          background-color: transparent;
+        }
+        &.scrolling{
+          color: rgb(122, 114, 114);
+          border: 1px solid rgb(122, 114, 114);
+        }
+      } &-value{
+        padding: 0px 2px 1px;
+      }
+    }
+    &-item{
+    @include link-no-style;
+    @include link-bottom-style;
+    
+    color:rgb(35, 25, 20) ;
+    font-size: 1rem;
+     &::before{
+      background-color: rgb(35, 25, 20);
+     }
+      &.scrolling{
+        color:rgb(122, 114, 114) ;
+        &::before{
+          background-color: rgb(122, 114, 114);
+         }
+      }
+    }
+  }
+
+
+.nav__logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+    &-link{
+      &-img{
+        width: 20rem;
+      display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  .nav__items.open {
+    display: flex;
+  }
+  
+  .navbar__menu {
+    display: none; // Par défaut, le bouton de menu est masqué 
+  }
+
+
+
+  @media (max-width: 1150px){
+
+    .navbar__menu{
+      display: flex; 
+      flex: 1;
+      &-button {
+        cursor: pointer;
+        font-size: 2rem; // Ajustez la taille de la police comme vous le souhaitez 
+        margin: 0 2rem;
+        border: none;
+      }
+  }
+
+    .nav__items {
+      visibility: hidden; // Masque le menu de navigation par défaut sur les petits écrans 
+      opacity: 0;
+      flex-direction: column; // Affiche les éléments en colonne 
+      width: 17%;
+      //background-color: $main-background-color;
+      //background-image: $main-background-image;
+      background:  rgba(244, 239, 239, 0.9);
+      position: absolute;
+      top: 64.5px; // La hauteur de votre barre de navigation 
+      left: 0;
+      border-right: $page-border;
+      
+      border-bottom-right-radius: 170px;
+      transition: display 0.5s ease;
+      z-index: 1;
+      max-height: 0; // Commencez avec une hauteur maximale de 0
+      overflow: hidden; // Cela empêche le contenu de déborder
+      transition: max-height 0.8s ease, visibility 0.5s ease, opacity 0.5s ease; // Transition pour l'effet d'apparition
+      align-items: flex-start;
+      align-content: flex-start;
+      padding-left: 3rem;
+      &-language-dropdown {
+        select {
+          margin-left: 0;
+          margin-top: 0.7rem;
+        }
+      }
+    }
+
+    .nav__items.open {
+      visibility: visible; // Affiche le menu lorsque la classe "open" est appliquée 
+      opacity: 1;
+      padding-bottom: 50px;
+      max-height: 500px; // Ajustez cette valeur en fonction de la hauteur de votre menu
+    }
+  
+    .nav__items-item {
+      padding-top: 30px;
+      text-align:center;
+      
+    }
+  }
+
+  .reserverBtnMobile{
+    display: none;
+  }
+
+  .reserverBtnDesktop{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+  }
+
+  @media (max-width: $tab-breakpoint){
+
+    .nav__logo-link-img{
+      width: 12rem;
+    }
+
+    .reserverBtnDesktop{
+      display: none;
+    }
+  
+    .reserverBtnMobile{
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      padding-top: 1rem;
+    }
+
+  }
+
+  @media (max-width: $tab-breakpoint ){
+
+    .navbar{
+      position:fixed;
+      top: 0;
+      left: 0;
+      flex-direction: row-reverse;
+    }
+
+
+    .nav__logo{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding-left: 3%;
+      align-items: center;
+      flex: 1;
+    
+        &-link{
+          &-img{
+            width: 10rem;
+          display: flex;
+            flex-wrap: wrap;
+          }
+        }
+      }
+      .navbar__menu{
+        justify-content: flex-end;
+      }
+      .nav__items{
+        top: 58px;
+        right: 0;
+        left: auto;
+        width: 100%;
+        border-radius: 0;
+        align-content: flex-end;
+        align-items: flex-end;
+        padding-left: 0;
+        padding-right: 3rem;
+        background: linear-gradient(to right, transparent, rgba(244, 239, 239, 0.9));;
+        &.open{
+          padding-bottom: 10px;
+        }
+        &-item{
+          padding-top: 15px;
+        }
+      }
+
+      .nav__actionCall {
+        display: none;
+    }
+  }
+
+

@@ -1,0 +1,94 @@
+@import "../../styles/utilities.scss";
+
+.article__logement{
+    background-color: $blue-background-color;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: $page-border;
+    &-title{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 4rem 2rem;
+        @include title-font-style;
+        color: $blue-color;
+        
+    }
+
+    &-content{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+
+        &-galerie{
+            width: 50%;
+            height: 450px;
+            justify-content: center;
+        }
+        &-description{
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            padding-top: 4rem;
+            color: $main-background-color;
+            justify-content: center;
+            &-p{
+                @include main-font-style;
+                padding: 5rem 3rem;
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+        }
+    }
+}
+
+.list{
+    
+    padding-left: 2rem;
+    width: 100%;
+    &__item{
+        @include main-font-style;
+        display: flex;
+        line-height: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    color: $main-background-color;
+ 
+        &-icon{
+            @include title2-font-style;
+            font-size: 1.2rem;
+            padding: 0 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            color: #8EA6CC;
+            
+        }
+    }
+
+}
+
+@media (max-width: $tab-breakpoint ){
+    .article__logement{
+        &-content{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-content: center;
+            padding: 4rem 2rem;
+            &-galerie{
+                width: 100%;
+            }
+            &-description{
+                width: 100%;
+            }
+        }
+
+    }
+}

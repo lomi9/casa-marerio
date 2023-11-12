@@ -1,0 +1,73 @@
+@import "../../styles/utilities.scss";
+
+.contact-container {
+    font-family:'Rajdhani', sans-serif;
+    padding: 2rem;
+   // border-radius: 8px;
+   // box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: rgb(157, 146, 146);
+    
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(190, 178, 178);
+    border-radius: 25px;
+    font-size: 1rem;
+    background-color: $main-background-color;
+    font-family:'Rajdhani', sans-serif;
+    color: rgb(63, 59, 59);
+}
+
+.button__div{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    @include button-style;
+    cursor: pointer;
+}
+
+@media (max-width: $mobile-breakpoint ){
+    .contact-container{
+        padding: 2rem 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        &-form{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            justify-content: center;
+        }
+    }
+    input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 0.8rem 0;
+    }
+    .input-group{
+        width: 80%;
+    }
+}
+
+

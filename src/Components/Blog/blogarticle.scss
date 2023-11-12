@@ -1,0 +1,119 @@
+@import "../../styles/utilities.scss";
+
+.blog__article{
+    display: flex;
+    flex-wrap: wrap;
+    &-title{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        @include title2-font-style;
+        font-style: normal;
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+    }
+    &-content{
+        display: flex;
+        width: 100%;
+        &-imgcontainer{
+            display: flex;
+            width: 50%;
+            padding: 1.5rem;
+        }
+        &-img{
+            width: 100%;
+            height: 100%;
+            max-height: 450px;
+            min-height: 400px;
+            object-fit: cover;
+            object-position: center;
+        }
+        &-text{
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2rem;
+
+
+            &-p{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                justify-content: flex-start;
+                @include main-font-style;
+                align-content: center;
+                text-align: center;
+                padding-bottom: 2rem;
+            }
+            &-link{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                height: fit-content;
+                @include link-no-style;
+                @include main-font-style;
+                color: $blue-color;
+                font-weight: 600;
+                justify-content: center;
+                align-content: flex-end;
+                &:hover {
+                    text-decoration: underline;
+                }
+                &-mobile{
+                    display: none;
+                }
+
+            }
+
+        }
+    }
+}
+
+.underline {
+    width: 100%;
+    height: 1px;
+    border-bottom: 2px solid $blue-color;
+}
+
+@media (max-width: $tab-breakpoint){
+
+    .blog__article{
+        &-title{
+        padding-top: 1rem;
+        }
+        &-content{
+            flex-direction: column-reverse;
+            &-imgcontainer{
+                width: 100%;
+                padding: 1rem 0;
+            }
+            &-text{
+                width: 100%;
+                padding: 0;
+                &-p{
+                    margin: 0 10%;
+                }
+
+                &-link{
+                    display: none;
+                    &-mobile{
+                        display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                height: fit-content;
+                @include link-no-style;
+                @include main-font-style;
+                color: $blue-color;
+                font-weight: 600;
+                justify-content: center;
+                align-content: flex-end;
+                padding: 2rem 0;
+                &:hover {
+                    text-decoration: underline;
+                }
+                    }
+                }
+            }
+        }
+    }
+}

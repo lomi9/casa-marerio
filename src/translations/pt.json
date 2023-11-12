@@ -1,0 +1,162 @@
+{
+    "home": {
+      "title1": "Portimão",
+      "subtitle1": "Relaxamento, aventura e memórias inesquecíveis...",
+      "card1": {
+        "title": "Desfrute de um apartamento de férias totalmente equipado.",
+        "button": "Descobrir"
+      },
+      "card2": {
+        "title": "Explore o ambiente incrivelmente relaxante de Portimão.",
+        "button": "Explorar"
+      },
+      "title2": "Sol, praia e vida boa.",
+      "subtitle2": "Consulte a nossa disponibilidade, reserve e desfrute.",
+      "hostQuestion": "Quem é o seu anfitrião",
+      "hostDescription": "Lorem ipsum dolor sit amet...",
+      "contactQuestion": "Tem uma pergunta ou sugestão? Então escreva-nos!"
+    },
+
+    "navbar": {
+        "nav": {
+          "item1": "Home",
+          "item2": "Alojamento",
+          "item3": "Preço"
+        },
+        "button": "Livro"
+    },
+
+    "banner": {
+        "title": "Descubra o Algarve com o nosso apartamento de férias",
+        "scroll" : "deslocar para baixo"
+    }, 
+
+    "contact": {
+        "form": {
+            "name": "Seu Nome",
+            "email": "Seu E-mail",
+            "message": "Mensagem"
+          },
+          "button" : "Enviar"
+        
+    },
+
+    "footer": {
+        "text" : "© 2023 Todos os direitos reservados | Casa Mar E Rio"
+      
+  },
+
+  "logement": {
+    "title" : "Alojamento",
+    "text" : "Desfrute de um apartamento de férias totalmente equipado.",
+    "list": {
+        "item1": "Apartamento de 2 assoalhadas",
+        "item2": "Para até 4 pessoas",
+        "item3": "Duas varandas, com vista para o mar, o rio e o porto",
+        "item4": "Residência segura",
+        "item5": "Piscina na residência",
+        "item6": "Estacionamento subterrâneo seguro",
+        "item7": "Wifi",
+        "item8": "Chegada autónoma",
+        "item9": "Praia a 500 m",
+        "item10": "Lojas a 500 m",
+        "item11": "Ar condicionado"
+      }
+  
+},
+
+"equipments": {
+    "item1": {
+        "title": "A sala de estar",
+        "text": "Adicionar descrição e equipamento..."
+    },
+    "item2": {
+        "title": "A cozinha",
+        "text": "Adicionar descrição e equipamento..."
+    },
+    "item3": {
+        "title": "O quarto",
+        "text": "Adicionar descrição e equipamento..."
+    },
+    "item4": {
+        "title": "A casa de banho",
+        "text": "Adicionar descrição e equipamento..."
+    },
+    "item5": {
+        "title": "Serviços",
+        "text": "Adicionar descrição e equipamento...."
+    },
+    "item6": {
+        "title": "Bom saber",
+        "text": "Adicionar descrição e equipamento..."
+    }
+
+}, 
+"reservation": {
+    "title": "Découvrez l'Algarve en séjournant dans notre appartement de vacances",
+    "text" : "Bonjour"
+  }, 
+
+  "blog": {
+
+    "home" : {
+  
+    "title1": "Portimão",
+    "subtitle1": "Faites un tour d'horizon des activités et bonnes adresses à ne pas manquer !",
+    "title2": "",
+    "subtitle2": "Choisissez une catégorie"
+    
+  },
+
+    "navbar" : {
+      
+      "title1": "Portimão",
+      "subtitle1": "Faites un tour d'horizon des activités et bonnes adresses à ne pas manquer !",
+      "title2": "",
+      "subtitle2": "Choisissez une catégorie",
+      
+      "item1": {
+        "title1": "Les plages"
+      },
+      "item2": {
+        "title1": "Les activités"
+      },
+      "item3": {
+        "title1": "Les restaurants"
+      },
+      "item4": {
+        "title1": "Bonnes adresses"
+      }
+    },
+
+    "articles": {
+
+      "article1": {
+        "title": "Article Title in English",
+        "text": "Article text in English.",
+        "image": "/path-to-your-article-image.jpg"
+      },
+
+      "article2": {
+        "title": "Article Title in English",
+        "text": "Article text in English.",
+        "image": "/path-to-your-article-image.jpg"
+      },
+
+      "article3": {
+        "title": "Article Title in English",
+        "text": "Article text in English.",
+        "image": "/path-to-your-article-image.jpg"
+      },
+
+      "article4": {
+        "title": "Article Title in English",
+        "text": "Article text in English.",
+        "image": "/path-to-your-article-image.jpg"
+      }
+    }
+
+  }
+
+  }
+  

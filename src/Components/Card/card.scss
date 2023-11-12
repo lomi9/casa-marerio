@@ -1,0 +1,82 @@
+@import "../../styles/utilities.scss";
+
+.card-container {
+    width: 50%;
+    height: 600px; 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+
+    &:hover .card-image {
+        filter: blur(10px); // Choisissez une valeur entre 10px et 50px
+    }
+
+    .card-image {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: filter 0.3s ease-in-out;
+    }
+
+    .card-overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); // Filtre noir transparent
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-div {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-end;
+        align-items: center;
+    }
+
+    .card-title {
+        @include title3-font-style;
+        font-family: 'Poiret One', sans-serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 0 4rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        line-height: 3rem;
+        color: $main-background-color;
+    }
+
+    .card-button {
+        @include button-style;
+        border: white double 3px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #f6f3f0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+        margin: 4rem 0;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+@media (max-width: $tab-breakpoint ){
+
+    .article__cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-container{
+        width: 100%;
+    }
+}

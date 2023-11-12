@@ -1,0 +1,87 @@
+@import "../../styles/utilities.scss";
+
+.blog__navbar-container {
+
+    background-image: $main-background-color;
+      
+       .blog__navbar-menu {
+         display: flex;
+         justify-content: space-around;
+         position: relative;
+         border-bottom: 2px solid $blue-background-color;
+         padding: 2rem 0 0 0;
+         .blog__navbar-menu-item {
+           @include title-font-style;
+           padding: 10px 20px;
+           cursor: pointer;
+           position: relative;
+           z-index: 1;
+           color: $blue-background-color;
+           font-size: 1.3rem;
+           
+           &.active {
+             .angle-icon {
+               position: absolute;
+               bottom: -14px;
+               left: 50%;
+               transform: translateX(-50%);
+               z-index: 2;
+             }
+           }
+         }
+       }
+     
+       .blog__navbar-section {
+         padding-top: 60px;
+    
+       }
+   }  
+   
+   .blog__navbar-menu-arrow{
+     display: none;
+   }
+   
+   // ... (le reste de votre code)
+   
+   // Ajout d'un media query pour les petits écrans (ex: téléphones)
+   @media (max-width: $tab-breakpoint) {
+     .blog__navbar-container {
+       .blog__navbar-menu {
+         padding: 0;
+         .blog__navbar-menu-item {
+           // Cachez tous les items
+           display: none;
+   
+           // Affichez seulement l'item actif
+           &.active {
+             display: block;
+           }
+         }
+       }
+     }
+   
+     // ... (le reste de votre code)
+   
+   .blog__navbar-section {
+     position: relative; // Pour positionner correctement les flèches
+   }
+   
+   .blog__navbar-menu-arrow {
+     display: block;
+     position: absolute;
+     top: 50%; // Centré verticalement
+     font-size: 1.5rem; // Taille de l'icône
+     cursor: pointer;
+     z-index: 5;
+     color: $blue-background-color;
+     
+     &.left {
+       left: 15%; // Flèche de gauche
+     }
+   
+     &.right {
+       right: 15%; // Flèche de droite
+     }
+   }
+   
+   }

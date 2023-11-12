@@ -1,0 +1,33 @@
+@import "../../styles/utilities.scss";
+
+.nav__actionCall {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    &-link{
+      display: flex;
+      text-decoration: none;
+        &-btn{
+          @include button-style;
+          color : rgb(35, 25, 20);
+          border-color: rgb(35, 25, 20);
+          &.scrolling{
+            @include button-style;
+            color: rgb(122, 114, 114);
+            border-color: rgb(122, 114, 114);
+          }
+        }
+  }
+}
+
+@media (max-width: $tab-breakpoint){
+
+
+    .nav__actionCall-link-btn{
+      font-size: 0.8rem;
+      padding: 0.5rem;
+    }
+
+  }

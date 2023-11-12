@@ -1,0 +1,39 @@
+@import "../../styles/utilities.scss";
+
+.footer {
+    @include title-font-style;
+    font-size: 1rem;
+    width: 100%;
+    background-color: $blue-background-color;
+    color: $main-background-color;
+    padding: 20px 0;
+    &__content {
+        display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+        &-logo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+         }
+    }
+    &__bottom{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    }
+}
+
+@media (max-width: $mobile-breakpoint ){
+    .footer__content-logo{
+        width: 65%;
+    }
+    .footer__bottom-p{
+        font-size: 0.7rem;
+    }
+}
+
+

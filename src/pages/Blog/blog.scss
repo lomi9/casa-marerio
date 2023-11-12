@@ -1,0 +1,15 @@
+@import "../../styles/utilities.scss";
+
+.blog__title{
+    display: flex;
+    background-color: $blue-background-color;
+    justify-content: center;
+&-text{
+    display: flex;
+    padding: 5rem 0;
+    @include title-font-style;
+    color: $main-background-color;
+    font-size: 2rem;
+    justify-content: center;
+}
+}

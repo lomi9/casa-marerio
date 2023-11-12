@@ -1,0 +1,31 @@
+@import "../Components/Navbar/navbar.scss";
+@import "../pages/Home/home.scss";
+@import "../Components/Banner/banner.scss";
+@import "../Components/Galerie/galerie.scss";
+@import "../pages/Logement/logement.scss";
+@import "../Components/Card/card.scss";
+@import "../Components/Equipments/equipments.scss";
+@import "../Components/Title/title.scss";
+@import "../Components/Salon/salon.scss";
+@import "../Components/Footer/footer.scss";
+@import "../Components/Contact/contact.scss";
+@import "../pages/Reservation/reservation.scss";
+@import "../Components/ReserverBtn/reservezBtn.scss";
+@import "../pages/Blog/blog.scss";
+@import "../Components/Blog/blognavbar.scss";
+@import "../Components/Blog/blogsection.scss";
+@import "../pages/Error/error.scss";
+@import "../Components/Blog/blogarticle.scss";
+
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    background-color: $main-background-color;
+}
+
+body{
+    height: 100%;
+    box-sizing: border-box;
+    
+  }

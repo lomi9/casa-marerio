@@ -1,0 +1,115 @@
+@import "../../styles/utilities.scss";
+
+.galerie__container{
+    height: 100%;
+    position: relative;
+    &-slides{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+
+    }
+}
+
+.galerie-arrow{
+color: rgb(179, 184, 189);
+background: rgba(0, 0, 0, 0.3);
+padding: 9px 17px;
+border-radius: 50%;
+}
+
+.left{
+position: absolute;
+top: 50%;
+transform: translate(0,-50%);
+left: 10px;
+font-size: 42px;
+color: #fff;
+z-index: 1;
+cursor: pointer;
+}
+
+.right{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 10px;
+    font-size: 42px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.div__dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dots{
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 30px;
+    color:rgb(179, 184, 189);
+}
+
+.active-dot {
+    color: $blue-color;
+}
+
+
+
+/*
+.galerie-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    max-width: 600px;
+    margin: 0 auto;
+    
+
+    .galerie-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 2rem;
+        color: white;
+        opacity: 0.7;
+
+        &.left { left: 10px; }
+        &.right { right: 10px; }
+    }
+
+    .galerie-image {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .image-indicators {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 5px;
+
+        .indicator {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: white;
+            opacity: 0.5;
+            cursor: pointer;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+*/ 

@@ -1,0 +1,87 @@
+@import "../../styles/utilities.scss";
+
+.menu-container {
+
+ background-image: $main-background-color;
+   
+    .menu-items {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      border-bottom: 2px solid $blue-background-color;
+      padding: 2rem 0 0 0;
+      .item {
+        @include title-font-style;
+        padding: 10px 20px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        color: $blue-background-color;
+        font-size: 1.3rem;
+        
+        &.active {
+          .angle-icon {
+            position: absolute;
+            bottom: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+          }
+        }
+      }
+    }
+  
+    .section-content {
+      padding-top: 60px;
+ 
+    }
+}  
+
+.nav-arrow{
+  display: none;
+}
+
+// ... (le reste de votre code)
+
+// Ajout d'un media query pour les petits écrans (ex: téléphones)
+@media (max-width: $tab-breakpoint) {
+  .menu-container {
+    .menu-items {
+      padding: 0;
+      .item {
+        // Cachez tous les items
+        display: none;
+
+        // Affichez seulement l'item actif
+        &.active {
+          display: block;
+        }
+      }
+    }
+  }
+
+  // ... (le reste de votre code)
+
+.section-content {
+  position: relative; // Pour positionner correctement les flèches
+}
+
+.nav-arrow {
+  display: block;
+  position: absolute;
+  top: 50%; // Centré verticalement
+  font-size: 1.5rem; // Taille de l'icône
+  cursor: pointer;
+  z-index: 5;
+  color: $blue-background-color;
+  
+  &.left {
+    left: 15%; // Flèche de gauche
+  }
+
+  &.right {
+    right: 15%; // Flèche de droite
+  }
+}
+
+}

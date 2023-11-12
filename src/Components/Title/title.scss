@@ -1,0 +1,51 @@
+@import "../../styles/utilities.scss";
+
+title{
+    display: flex;
+}
+
+.title{
+  overflow: hidden;
+  display: flex;
+    background-color: $main-background-color;
+    flex-wrap: wrap;
+    border-top: $page-border;
+        &.defaultColor {
+          background-color: $main-background-color;
+          background-image: $main-background-image;
+        }
+        &.blueColor {
+          background-color: $blue-background-color;
+        }
+        &.logementColor {
+            background-color: rgb(190, 178, 178);
+          }
+    &__div-title-1{
+      overflow: hidden;
+      @include title2-font-style;
+      padding: 8rem 2rem 1rem 2rem;
+      font-family: 'Poiret One', sans-serif;
+      font-size: 1.5rem;
+      font-style: normal;
+      &.defaultBg1{
+        color: #002B7A;
+      }
+      &.blueBg1{
+        color: $main-background-color;
+      }
+    }
+    &__div-title-2{
+      overflow: hidden;
+      width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 2rem 8rem 2rem;
+        @include title2-font-style;
+        &.defaultBg2{
+          color: #002B7A;
+        }
+        &.blueBg2{
+          color: $main-background-color;
+        }
+    }
+  }
