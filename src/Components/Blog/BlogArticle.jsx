@@ -3,6 +3,7 @@ import React from 'react';
 
 const BlogArticle = ({ article }) => {
     const { t } = useTranslation();
+    const imagePath = t(article.image);
   
 
     return (
@@ -11,7 +12,7 @@ const BlogArticle = ({ article }) => {
             <h3 className='blog__article-title'>{t(article.title)}</h3>
             <div className='blog__article-content'>
                 <div className='blog__article-content-imgcontainer'>
-                <img className='blog__article-content-img' src={process.env.PUBLIC_URL + t(article.image)} alt={t(article.title)} data-aos="fade-right"
+                <img className='blog__article-content-img' src={imagePath} alt={t(article.title)} data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"/>
                </div>
