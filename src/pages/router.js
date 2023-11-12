@@ -1,13 +1,12 @@
-import ScrollToTop from "../Components/ScrollToTop";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ScrollToTop from "./Components/ScrollToTop";
 
-import Home from "../pages/Home/Home";
-import ErrorPage from "../pages/Error/Error";
-import Logement from "../pages/Logement/Logement";
-import Reservation from "./Reservation/Reservation";
-import Blog from "./Blog/Blog";
+import Home from "./pages/Home/Home";
+import ErrorPage from "./pages/Error/Error";
+import Logement from "./pages/Logement/Logement";
+import Reservation from "./pages/Reservation/Reservation";
+import Blog from "./pages/Blog/Blog";
 
-const router = createBrowserRouter([
+export const router = [
   {
     path: "/",
     element: (
@@ -46,10 +45,6 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/error",
-    element: <ErrorPage />,
-  },
-  {
     path: "*",
     element: (
       <>
@@ -58,6 +53,4 @@ const router = createBrowserRouter([
       </>
     ),
   },
-]);
-
-export default router;
+];
