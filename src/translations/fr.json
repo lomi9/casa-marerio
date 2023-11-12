@@ -198,7 +198,7 @@
         "article3": {
           "title": "Praia dos Três Irmãos",
           "text": "Pour découvrir cette plage, il faudra compter environ 10 minutes en voiture depuis l'appartement. Mais cela vaut le déplacement : la plage est située en contre-bas d'impressionnantes falaises, l'eau est cristalline et turquoise (idéal pour le snorckelling), et vous profiterez d'une promenenade sur la plage en passant sous les arches de roche.",
-          "image": "assets/praia-dos-tres-irmaos.jpeg",
+          "image": "/assets/praia-dos-tres-irmaos.jpeg",
           "url": "https://maps.app.goo.gl/pUNckBEjuEQsGsNk8",
           "texturl" : "Voir où se trouve l'emplacement de la plage"
         }
@@ -209,7 +209,7 @@
           "article1": {
             "title": "Partez en excursion avec les dauphins",
             "text": "Le long de la marina, juste en bas de l'appartement, de nombreux skippers proposent leurs services pour vous embarquer en excursion à bord d'un zodiac, afin de partir à la rencontre des dauphins. Vous pourrez observer plusieurs espèces de dauphins en très grand nombre et de très près, et, si vous avez de la chance, vous aurez peut-être la chance de voir une baleine !",
-            "image": "assets/portimao-dauphins.JPG",
+            "image": "/assets/portimao-dauphins.JPG",
             "url": "https://www.tripadvisor.fr/Attractions-g189120-Activities-c61-t188-Portimao_Faro_District_Algarve.html",
             "texturl" : "Trouver une excursion pour partir à la rencontre des dauphins"
           },
@@ -217,7 +217,7 @@
           "article2": {
             "title": "Découvrir les grottes marines de Portimão",
             "text": "La ville de Portimão est réputée pour la beauté de ses grottes marines, sculptées par les vagues dans les falaises bordant la mer. Pour cela, vous aurez plusieurs possibilités : pour les plus aventuriers, louez un canöé, un kayak ou un paddle. Vous pouvez aussi opter pour une excursion en bateau, qui vous fera naviger de grottes en grottes pour un spectacle inoubliable. Bien qu'assez fréquentée, la grotte de Benagil, la plus connue de toutes, offre un splendide panorama. N'oubliez pas votre appareil photo ! ",
-            "image": "assets/portimao-grottes-de-benagil.avif",
+            "image": "/assets/portimao-grottes-de-benagil.avif",
             "url": "https://www.tripadvisor.fr/Attractions-g189120-Activities-c55-Portimao_Faro_District_Algarve.html",
             "texturl" : "Partir à la découverte des grottes marines de Portimão"
           },
@@ -225,7 +225,7 @@
           "article3": {
             "title": "Ferragudo, le village de pécheurs pittoresque",
             "text": "Ferragudo offre une escapade pittoresque avec ses charmantes ruelles pavées et ses maisons blanchies à la chaux. Perché sur les rives du fleuve Arade, ce village de pêcheurs authentique séduit par son ambiance paisible et ses vues imprenables sur l'océan Atlantique. Explorez son petit port animé, ses plages dorées et ses restaurants locaux, où les fruits de mer frais sont à l'honneur. Ferragudo est l'endroit parfait pour ceux qui cherchent à s'immerger dans la culture traditionnelle portugaise tout en profitant d'un cadre naturel spectaculaire.",
-            "image": "assets/ferragudo.jpeg",
+            "image": "/assets/ferragudo.jpeg",
             "url": "https://maps.app.goo.gl/CWy2kYAp1kzimgaa8",
             "texturl" : "Se rendre à Ferragudo"
           },
@@ -233,7 +233,7 @@
           "article4": {
             "title": "Un safari dans l'arrière pays de l'Algarve",
             "text": "Les safaris dans l'arrière-pays de l'Algarve offrent une expérience unique pour découvrir le cœur sauvage et préservé de cette région portugaise. À bord de véhicules tout-terrain, les aventuriers peuvent sillonner les paysages variés, des collines verdoyantes aux vallées cachées, tout en observant la faune et la flore locales. Ces excursions permettent également de découvrir le patrimoine culturel de l'Algarve, avec des arrêts dans des villages traditionnels où le temps semble s'être arrêté. C'est une aventure idéale pour ceux qui cherchent à combiner émerveillement naturel et immersion culturelle.",
-            "image": "assets/algarve-safari.png",
+            "image": "/assets/algarve-safari.png",
             "url": "https://www.tripadvisor.fr/Attractions-g189111-Activities-c61-t243-Algarve.html",
             "texturl" : "Faire un safari en Algarve"
           }
@@ -244,7 +244,7 @@
             "article1": {
               "title": "Super Juice, Portimão",
               "text": "Situé au cœur de Portimão, Super Juice est une oasis pour les amateurs de cuisine saine et savoureuse. Ce restaurant diététique se distingue par ses jus frais pressés, ses smoothies créatifs et une sélection de plats légers mais nourrissants. Avec un accent sur les ingrédients frais et locaux, le restaurant est parfait pour un brunch, un déjeuner ou un encas . En bref, Super Juice est l'endroit idéal pour ceux qui recherchent une pause gourmande et revitalisante dans leur journée.",
-              "image": "assets/super-juice-portimao.jpeg",
+              "image": "/assets/super-juice-portimao.jpeg",
               "url": "https://maps.app.goo.gl/SiWnMMXkXvph6Ymd6",
               "texturl" : "Se rendre au restaurant 'Super Juice' à Portimāo"
             },
@@ -252,7 +252,7 @@
             "article2": {
               "title": "Borda do Cais, Ferragudo",
               "text": "Niché dans le pittoresque village de Ferragudo, Borda do Cais est une véritable perle gastronomique au bord de l'eau. Ce restaurant charmant offre une expérience culinaire inoubliable avec sa vue imprenable sur le port et une cuisine qui célèbre les saveurs de la mer. Les visiteurs sont invités à déguster des plats de fruits de mer frais, préparés avec une touche créative et servis dans une ambiance accueillante et décontractée. Borda do Cais est une destination incontournable pour ceux qui cherchent à savourer les délices de l'Algarve dans un cadre des plus enchanteurs.",
-              "image": "assets/borda-do-cais-ferragudo.avif",
+              "image": "/assets/borda-do-cais-ferragudo.avif",
               "url": "https://maps.app.goo.gl/MCviNzqNexDe6p1D8",
               "texturl" : "Se rendre au restaurant 'Borda do Cais' à Ferragudo"
             },
@@ -260,7 +260,7 @@
             "article3": {
               "title": "Fogo de Chão, Portimão",
               "text": "Fogo de Chão à Portimão est une célébration de la riche tradition culinaire brésilienne, offrant une expérience de barbecue authentique et exquise. Connue pour son rodizio haut de gamme, cette adresse invite ses convives à savourer une variété de viandes juteuses et parfaitement grillées, servies directement à la table. L'atmosphère chaleureuse et l'accueil convivial complètent l'expérience, rendant chaque repas à Fogo de Chão mémorable. C'est le lieu idéal pour les amateurs de viandes et les gourmets à la recherche d'une cuisine de qualité et d'une ambiance festive..",
-              "image": "assets/fogo-do-chao.jpeg",
+              "image": "/assets/fogo-do-chao.jpeg",
               "url": "https://maps.app.goo.gl/1FPoiukGaffqsxQu5",
               "texturl" : "Se rendre au restaurant 'Fogo de Chão' à Portimāo"
             }
@@ -271,7 +271,7 @@
               "article1": {
                 "title": "Pastelaria Arade",
                 "text": "Pastelaria Arade à Portimão est un véritable paradis pour les amateurs de douceurs. Réputée pour ses pâtisseries traditionnelles portugaises, cette charmante pâtisserie offre une gamme alléchante de gâteaux, tartes, et pastéis de nata croustillants, tous faits maison avec amour et savoir-faire. L'atmosphère accueillante et les arômes envoûtants qui s'en dégagent font de chaque visite une expérience douce et mémorable.",
-                "image": "assets/pasteis-de-nata-portimao.png",
+                "image": "/assets/pasteis-de-nata-portimao.png",
                 "url": "https://maps.app.goo.gl/wL1B3grSKvZY35Jm7",
                 "texturl" : "Se rendre à la patisserie 'Pastelaria Arade' à Portimão"
               },
@@ -279,7 +279,7 @@
               "article2": {
                 "title": "Article Title in English",
                 "text": "Article text in English.",
-                "image": "assets/portimao-vue-mer-1.jpeg",
+                "image": "/assets/portimao-vue-mer-1.jpeg",
                 "url": "https://www.google.com/maps?hl=fr&gl=fr&um=1&ie=UTF-8&fb=1&sa=X&geocode=KQtNb1QCKRsNMVYzsZB3C6Na&daddr=Portugal",
                 "texturl" : "Voir où se trouve l'emplacement de la plage"
               },
@@ -287,7 +287,7 @@
               "article3": {
                 "title": "Article Title in English",
                 "text": "Article text in English.",
-                "image": "assets/portimao-vue-mer-1.jpeg",
+                "image": "/assets/portimao-vue-mer-1.jpeg",
                 "url": "https://www.google.com/maps?hl=fr&gl=fr&um=1&ie=UTF-8&fb=1&sa=X&geocode=KQtNb1QCKRsNMVYzsZB3C6Na&daddr=Portugal",
                 "texturl" : "Voir où se trouve l'emplacement de la plage"
               },
@@ -295,7 +295,7 @@
               "article4": {
                 "title": "Article Title in English",
                 "text": "Article text in English.",
-                "image": "assets/portimao-vue-mer-1.jpeg",
+                "image": "/assets/portimao-vue-mer-1.jpeg",
                 "url": "https://www.google.com/maps?hl=fr&gl=fr&um=1&ie=UTF-8&fb=1&sa=X&geocode=KQtNb1QCKRsNMVYzsZB3C6Na&daddr=Portugal",
                 "texturl" : "Voir où se trouve l'emplacement de la plage"
               }
