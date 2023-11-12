@@ -182,7 +182,7 @@
         "article1": {
           "title": "Praia da Rocha",
           "text": "Située à 1 minute à pied de l'appartement, la 'Praia da Rocha' est une immense plage de sable doré. Vous trouverez de nombreux bar et restaurants en vous promenant sur la promenade en bois longeant la plage. La journée, profitez de la vue sur les impressionnants rochers et sur les falaises faisant le charme de la région, et admirez les magnifiques couchés de soleil lorsque la nuit tombe.",
-          "image": "/casa-marerio/static/media/portimao-plage-1.ba481d8b4c42573fbe34.jpeg",
+          "image": "/assets/portimao-plage-1.JPG",
           "url": "https://maps.app.goo.gl/QCdEXRcq544XmxoaA",
           "texturl" : "Voir où se trouve l'emplacement de la plage"
         },
@@ -274,6 +274,30 @@
                 "image": "assets/pasteis-de-nata-portimao.png",
                 "url": "https://maps.app.goo.gl/wL1B3grSKvZY35Jm7",
                 "texturl" : "Se rendre à la patisserie 'Pastelaria Arade' à Portimão"
+              },
+      
+              "article2": {
+                "title": "Article Title in English",
+                "text": "Article text in English.",
+                "image": "assets/portimao-vue-mer-1.jpeg",
+                "url": "https://www.google.com/maps?hl=fr&gl=fr&um=1&ie=UTF-8&fb=1&sa=X&geocode=KQtNb1QCKRsNMVYzsZB3C6Na&daddr=Portugal",
+                "texturl" : "Voir où se trouve l'emplacement de la plage"
+              },
+      
+              "article3": {
+                "title": "Article Title in English",
+                "text": "Article text in English.",
+                "image": "assets/portimao-vue-mer-1.jpeg",
+                "url": "https://www.google.com/maps?hl=fr&gl=fr&um=1&ie=UTF-8&fb=1&sa=X&geocode=KQtNb1QCKRsNMVYzsZB3C6Na&daddr=Portugal",
+                "texturl" : "Voir où se trouve l'emplacement de la plage"
+              },
+      
+              "article4": {
+                "title": "Article Title in English",
+                "text": "Article text in English.",
+                "image": "assets/portimao-vue-mer-1.jpeg",
+                "url": "https://www.google.com/maps?hl=fr&gl=fr&um=1&ie=UTF-8&fb=1&sa=X&geocode=KQtNb1QCKRsNMVYzsZB3C6Na&daddr=Portugal",
+                "texturl" : "Voir où se trouve l'emplacement de la plage"
               }
             }
 
