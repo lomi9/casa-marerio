@@ -27,7 +27,7 @@ align-items: center;
 flex: 1;
 gap: 9%;
     &-language-dropdown {
-      select {
+      &.react-select__control {
         background-color: transparent;
         border: 1px solid rgb(35, 25, 20);
         padding: 0.2rem;
@@ -64,6 +64,38 @@ gap: 9%;
     }
   }
 
+  .react-select__control {
+    background-color: transparent !important;
+    border: 1px solid rgb(35, 25, 20) !important;
+    padding: 0.2rem;
+    margin-left: 1rem;
+    border-radius: 5px !important;
+    color:rgb(35, 25, 20);
+    padding: 0;
+    cursor: pointer !important;
+    &:hover, &:focus {
+      background-color: transparent;
+    }
+    &.scrolling{
+      color: rgb(122, 114, 114);
+      border: 1px solid rgb(122, 114, 114);
+    }
+
+  }
+
+  .react-select__indicator{
+    color:rgb(35, 25, 20) !important;
+    border-color:rgb(35, 25, 20) !important ;
+  }
+
+  .react-select__value-container{
+      font-size: 1rem;
+  }
+
+  .react-select__control--is-focused {
+    border-color: rgb(35, 25, 20) !important;
+    box-shadow: none !important;
+  }
 
 .nav__logo{
   display: flex;
@@ -91,7 +123,11 @@ gap: 9%;
 
 
 
-  @media (max-width: 1150px){
+  @media (max-width: 1263px){
+
+    .react-select__control{
+      margin-left: 0;
+    }
 
     .navbar__menu{
       display: flex; 
@@ -101,6 +137,7 @@ gap: 9%;
         font-size: 2rem; // Ajustez la taille de la police comme vous le souhaitez 
         margin: 0 2rem;
         border: none;
+        color: rgb(35, 25, 20);
       }
   }
 
@@ -108,26 +145,27 @@ gap: 9%;
       visibility: hidden; // Masque le menu de navigation par défaut sur les petits écrans 
       opacity: 0;
       flex-direction: column; // Affiche les éléments en colonne 
-      width: 17%;
+      width: 12%;
       //background-color: $main-background-color;
       //background-image: $main-background-image;
       background:  rgba(244, 239, 239, 0.9);
       position: absolute;
-      top: 64.5px; // La hauteur de votre barre de navigation 
-      left: 0;
-      border-right: $page-border;
-      
-      border-bottom-right-radius: 170px;
-      transition: display 0.5s ease;
+      top: 67.5px; // La hauteur de votre barre de navigation 
+      left: 1px;
+      border: $page-border;
+      border-radius: 10px;
       z-index: 1;
       max-height: 0; // Commencez avec une hauteur maximale de 0
       overflow: hidden; // Cela empêche le contenu de déborder
-      transition: max-height 0.8s ease, visibility 0.5s ease, opacity 0.5s ease; // Transition pour l'effet d'apparition
       align-items: flex-start;
       align-content: flex-start;
       padding-left: 3rem;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+      opacity: 0;
       &-language-dropdown {
-        select {
+        &-select {
           margin-left: 0;
           margin-top: 0.7rem;
         }
@@ -135,10 +173,11 @@ gap: 9%;
     }
 
     .nav__items.open {
-      visibility: visible; // Affiche le menu lorsque la classe "open" est appliquée 
-      opacity: 1;
-      padding-bottom: 50px;
+      visibility: visible;
+      padding-bottom: 28px;
       max-height: 500px; // Ajustez cette valeur en fonction de la hauteur de votre menu
+      transform: scaleY(1);
+      opacity: 1;
     }
   
     .nav__items-item {
@@ -159,6 +198,12 @@ gap: 9%;
     align-content: center;
     justify-content: flex-end;
     padding-right: 2rem;
+  }
+
+  .flag-icon {
+    width: 20px; /* ou la taille que vous préférez */
+    height: auto;
+    vertical-align: middle;
   }
 
   @media (max-width: $tab-breakpoint){
@@ -211,17 +256,26 @@ gap: 9%;
       }
       .nav__items{
         top: 58px;
-        right: 0;
+        right: 1px;
+        background:  rgba(244, 239, 239, 0.9);
         left: auto;
-        width: 100%;
+        width: 134px;
         border-radius: 0;
         align-content: flex-end;
         align-items: flex-end;
         padding-left: 0;
-        padding-right: 3rem;
-        background: linear-gradient(to right, transparent, rgba(244, 239, 239, 0.9));;
+        padding-right: 2.5rem;
+        border: $page-border;
+        border-radius: 10px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0;
         &.open{
           padding-bottom: 10px;
+
+    transform: scaleY(1);
+    opacity: 1;
         }
         &-item{
           padding-top: 15px;

@@ -1,19 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import Select from 'react-select';
+
 
 import logo_navbar from "../../assets/logo-casa-marerio-tranparant.png";
-import logo_transparent from "../../assets/logo-casa-marerio-tranparant.png";
 import logo_scroll from "../../assets/logo-casa-marerio-scroll.png"
 import ReserverBtn from "../../Components/ReserverBtn/ReservezBtn";
+import flagFR from "../../assets/france-flag.png";
+import flagEN from "../../assets/gb-flag.png";
+import flagPT from "../../assets/pt.webp";
+
 
 
 
 export default function Navbar() {
-  const { t } = useTranslation();
-
-  const [scrolling, setScrolling] = useState(false);
+  const { t, i18n  } = useTranslation();
+    const [scrolling, setScrolling] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const languageOptions = [
+    { value: 'fr', label: <><img src={flagFR} alt="FR" className="flag-icon" /> FR</>, },
+    { value: 'en', label: <><img src={flagEN} alt="ENG" className="flag-icon" /> ENG</>, },
+    { value: 'pt', label: <><img src={flagPT} alt="PT" className="flag-icon" /> PT</>, }
+  ];
 
   const handleMenuItemClick = () => {
     setMobileMenuOpen(false);
@@ -37,10 +47,8 @@ const toggleMobileMenu = () => {
   setMobileMenuOpen(!mobileMenuOpen);
 };
 
-const { i18n } = useTranslation();
-
-const handleLanguageChange = (event) => {
-  i18n.changeLanguage(event.target.value);
+const handleLanguageChange = (selectedOption) => {
+  i18n.changeLanguage(selectedOption.value);
 };
 
 
@@ -57,11 +65,14 @@ const handleLanguageChange = (event) => {
         <nav className={`nav__items ${mobileMenuOpen ? "open" : ""}`}>
 
           <div className={`nav__items-language-dropdown ${scrolling ? "scrolling" : ""}`}>
-            <select value={i18n.language} onChange={handleLanguageChange}>
-              <option value="fr" className="nav__items-language-dropdown-value">FR 🇫🇷</option>
-              <option value="en" className="nav__items-language-dropdown-value">ENG 🇬🇧</option>
-              <option value="pt" className="nav__items-language-dropdown-value">PT 🇵🇹</option>
-            </select>
+          <Select 
+  options={languageOptions} 
+  value={languageOptions.find(option => option.value === i18n.language)}
+  onChange={handleLanguageChange}
+  className="nav__items-language-dropdown-select"
+  classNamePrefix="react-select"
+/>
+
           </div>
 
           <Link to="/" className={`nav__items-item ${scrolling ? "scrolling" : ""}`} onClick={handleMenuItemClick}>{t('navbar.nav.item1')}</Link>

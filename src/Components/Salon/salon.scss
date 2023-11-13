@@ -121,6 +121,10 @@ grid-row: 1 / 2 ;
     }
     &__div2{
         grid-row: 2 / 3;
+        padding: 2px 0;
+        &-title{
+            text-align: center;
+        }
     }
     &__div3{
         grid-row: 3 / 4 ;

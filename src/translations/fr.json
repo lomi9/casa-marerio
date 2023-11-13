@@ -7,7 +7,7 @@
         "button": "Découvrir"
       },
       "card2": {
-        "title": "Explorez le cadre incroyablement relaxant de la ville de Portimao.",
+        "title": "Explorez le cadre incroyablement relaxant de la ville de Portimão.",
         "button": "Explorer"
       },
       "title2": "Soleil, plage & douceur de vivre.",
@@ -52,7 +52,7 @@
         "list": {
             "item1": "Appartement 2 pièces",
             "item2": "Jusqu'à 4 personnes",
-            "item3": "Deux balcons, avec vue sur mer, rivière et port",
+            "item3": "Deux balcons : vue sur mer et marina",
             "item4": "Résidence sécurisée",
             "item5": "Piscine dans la résidence",
             "item6": "Parking sous-terrain sécurisé",
@@ -79,10 +79,10 @@
                 "li1" : "Réfrigérateur avec compartiment congélateur",
                 "li2" : "Four à micro-ondes",
                 "li3" : "Lave-linge", 
-                "li4" : "Vaiselle, couverts et ustensils",
+                "li4" : "Four",
                 "li5" : "Plaques de cuisson",
-                "li6" : "Four",
-                "li7" : "Vaiselle et couverts",
+                "li6" : "Vaiselle, couverts et ustensils",
+                "li7" : "Nécéssaire de cuisine",
                 "li8" : "Bouilloire éléctrique",
                 "li9" : "Cafetière à filtre",
                 "li10" : "Cafetière à expresso",
@@ -102,7 +102,7 @@
             },
             "item4": {
                 "title": "La salle de douche",
-                "title2": "Équipements de la salle de douche :",
+                "title2": "La salle de douche :",
                 "li1" : "Sèche cheveux",
                 "li2" : "Produits de nettoyage",
                 "li3" : "Savon pour le corps", 
@@ -111,22 +111,23 @@
             },
             "item5": {
                 "title": "Services",
-                "title2": "Les services :",
-                "li1" : "Piscine dans la résidence",
-                "li2" : "Douche exterieur",
-                "li3" : "Ascenseur dans la résidence", 
+                "title2": "Bon à savoir :",
+                "li1" : "Ascenseur dans la résidence",
+                "li2" : "Piscine dans la résidence",
+                "li3" : "Douche exterieur", 
                 "li4" : "Parking sous-terrain",
                 "li5" : "Arrivée autonome",
-                "li6" : "Il est interdit de fumer dans le logement",
-                "li7" : "Le logement est interdit aux soirées",
+                "li6" : "Lit et chaise bébé dans le logement",
+                "li7" : "Le ménage est inclus. Cependant, merci de rendre un logement convenable par respect pour le personnel",
                 "li8" : "Les draps et le linge de bain sont inclus", 
-                "li9" : "Le ménage est inclus. Cependant, merci de rendre un logement convenable par respect pour le personnel",
-                "li10" : "Lit et chaise bébé dans le logement"
+                "li9" : "Vos animaux de compagnie sont les bienvenus",
+                "li10" : "Il est interdit de fumer dans le logement",
+                "li11" : "Le logement est interdit aux soirées"
 
             },
             "item6": {
                 "title": "À proximité",
-                "title2": "Bon à savoir :",
+                "title2": "À deux pas du logement :",
                 "li1" : "Superette à ...mn à pied",
                 "li2" : "plage à 1 mn à pied",
                 "li3" : "Location de véhicule à ...mn à pied", 

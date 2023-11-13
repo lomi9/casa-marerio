@@ -12,7 +12,7 @@ const BlogArticle = ({ article }) => {
             <div className='blog__article-content'>
                 <div className='blog__article-content-imgcontainer'>
                 <img className='blog__article-content-img' src={`/casa-marerio/assets/${t(article.image)}`} alt={t(article.title)} data-aos="fade-right"
-     data-aos-offset="300"
+     data-aos-offset="100"
      data-aos-easing="ease-in-sine"/>
                </div>
                 <div className='blog__article-content-text'>
