@@ -1,7 +1,9 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCar, faCertificate, faHouse, faKey, faLock, faPerson, faShop, faUmbrellaBeach, faWater, faWaterLadder, faWifi } from '@fortawesome/free-solid-svg-icons';
 import { faSnowflake } from '@fortawesome/free-regular-svg-icons';
+import { Helmet } from 'react-helmet-async';
 
 import Navbar from "../../Components/Navbar/Navbar";
 import Galerie from "../../Components/Galerie/Galerie";
@@ -15,11 +17,9 @@ import galerieSalon2 from "../../assets/portimao-salon-2.jpeg";
 import galerieVue1 from "../../assets/portimao-vue-marina-1.jpeg";
 import galerieDouche from "../../assets/portimao-douche.jpeg";
 import galerieHall from "../../assets/portimao-hall.jpeg";
-import ReserverBtn from '../../Components/ReserverBtn/ReservezBtn';
 
 
 export default function Logement() {
-
     const { t } = useTranslation();
 
     const slides = [
@@ -33,6 +33,37 @@ export default function Logement() {
 
 return (
     <>
+    <Helmet>
+                <title>{t('helmet.logement.title')}</title>
+                <meta name="description" content={t('helmet.logement.description')} />
+                <meta property="og:title" content={t('helmet.logement.ogtitle')} />
+                <meta property="og:description" content={t('helmet.logement.ogdescription')} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://www.casa-marerio.com/logement" />
+                <meta property="og:image" content="https://www.casa-marerio.com/portimao-chambre-1.jpeg" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="https://www.casa-marerio.com/logement" />
+                <script type="application/ld+json">
+{`
+  "@context": "https://schema.org",
+  "@type": "Accommodation",
+  "name": "Casa-Marerio",
+  "description": "Logement de vacances pour 4 personnes, avec vue sur la mer et sur la marina, entièrement équipé. ",
+  "image": "https://www.casa-marerio.com/portimao-chambre-1.jpeg",
+  "address": {
+    "@type": "Rua Engenheiro José de Bívar",
+    "streetAddress": "Adresse de la rue",
+    "addressLocality": "Portimão",
+    "addressRegion": "Algarve",
+    "postalCode": "8500-802",
+    "addressCountry": "Portugal"
+  },
+  "additionalType": "https://schema.org/Apartment",
+  `
+}
+</script>
+            </Helmet>
     <header className='header'>
     <Navbar/>
     </header>

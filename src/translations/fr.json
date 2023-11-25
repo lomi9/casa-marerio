@@ -309,9 +309,14 @@
     "helmet":{
       "home":{
         "title":"Casa-Marerio",
-        "metacontent1" : "Appartement de vacances pour 4 personnes à Portimão, avec vue sur la mer et sur la marina.",
-        "metacontent2" :"Casa-Marerio",
-        "metacontent3" : "Appartement de vacances pour 4 personnes à Portimão, avec vue sur la mer et sur la marina."
+        "description" : "Appartement de vacances pour 4 personnes à Portimão, avec vue sur la mer et sur la marina.",
+        "ogtitle" :"Casa-Marerio",
+        "ogdescription" : "Appartement de vacances pour 4 personnes à Portimão, avec vue sur la mer et sur la marina."
+      },
+      "logement":{
+        "description" : "Appartement de vacances entièrement équipé à Portimão, avec vue sur la mer et sur la marina.",
+        "ogtitle" : "Casa-Marerio, description du logement",
+        "ogdescription" : "Appartement de vacances entièrement équipé à Portimão, avec vue sur la mer et sur la marina."
       }
 
     }

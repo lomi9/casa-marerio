@@ -22,11 +22,11 @@ return (
     <>
     <Helmet>
                 <title>{t('helmet.home.title')}</title>
-                <meta name="description" content={t('helmet.home.metacontent1')} />
+                <meta name="description" content={t('helmet.home.description')} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charset="UTF-8" />
-                <meta property="og:title" content={t('helmet.home.metacontent2')} />
-                <meta property="og:description" content={t('helmet.home.metacontent3')} />
+                <meta property="og:title" content={t('helmet.home.ogtitle')} />
+                <meta property="og:description" content={t('helmet.home.ogdescription')} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.casa-marerio.com/home" />
                 <meta property="og:image" content="https://www.casa-marerio.com/portimao-chambre-1.jpeg" />
@@ -65,6 +65,15 @@ return (
                 }
             }]
         }
+        "address": {
+            "@type": "Rua Engenheiro José de Bívar",
+            "streetAddress": "Adresse de la rue",
+            "addressLocality": "Portimão",
+            "addressRegion": "Algarve",
+            "postalCode": "8500-802",
+            "addressCountry": "Portugal"
+          },
+          "additionalType": "https://schema.org/Apartment",
     `}
     </script>
             </Helmet>
