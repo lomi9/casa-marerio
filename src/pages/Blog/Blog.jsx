@@ -44,7 +44,7 @@ export default function Blog() {
                       "name": "Casa-Marerio",
                       "logo": {
                         "@type": "ImageObject",
-                        "url": "https://www.votre-site.com/path-to-logo.jpg"
+                        "url": "https://www.casa-marerio.com/assets/logo-contact.png"
                       }
                     }
                   }

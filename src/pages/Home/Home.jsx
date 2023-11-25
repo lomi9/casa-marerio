@@ -46,7 +46,7 @@ return (
             "@type": "Organization",
             "name": "casa-Marerio",
             "url": "https://www.casa-marerio.com",
-            "logo": "https://www.votre-site.com/path-to-logo.jpg",
+            "logo": "https://www.casa-marerio.com/assets/logo-contact.png",
             "contactPoint": {
                 "@type": "ContactPoint",
                 "email": "contact@casa-marerio.com",
