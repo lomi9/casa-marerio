@@ -319,6 +319,13 @@
         "ogdescription" : "Appartement de vacances entièrement équipé à Portimão, avec vue sur la mer et sur la marina."
       }
 
+    },
+
+    "errorPage":{
+      "title" : "Erreur",
+      "description" : "La page que vous demandez n'existe pas.",
+      "homeLink" : "Retourner sur la page d'accueil de Casa-Marerio"
+      
     }
 
   }

@@ -129,9 +129,6 @@
                 @include title2-font-style;
                 padding-left : 20px;
               }
-              &-logo{
-        
-                }
 
             }
           &-form{
@@ -140,11 +137,7 @@
           }
     }
   }
-  .logo-contact{
-    width: 250px;
-    border-radius: 50%;
-    border: 1px solid rgb(190, 178, 178);
-    }
+
 
 
   @media (max-width: $tab-breakpoint ){
@@ -168,7 +161,7 @@
       flex-direction: column;
       &-content{
         width: 100%;
-        &-h5s{
+        &-h5{
           font-size: 1.5rem;
           text-align: center;
           padding: 2rem 0;

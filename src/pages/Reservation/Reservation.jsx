@@ -4,6 +4,7 @@ import Title from '../../Components/Title/Title';
 import SirvoyWidget from '../../Components/widget';
 import Footer from '../../Components/Footer/Footer';
 import Contact from '../../Components/Contact/Contact';
+import Logo from '../../Components/Logo/logo';
 
 
 export default function Reservation () {
@@ -17,11 +18,18 @@ export default function Reservation () {
     </header>
     <section>
     <Title h2Text={t('reservation.title')} pText={t('reservation.text')} bgColor="defaultColor"/>
-    <div id='sirvoy-script-container'>
+    <article id='sirvoy-script-container'>
     <SirvoyWidget/>
-    </div>
+    </article>
     <Title h2Text={t('reservation.title2')} pText={t('reservation.text2')} bgColor="blueColor" h2Color='blueColor' pColor='blueColor'/>
-    <Contact/>
+    <article className="reservation__article2">
+      <div className="reservation__article2-div-logo">
+        <Logo/>
+      </div>
+      <div className="reservation__article2-div-contact">
+        <Contact/>
+      </div>
+    </article>
     <Footer/>
     </section>
     </>

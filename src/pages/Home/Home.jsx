@@ -10,10 +10,10 @@ import Title from "../../Components/Title/Title";
 import Footer from "../../Components/Footer/Footer";
 import Contact from "../../Components/Contact/Contact";
 
-import logo from "../../assets/logo-contact.png";
 import coquillages from "../../assets/portimao-coquillages.webp"
 import galerieChambres from "../../assets/portimao-chambre-2.webp";
 import galeriePlage from "../../assets/portimao-plage-1.webp";
+import Logo from '../../Components/Logo/logo';
 
 export default function Home() {
     const { t } = useTranslation();
@@ -109,8 +109,8 @@ return (
         </article>
         <article className="article__contact">
             <div className="article__contact-content">
-                <h5 className="article__contact-content-h5" data-aos="fade-right">{t('home.contactQuestion')}</h5>
-                <div className="article__contact-content-logo" data-aos="flip-left"><img src={logo} className="logo-contact" alt="logo casa-marerio"/></div>
+            <h5 className="article__contact-content-h5" data-aos="fade-right">{t('home.contactQuestion')}</h5>
+                <Logo/>
             </div>
             <div className="article__contact-form">
                 <Contact/>
