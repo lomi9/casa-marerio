@@ -34,7 +34,7 @@ export default function Blog() {
                     "@type": "Blog",
                     "headline": "${t('blog.home.title1')}",
                     "description": "${t('blog.home.subtitle1')}",
-                    "image": "https://www.casa-marerio.com/portimao-chambre-1.jpeg",
+                    "image": "https://www.casa-marerio.com/assets/portimao-mer-rochers.webp",
                     "author": {
                       "@type": "Person",
                       "name": "Casa-Marerio"

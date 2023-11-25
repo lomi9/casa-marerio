@@ -11,9 +11,9 @@ import Footer from "../../Components/Footer/Footer";
 import Contact from "../../Components/Contact/Contact";
 
 import logo from "../../assets/logo-contact.png";
-import coquillages from "../../assets/portimao-coquillages.jpeg"
-import galerieChambres from "../../assets/portimao-chambre-2.jpeg";
-import galeriePlage from "../../assets/portimao-plage-1.jpeg";
+import coquillages from "../../assets/portimao-coquillages.webp"
+import galerieChambres from "../../assets/portimao-chambre-2.webp";
+import galeriePlage from "../../assets/portimao-plage-1.webp";
 
 export default function Home() {
     const { t } = useTranslation();
@@ -29,7 +29,7 @@ return (
                 <meta property="og:description" content={t('helmet.home.ogdescription')} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.casa-marerio.com/home" />
-                <meta property="og:image" content="https://www.casa-marerio.com/portimao-chambre-1.jpeg" />
+                <meta property="og:image" content="https://www.casa-marerio.com/assets/portimao-chambre-1.webp" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="https://www.casa-marerio.com/home" />

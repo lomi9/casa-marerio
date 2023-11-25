@@ -11,12 +11,12 @@ import Equipments from '../../Components/Equipments/Equipments';
 import Title from '../../Components/Title/Title';
 import Footer from '../../Components/Footer/Footer';
 
-import galerieChambre1 from "../../assets/portimao-chambre-1.jpeg";
-import galerieCuisine1 from "../../assets/portimao-cuisine-1.jpeg";
-import galerieSalon2 from "../../assets/portimao-salon-2.jpeg";
-import galerieVue1 from "../../assets/portimao-vue-marina-1.jpeg";
-import galerieDouche from "../../assets/portimao-douche.jpeg";
-import galerieHall from "../../assets/portimao-hall.jpeg";
+import galerieChambre1 from "../../assets/portimao-chambre-1.webp";
+import galerieCuisine1 from "../../assets/portimao-cuisine-1.webp";
+import galerieSalon2 from "../../assets/portimao-salon-2.webp";
+import galerieVue1 from "../../assets/portimao-vue-marina-1.webp";
+import galerieDouche from "../../assets/portimao-douche.webp";
+import galerieHall from "../../assets/portimao-hall.webp";
 
 
 export default function Logement() {
@@ -40,7 +40,7 @@ return (
                 <meta property="og:description" content={t('helmet.logement.ogdescription')} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.casa-marerio.com/logement" />
-                <meta property="og:image" content="https://www.casa-marerio.com/portimao-chambre-1.jpeg" />
+                <meta property="og:image" content="https://www.casa-marerio.com/assets/portimao-chambre-1.webp" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="https://www.casa-marerio.com/logement" />
@@ -50,7 +50,7 @@ return (
   "@type": "Accommodation",
   "name": "Casa-Marerio",
   "description": "Logement de vacances pour 4 personnes, avec vue sur la mer et sur la marina, entièrement équipé. ",
-  "image": "https://www.casa-marerio.com/portimao-chambre-1.jpeg",
+  "image": "https://www.casa-marerio.com/assets/portimao-chambre-1.webp",
   "address": {
     "@type": "Rua Engenheiro José de Bívar",
     "streetAddress": "Adresse de la rue",

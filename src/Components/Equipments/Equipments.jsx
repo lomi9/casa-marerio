@@ -5,24 +5,24 @@ import { faCaretDown, faArrowLeftLong, faArrowRightLong } from '@fortawesome/fre
 
 import Salon from '../Salon/Salon';
 
-import salonImg from "../../assets/portimao-salon-2.jpeg";
-import vueMerImg from "../../assets/portimao-vue-mer-1.jpeg";
-import salonImg2 from "../../assets/portimao-salon-1.jpeg";
-import cuisineImg1 from "../../assets/portimao-cuisine-2.jpeg";
-import cuisineImg2 from "../../assets/portimao-cuisine-1.jpeg";
-import cuisineImg3 from "../../assets/portimao-salades.jpeg"
-import chambreImg1 from "../../assets/portimao-chambre-1.jpeg";
-import chambreImg2 from "../../assets/portimao-chambre-3.jpeg";
-import chambreImg3 from "../../assets/portimao-chambre-4.jpeg";
-import doucheImg from "../../assets/portimao-douche.jpeg";
-import bougieImg from "../../assets/portimao-bougie.jpeg";
-import sableImg from "../../assets/portimao-sable.jpeg";
-import piscineImg from "../../assets/portimao-piscine-1.jpg";
-import residenceImg from "../../assets/portimao-hall.jpeg";
-import vueMarina from "../../assets/portimao-vue-marina-1.jpeg";
-import vueImg from "../../assets/portimao-vue2.jpeg";
-import fleursImg from "../../assets/portimao-fleurs.jpeg";
-import chateauImg from "../../assets/portimao-chateau.jpeg";
+import salonImg from "../../assets/portimao-salon-2.webp";
+import vueMerImg from "../../assets/portimao-vue-mer-1.webp";
+import salonImg2 from "../../assets/portimao-salon-1.webp";
+import cuisineImg1 from "../../assets/portimao-cuisine-2.webp";
+import cuisineImg2 from "../../assets/portimao-cuisine-1.webp";
+import cuisineImg3 from "../../assets/portimao-salades.webp"
+import chambreImg1 from "../../assets/portimao-chambre-1.webp";
+import chambreImg2 from "../../assets/portimao-chambre-3.webp";
+import chambreImg3 from "../../assets/portimao-chambre-4.webp";
+import doucheImg from "../../assets/portimao-douche.webp";
+import bougieImg from "../../assets/portimao-bougie.webp";
+import sableImg from "../../assets/portimao-sable.webp";
+import piscineImg from "../../assets/portimao-piscine-1.webp";
+import residenceImg from "../../assets/portimao-hall.webp";
+import vueMarina from "../../assets/portimao-vue-marina-1.webp";
+import vueImg from "../../assets/portimao-vue2.webp";
+import fleursImg from "../../assets/portimao-fleurs.webp";
+import chateauImg from "../../assets/portimao-chateau.webp";
 
 
 export default function Equipments () {
