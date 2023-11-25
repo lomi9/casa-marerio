@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from "@fortawesome/free-solid-svg-icons";
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 import Navbar from "../../Components/Navbar/Navbar";
 import Banner from "../../Components/Banner/Banner";
@@ -101,7 +101,7 @@ return (
         <article className="article__contact">
             <div className="article__contact-content">
                 <h5 className="article__contact-content-h5" data-aos="fade-right">{t('home.contactQuestion')}</h5>
-                <div classsName="article__contact-content-logo" data-aos="flip-left"><img src={logo} className="logo-contact" alt="logo casa-marerio"/></div>
+                <div className="article__contact-content-logo" data-aos="flip-left"><img src={logo} className="logo-contact" alt="logo casa-marerio"/></div>
             </div>
             <div className="article__contact-form">
                 <Contact/>

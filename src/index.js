@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import "./i18n";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,7 +22,11 @@ function App() {
     basename: process.env.PUBLIC_URL, // Utilisez PUBLIC_URL pour le chemin de base
   });
 
-  return <RouterProvider router={routerInstance} />;
+  return (
+    <HelmetProvider>
+      <RouterProvider router={routerInstance} />
+    </HelmetProvider>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
