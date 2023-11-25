@@ -5,6 +5,8 @@ import ErrorPage from "../pages/Error/Error";
 import Logement from "../pages/Logement/Logement";
 import Reservation from "../pages/Reservation/Reservation";
 import Blog from "../pages/Blog/Blog";
+import PrivacyPolicy from "./PrivacyPolicy/PrivacyPolicy";
+import TermsAndConditions from "./TermsAndConditions/TermsAndConditions";
 
 export const router = [
   {
@@ -41,6 +43,24 @@ export const router = [
       <>
         <ScrollToTop />
         <Blog />
+      </>
+    ),
+  },
+  {
+    path: "/privacy-policy",
+    element: (
+      <>
+        <ScrollToTop />
+        <PrivacyPolicy />
+      </>
+    ),
+  },
+  {
+    path: "/terms-and-conditions",
+    element: (
+      <>
+        <ScrollToTop />
+        <TermsAndConditions />
       </>
     ),
   },

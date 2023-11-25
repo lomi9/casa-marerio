@@ -1,0 +1,27 @@
+@import "../../styles/utilities.scss";
+
+
+.policy__section{
+    padding-top: 70px;
+    height: auto;
+    &-title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        @include title3-font-style;
+        font-size: 2rem;
+        padding: 2rem;
+        color: $blue-background-color;
+    }
+    &-article{
+        padding: 2rem;
+        background-color: $blue-background-color;
+        color: $main-background-color;
+        font-family: $main-font-style;
+        &-title{
+            font-weight: bold;
+            padding-top: 1rem;
+            padding-bottom: 1.5rem;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Select from 'react-select';
@@ -18,6 +18,21 @@ export default function Navbar() {
   const { t, i18n  } = useTranslation();
     const [scrolling, setScrolling] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const menuRef = useRef();
+
+  const handleClickOutside = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setMobileMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const languageOptions = [
     { value: 'fr', label: <><img src={flagFR} alt="FR" className="flag-icon" /> FR</>, },
@@ -65,7 +80,7 @@ const handleLanguageChange = (selectedOption) => {
           </button>
         </div>
 
-        <nav className={`nav__items ${mobileMenuOpen ? "open" : ""}`}>
+        <nav ref={menuRef} className={`nav__items ${mobileMenuOpen ? "open" : ""}`}>
 
           <div className={`nav__items-language-dropdown ${scrolling ? "scrolling" : ""}`}>
           <Select 

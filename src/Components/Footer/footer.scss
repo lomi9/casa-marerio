@@ -20,6 +20,25 @@
             align-items: center;
          }
     }
+    &__links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+
+        &-link{
+            padding: 7px;
+            @include link-no-style;
+            color: $main-background-color;
+            &:hover{
+                text-decoration: underline;
+            }
+
+        }
+    }
     &__bottom{
     text-align: center;
     padding: 10px;

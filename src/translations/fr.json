@@ -42,7 +42,9 @@
     },
 
     "footer": {
-          "text" : "© 2023 Tous droits réservés | Casa Mar E Rio"
+          "text" : "© 2023 Tous droits réservés | Casa Mar E Rio",
+          "privacyPolicy" : "Politique de confidentialité",
+          "termsConditions" : "Conditions générales"
         
     },
      
@@ -326,9 +328,198 @@
       "description" : "La page que vous demandez n'existe pas.",
       "homeLink" : "Retourner sur la page d'accueil de Casa-Marerio"
       
-    }
+    },
 
+      "policy": {
+
+        "title": "Notre politique de confidentialité",
+       
+        "section1": {
+          "sectiontitle": "Dernière mise à jour : 25 novembre 2023",
+          "article1": {
+            "articletitle": "",
+            "content": "Cette Politique de Confidentialité décrit nos politiques et procédures concernant la collecte, l'utilisation et la divulgation de vos informations lorsque vous utilisez le Service et vous informe sur vos droits en matière de confidentialité et comment la loi vous protège. Nous utilisons vos données personnelles pour fournir et améliorer le Service. En utilisant le Service, vous acceptez la collecte et l'utilisation des informations conformément à cette Politique de Confidentialité. Cette Politique de Confidentialité a été créée avec l'aide du Générateur de Politique de Confidentialité."
+          }
+        },
+
+        "section2": {
+          "sectiontitle": "Interprétation et Définitions",
+          "article1": {
+            "articletitle": "Interprétation",
+            "content": "Les mots dont la première lettre est en majuscule ont des significations définies sous les conditions suivantes. Les définitions suivantes auront la même signification qu'elles apparaissent au singulier ou au pluriel."
+          },
+          "article2": {
+            "articletitle": "Définitions",
+            "content": "Aux fins de cette Politique de Confidentialité : 'Compte' désigne un compte unique créé pour vous afin d'accéder à notre Service ou à certaines parties de notre Service. 'Affilié' désigne une entité qui contrôle, est contrôlée par ou est sous contrôle commun avec une partie, où 'contrôle' signifie la propriété de 50% ou plus des actions, des intérêts en capital ou d'autres titres donnant droit de voter pour l'élection des administrateurs ou autre autorité de gestion. 'Société' (désignée soit par 'la Société', 'Nous', 'Notre' ou 'Nos' dans cet Accord) se réfère à Casa-Marerio. 'Cookies' sont de petits fichiers placés sur votre ordinateur, appareil mobile ou tout autre appareil par un site web, contenant les détails de votre historique de navigation sur ce site web parmi ses nombreuses utilisations. 'Pays' se réfère à : France. 'Dispositif' désigne tout dispositif pouvant accéder au Service tel qu'un ordinateur, un téléphone portable ou une tablette numérique. 'Données Personnelles' est toute information qui se rapporte à une personne identifiée ou identifiable. 'Service' se réfère au Site Web. 'Fournisseur de Services' désigne toute personne physique ou morale qui traite les données pour le compte de la Société. Il se réfère aux sociétés tierces ou aux individus employés par la Société pour faciliter le Service, pour fournir le Service au nom de la Société, pour effectuer des services liés au Service ou pour aider la Société à analyser comment le Service est utilisé. 'Données d'Utilisation' désigne les données collectées automatiquement, générées par l'utilisation du Service ou provenant de l'infrastructure du Service elle-même (par exemple, la durée d'une visite de page). 'Site Web' se réfère à Casa-Marerio, accessible depuis casa-marerio.com. 'Vous' désigne l'individu accédant ou utilisant le Service, ou la société, ou autre entité juridique pour le compte de laquelle cet individu accède ou utilise le Service, le cas échéant."
+          }
+        },
+
+        "section3": {
+          "sectiontitle": "Collecte et Utilisation de Vos Données Personnelles : Types de Données Collectées",
+          "article1": {
+            "articletitle": "Données Personnelles",
+            "content": "Lors de l'utilisation de notre Service, nous pouvons vous demander de nous fournir certaines informations personnelles identifiables qui peuvent être utilisées pour vous contacter ou vous identifier. Les informations personnelles identifiables peuvent inclure, mais ne sont pas limitées à : adresse e-mail; prénom et nom; numéro de téléphone; adresse, état, province, code postal, ville."
+          },
+            "article2": {
+            "articletitle": "Données d'Utilisation",
+            "content": "Les Données d'Utilisation sont collectées automatiquement lors de l'utilisation du Service.Les Données d'Utilisation peuvent inclure des informations telles que l'adresse de Protocole Internet de votre Dispositif (par exemple, adresse IP), le type de navigateur, la version du navigateur, les pages de notre Service que vous visitez, la date et l'heure de votre visite, le temps passé sur ces pages, des identifiants uniques de dispositifs et d'autres données de diagnostic. Lorsque vous accédez au Service par ou via un dispositif mobile, nous pouvons collecter certaines informations automatiquement, y compris, mais sans s'y limiter, le type de dispositif mobile que vous utilisez, l'ID unique de votre dispositif mobile, l'adresse IP de votre dispositif mobile, votre système d'exploitation mobile, le type de navigateur Internet mobile que vous utilisez, des identifiants uniques de dispositifs et d'autres données de diagnostic. Nous pouvons également collecter des informations que votre navigateur envoie chaque fois que vous visitez notre Service ou lorsque vous accédez au Service par ou via un dispositif mobile." }
+        },
+        "section4": {
+          "sectiontitle": "Collecte et Utilisation de Vos Données Personnelles : Technologies de Suivi et Cookies",
+          "article1": {
+            "articletitle": "",
+            "content": "Nous utilisons des Cookies et des technologies de suivi similaires pour suivre l'activité sur notre Service et stocker certaines informations. Les technologies de suivi utilisées sont des balises, des tags et des scripts pour collecter et suivre les informations et pour améliorer et analyser notre Service."
+          }
+            },
+
+            "section5": {
+              "sectiontitle": "Les technologies que nous utilisons peuvent inclure :",
+              "article1": {
+                "articletitle": "Cookies ou Cookies de Navigateur.",
+                "content": "Un cookie est un petit fichier placé sur votre Dispositif. Vous pouvez instruire votre navigateur à refuser tous les Cookies ou à indiquer quand un Cookie est envoyé. Cependant, si vous n'acceptez pas les Cookies, vous ne pourrez peut-être pas utiliser certaines parties de notre Service. Sauf si vous avez ajusté votre paramètre de navigateur pour qu'il refuse les Cookies, notre Service peut utiliser des Cookies."},
+                "article2": {
+                  "articletitle": "Balises Web.",
+                  "content": "Certaines sections de notre Service et nos emails peuvent contenir de petits fichiers électroniques connus sous le nom de balises web (également appelées gifs clairs, pixel tags et gifs mono-pixel) qui permettent à la Société, par exemple, de compter les utilisateurs qui ont visité ces pages ou ouvert un e-mail et pour d'autres statistiques liées au site web (par exemple, enregistrer la popularité d'une certaine section et vérifier l'intégrité du système et du serveur). "},
+                  "article3": {
+                    "articletitle": "",
+                    "content": "Les Cookies peuvent être des Cookies 'Persistants' ou 'de Session'. Les Cookies Persistants restent sur votre ordinateur personnel ou dispositif mobile lorsque vous êtes hors ligne, tandis que les Cookies de Session sont supprimés dès que vous fermez votre navigateur web. En savoir plus sur les cookies sur l'article du site web des Politiques de Confidentialité."},
+                    "article4": {
+                      "articletitle": "",
+                      "content": "Nous utilisons à la fois des Cookies de Session et Persistants pour les objectifs énoncés ci-dessous :"},
+                      "article5": {
+                        "articletitle": "Cookies Nécessaires / Essentiels :",
+                        "content": "Type : Cookies de Session;Administré par : Nous; Objectif : Ces Cookies sont essentiels pour vous fournir des services disponibles via le Site Web et pour vous permettre d'utiliser certaines de ses fonctionnalités. Ils aident à authentifier les utilisateurs et à prévenir l'utilisation frauduleuse des comptes utilisateurs. Sans ces Cookies, les services que vous avez demandés ne peuvent pas être fournis, et nous utilisons seulement ces Cookies pour vous fournir ces services."},
+                        "article6": {
+                          "articletitle": "Cookies de Politique / Acceptation des Cookies :",
+                          "content": "Type : Cookies Persistants; Administré par : Nous; Objectif : Ces Cookies identifient si les utilisateurs ont accepté l'utilisation de cookies sur le Site Web."},
+                          "article7": {
+                            "articletitle": "Cookies de Fonctionnalité :",
+                            "content": "Type : Cookies Persistants; Administré par : Nous; Objectif : Ces Cookies nous permettent de nous souvenir des choix que vous faites lorsque vous utilisez le Site Web, comme de vous rappeler vos détails de connexion ou votre préférence de langue. L'objectif de ces Cookies est de vous fournir une expérience plus personnelle et d'éviter que vous ayez à ressaisir vos préférences chaque fois que vous utilisez le Site Web."},
+                            "article8": {
+                              "articletitle": "",
+                              "content": "Pour plus d'informations sur les cookies que nous utilisons et vos choix concernant les cookies, veuillez visiter notre Politique de Cookies ou la section Cookies de notre Politique de Confidentialité."}
+                },
+                "section6": {
+                  "sectiontitle": "Utilisation de Vos Données Personnelles",
+                  "article1": {
+                    "articletitle": "La Société peut utiliser les Données Personnelles aux fins suivantes :",
+                    "content": "Pour fournir et maintenir notre Service, y compris pour surveiller l'utilisation de notre Service."
+                  },
+                  "article2": {
+                    "articletitle": "",
+                    "content": "Pour gérer Votre Compte : pour gérer votre inscription en tant qu'utilisateur du Service. Les Données Personnelles que vous fournissez peuvent vous donner accès à différentes fonctionnalités du Service qui sont disponibles pour vous en tant qu'utilisateur enregistré."
+                  },
+                  "article3": {
+                    "articletitle": "",
+                    "content": "Pour l'exécution d'un contrat : le développement, la conformité et l'entreprise du contrat d'achat pour les produits, articles ou services que vous avez achetés ou de tout autre contrat avec Nous à travers le Service."
+                  },
+                  "article4": {
+                    "articletitle": "",
+                    "content": "Pour vous contacter : pour vous contacter par e-mail, appels téléphoniques, SMS, ou autres formes équivalentes de communication électronique, telles que les notifications push d'une application mobile concernant les mises à jour ou les communications informatives liées aux fonctionnalités, produits ou services contractés, y compris les mises à jour de sécurité, lorsque cela est nécessaire ou raisonnable pour leur mise en œuvre."
+                  },
+                  "article5": {
+                    "articletitle": "",
+                    "content": "Pour gérer vos demandes : pour répondre et gérer vos demandes à notre égard."
+                  },
+                  "article6": {
+                    "articletitle": "",
+                    "content": "Pour d'autres fins : Nous pouvons utiliser vos informations à d'autres fins, telles que l'analyse de données, l'identification des tendances d'utilisation, la détermination de l'efficacité de nos campagnes promotionnelles et pour évaluer et améliorer notre Service, produits, services, marketing et votre expérience."
+                  },
+                  "article7": {
+                    "articletitle": "Nous pouvons partager vos informations personnelles dans les situations suivantes :",
+                    "content": "Avec des fournisseurs de services : Nous pouvons partager vos informations personnelles avec des fournisseurs de services pour surveiller et analyser l'utilisation de notre Service, pour vous contacter. "
+                  },
+                  "article8": {
+                    "articletitle": "",
+                    "content": "Avec des partenaires commerciaux : Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous proposer certains produits, services ou promotions. "
+                  }
+                    },
+                    "section7": {
+                      "sectiontitle": "Conservation de vos données personnelles",
+                      "article1": {
+                        "articletitle": "",
+                        "content": "La Société conservera vos données personnelles uniquement aussi longtemps que nécessaire aux fins énoncées dans cette politique de confidentialité. Nous conserverons et utiliserons vos données personnelles dans la mesure nécessaire pour nous conformer à nos obligations légales (par exemple, si nous sommes tenus de conserver vos données pour nous conformer aux lois applicables), résoudre des litiges et faire respecter nos accords et politiques légaux."
+                      },
+                      "article2": {
+                        "articletitle": "",
+                        "content": "La Société conservera également les données d'utilisation à des fins d'analyse interne. Les données d'utilisation sont généralement conservées pendant une période plus courte, sauf lorsque ces données sont utilisées pour renforcer la sécurité ou améliorer la fonctionnalité de notre Service, ou lorsque nous sommes légalement obligés de conserver ces données pendant des périodes de temps plus longues."
+                      }
+                    },
+
+                    "section8": {
+                      "sectiontitle": "Transfert de vos données personnelles",
+                      "article1": {
+                        "articletitle": "",
+                        "content": "Vos informations, y compris les données personnelles, sont traitées dans les bureaux d'exploitation de la Société et dans tout autre lieu où les parties impliquées dans le traitement sont situées. Cela signifie que ces informations peuvent être transférées vers — et maintenues sur — des ordinateurs situés en dehors de votre état, province, pays ou autre juridiction gouvernementale où les lois sur la protection des données peuvent différer de celles de votre juridiction."
+                      },
+                      "article2": {
+                        "articletitle": "",
+                        "content": "Votre consentement à cette politique de confidentialité suivi de votre soumission de telles informations représente votre accord à ce transfert."
+                      },
+                      "article3": {
+                        "articletitle": "",
+                        "content": "La Société prendra toutes les mesures raisonnablement nécessaires pour garantir que vos données sont traitées de manière sécurisée et conformément à cette politique de confidentialité et aucun transfert de vos données personnelles n'aura lieu vers une organisation ou un pays à moins que des contrôles adéquats soient en place, y compris la sécurité de vos données et autres informations personnelles."
+                      }
+                    },
+                    "section9": {
+                      "sectiontitle": "Supprimer vos données personnelles",
+                      "article1": {
+                        "articletitle": "",
+                        "content": "Vous avez le droit de supprimer ou de demander que nous aidions à supprimer les données personnelles que nous avons collectées à votre sujet. Notre service peut vous donner la possibilité de supprimer certaines informations vous concernant depuis le service."
+                      },
+                      "article2": {
+                        "articletitle": "",
+                        "content": "Vous pouvez nous contacter pour demander l'accès, la correction ou la suppression de toute information personnelle que vous nous avez fournie. Veuillez noter, cependant, que nous pouvons être tenus de conserver certaines informations lorsque nous avons une obligation légale ou une base légale pour le faire."
+                      }
+                    },
+                    "section10": {
+                      "sectiontitle": "Divulgation de vos données personnelles",
+                      "article1": {
+                        "articletitle": "Transactions commerciales",
+                        "content": "Si la Société est impliquée dans une fusion, acquisition ou vente d'actifs, vos données personnelles peuvent être transférées. Nous vous informerons avant que vos données personnelles soient transférées et soumises à une politique de confidentialité différente."
+                      },
+                      "article2": {
+                        "articletitle": "Application de la loi",
+                        "content": "Dans certaines circonstances, la Société peut être tenue de divulguer vos données personnelles si elle est tenue de le faire par la loi ou en réponse à des demandes valides d'autorités publiques (par exemple, un tribunal ou une agence gouvernementale)."
+                      },
+                      "article3": {
+                        "articletitle": "Autres exigences légales",
+                        "content": "La Société peut divulguer vos données personnelles en croyant de bonne foi que cette action est nécessaire pour : Se conformer à une obligation légale; Protéger et défendre les droits ou les biens de la Société; Prévenir ou enquêter sur un éventuel acte répréhensible en relation avec le Service; Protéger la sécurité personnelle des utilisateurs du Service ou du public; Se protéger contre une responsabilité légale Sécurité de vos données personnelles;"
+                      },
+                      "article4": {
+                        "articletitle": "",
+                        "content": "La sécurité de vos données personnelles est importante pour nous, mais rappelez-vous qu'aucune méthode de transmission sur Internet ou méthode de stockage électronique n'est sûre à 100 %. Bien que nous nous efforcions d'utiliser des moyens commercialement acceptables pour protéger vos données personnelles, nous ne pouvons pas garantir leur sécurité absolue."
+                      },
+                      "article5": {
+                        "articletitle": "Confidentialité des enfants",
+                        "content": "Notre service ne s'adresse pas à toute personne âgée de moins de 18 ans. Nous ne collectons pas sciemment des informations personnellement identifiables de toute personne âgée de moins de 18 ans. Si vous êtes un parent ou un tuteur et que vous êtes conscient que votre enfant nous a fourni des données personnelles, veuillez nous contacter. Si nous prenons conscience que nous avons collecté des données personnelles de toute personne âgée de moins de 18 ans sans vérification du consentement parental, nous prenons des mesures pour supprimer ces informations de nos serveurs. Si nous devons nous appuyer sur le consentement comme base légale pour traiter vos informations et que votre pays exige le consentement d'un parent, nous pouvons exiger le consentement de votre parent avant de collecter et d'utiliser ces informations."
+                      },
+                      "article6": {
+                        "articletitle": "Liens vers d'autres sites Web",
+                        "content": "Notre Service peut contenir des liens vers d'autres sites Web qui ne sont pas exploités par Nous. Si vous cliquez sur un lien tiers, vous serez dirigé vers le site de ce tiers. Nous vous conseillons vivement de consulter la politique de confidentialité de chaque site que vous visitez.Nous n'avons aucun contrôle sur et n'assumons aucune responsabilité pour le contenu, les politiques de confidentialité ou les pratiques de tout site ou service tiers."
+                      }
+                    },
+                    "section11": {
+                      "sectiontitle": "Modifications de cette politique de confidentialité",
+                      "article1": {
+                        "articletitle": "",
+                        "content": "Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page. Nous vous informerons par e-mail et/ou par un avis bien visible sur notre Service, avant que le changement ne devienne effectif et mettrons à jour la date de 'Dernière mise à jour' en haut de cette politique de confidentialité. Vous êtes conseillé de revoir cette politique de confidentialité périodiquement pour tout changement. Les modifications de cette politique de confidentialité sont effectives lorsqu'elles sont publiées sur cette page."
+                      }      
+      },
+      "section12": {
+        "sectiontitle": "Contactez-nous",
+        "article1": {
+          "articletitle": "",
+          "content": "Si vous avez des questions sur cette politique de confidentialité, vous pouvez nous contacter : casa-marerio@gmail.com"
+        }
+    }
   }
+}
+
+
+    
+
+  
 
 
 
