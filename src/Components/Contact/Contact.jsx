@@ -14,26 +14,16 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        // Récupérer la réponse reCAPTCHA du champ caché généré par Google reCAPTCHA
-        const recaptchaResponse = document.getElementById('g-recaptcha-response').value;
-
-        if (recaptchaResponse) {
-            // Ajouter la réponse reCAPTCHA aux données du formulaire
-            const formData = new FormData(formRef.current);
-            formData.append('g-recaptcha-response', recaptchaResponse);
-
-            emailjs.sendForm(serviceID, templateID, formData, userID)
-                .then((result) => {
-                    console.log(result.text);
-                    setFormSent(true); // Indiquer que le formulaire a été envoyé avec succès
-                }, (error) => {
-                    console.log(error.text);
-                });
-        } else {
-            // Vous pouvez gérer le cas où reCAPTCHA n'est pas résolu comme bon vous semble
-            console.log('Please resolve the reCAPTCHA.');
-        }
-    };
+        emailjs.sendForm(serviceID, templateID, formRef.current, userID)
+        .then((result) => {
+            console.log(result.text);
+            setFormStatus({ sent: true, message: t('contact.success') }); // Message de succès
+            formRef.current.reset(); // Réinitialiser le formulaire en cas de succès
+        }, (error) => {
+            console.log(error.text);
+            setFormStatus({ sent: false, message: t('contact.error') }); // Message d'erreur
+        });
+};
 
     return (
         <div className="contact-container">
@@ -55,13 +45,12 @@ export default function Contact() {
                     <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
 
-                <div className="g-recaptcha" data-sitekey="6LekdR0pAAAAAAC8yKCVc0HVxI1N-k61VjEmkam7"></div>
 
                 <div className="input-group button__div">
                     <button type="submit">{formSent ? t('contact.sent') : t('contact.button')}</button>
                 </div>
             </form>
-            {formSent && <p>{t('contact.success')}</p>}
+            <p>{formStatus.message}</p>
         </div>
     );
 }
