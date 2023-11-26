@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { useTranslation } from "react-i18next";
+import emailjs from 'emailjs-com';
 
 
 export default function Contact() {
@@ -43,8 +44,8 @@ export default function Contact() {
                     <label htmlFor="message">{t('contact.form.message')}</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
-
                 <div class="g-recaptcha" data-sitekey="6LekdR0pAAAAAAC8yKCVc0HVxI1N-k61VjEmkam7"></div>
+
 
                 <div className="input-group button__div">
                     <button type="submit">{formSent ? t('contact.sent') : t('contact.button')}</button>
