@@ -34,7 +34,7 @@
     "contact": {
         "loading" : "Envoie en cours...",
         "error" : "Une erreur s'est produite lors de l'envoi. Veuillez réessayer.",
-        "success" : "Votre message a été envoyé avec succès. Nous vous répondrons bientôt!",
+        "success" : "Votre message a été envoyé avec succès! Nous vous répondrons dans les meilleurs délais.",
         "form": {
             "name": "Nom",
             "email": "E-mail",
