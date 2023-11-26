@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 
 export default function Contact() {
     const { t } = useTranslation();
-    const [formSent, setFormSent] = useState(false);
+    const [formStatus, setFormStatus] = useState({ sent: false, message: '' });
     const formRef = useRef(); 
 
     const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
@@ -47,7 +47,7 @@ export default function Contact() {
 
 
                 <div className="input-group button__div">
-                    <button type="submit">{formSent ? t('contact.sent') : t('contact.button')}</button>
+                    <button type="submit">{formStatus ? t('contact.sent') : t('contact.button')}</button>
                 </div>
             </form>
             <p>{formStatus.message}</p>
