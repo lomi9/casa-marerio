@@ -40,7 +40,6 @@ export default function Navbar() {
     { value: 'pt', label: <><img src={flagPT} alt="PT" className="flag-icon" /> PT</>, }
   ];
 
-  const [selectedLanguage, setSelectedLanguage] = useState(languageOptions[1]); // Anglais comme langue par défaut
 
 
   const handleMenuItemClick = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCar, faCertificate, faHouse, faKey, faLock, faPerson, faShop, faUmbrellaBeach, faWater, faWaterLadder, faWifi } from '@fortawesome/free-solid-svg-icons';
+import { faCar, faCertificate, faHouse, faKey, faPerson, faShop, faUmbrellaBeach, faWater, faWaterLadder, faWifi } from '@fortawesome/free-solid-svg-icons';
 import { faSnowflake } from '@fortawesome/free-regular-svg-icons';
 import { Helmet } from 'react-helmet-async';
 
