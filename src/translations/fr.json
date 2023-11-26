@@ -32,6 +32,9 @@
     }, 
 
     "contact": {
+        "loading" : "Envoie en cours...",
+        "error" : "Une erreur s'est produite lors de l'envoi. Veuillez réessayer.",
+        "success" : "Votre message a été envoyé avec succès. Nous vous répondrons bientôt!",
         "form": {
             "name": "Nom",
             "email": "E-mail",
