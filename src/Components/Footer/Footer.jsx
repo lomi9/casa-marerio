@@ -13,6 +13,7 @@ export default function Footer() {
             <div className="footer__links">
                 <Link className="footer__links-link" to="/privacy-policy">{t('footer.privacyPolicy')}</Link>
                 <Link className="footer__links-link" to="/terms-and-conditions">{t('footer.termsConditions')}</Link>
+                <p>casamarerio@gmail.com</p>
               </div>
             <div className="footer__bottom">
                 <p className="footer__bottom-p">{t('footer.text')}</p>
