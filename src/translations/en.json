@@ -7,27 +7,27 @@
         "button": "Explore"
       },
       "card2": {
-        "title": "Discover the incredibly relaxing setting of Portimao.",
+        "title": "Discover the incredibly relaxing vibe of Portimao.",
         "button": "Discover"
       },
       "title2": "Sun, beach and the easy way of life.",
       "subtitle2": "Check our availability, book and enjoy.",
       "hostQuestion": "Who is your host?",
-      "hostDescription": "Lorem ipsum dolor sit amet...",
-      "contactQuestion": "Do you have a question or suggestion? Then send us a message!"
+      "hostDescription": "My name is Khadija, and I'm delighted to welcome you to this beautiful seaside flat in Portimão. My passions for local cuisine and travel advice are reflected in the recommendations I share with you, having been to this fantastic region of the Algarve myself! My aim is to create a warm and comfortable atmosphere in my flat, with every detail contributing to your experience. So I look forward to your visit! See you soon!",
+      "contactQuestion": "You have any question or suggestion? Send us a message!"
     },
 
     "navbar": {
         "nav": {
           "item1": "Home",
           "item2": "Description",
-          "item3": "Our Prices"
+          "item3": "Blog"
         },
-        "button": "Book"
+        "button": "Book Now"
     }, 
 
     "banner": {
-        "title": "Discover the Algarve by staying in our holiday flat",
+        "title": "Experience the Algarve from the Charm of Our Vacation Apartment",
         "scroll" : "Scroll"
     }, 
 
@@ -42,8 +42,10 @@
     },
 
     "footer": {
-        "text" : "© 2023 All rights reserved | Casa Mar E Rio"
-      
+        "text" : "© 2023 All rights reserved | Casa Mar E Rio",
+        "privacyPolicy" : "Privacy policy",
+        "termsConditions" : "Terms and conditions",
+        "contact" : "Contact"
   },
 
   "logement": {
@@ -55,9 +57,9 @@
         "item3": "Two balconies, with views of the sea, river and port",
         "item4": "Secure residence",
         "item5": "Swimming pool in the residence",
-        "item6": "Secure underground car park",
+        "item6": "Secure underground parking",
         "item7": "Wifi",
-        "item8": "Autonomous arrival",
+        "item8": "Self-checking",
         "item9": "Beach at 500m",
         "item10": "Shops at 500m",
         "item11": "Air-conditioning system"
@@ -67,95 +69,451 @@
 
   "equipments": {
     "item1": {
-        "title": "The lounge",
-        "text": "Add description and equipment..."
+        "title": "The living room",
+        "title2": "Living room facilities :",
+        "li1" : "Balcony with sea view",
+        "li2" : "Wifi",
+        "li3" : "TV", 
+        "li4" : "Sofa bed for 2 people"
     },
     "item2": {
         "title": "The kitchen",
-        "text": "Add description and equipment..."
+        "title2": "Kitchen facilities :",
+                "li1" : "Fridge with freezer compartment",
+                "li2" : "Microwave",
+                "li3" : "Washing machine", 
+                "li4" : "Oven",
+                "li5" : "Hotplates",
+                "li6" : "Crockery, cutlery and utensils",
+                "li7" : "Kitchen utensils",
+                "li8" : "Electric kettle",
+                "li9" : "Filter coffee machine",
+                "li10" : "Espresso machine",
+                "li11" : "Toaster"
     },
     "item3": {
-        "title": "The room",
-        "text": "Add description and equipment..."
+      "title": "The bedroom",
+      "title2": "bedroom facilities :",
+      "li1" : "Storage cupboards with hangers",
+      "li2" : "Pillows and blankets",
+      "li3" : "Bed sheets", 
+      "li4" : "Iron",
+      "li5" : "Laundry rack",
+      "li6" : "Safe deposit box",
+      "li7" : "Baby bed and high chair",
+      "li8" : "Desk / dressing table"
     },
     "item4": {
-        "title": "the shower room",
-        "text": "Add description and equipment..."
+      "title": "The bathroom",
+      "title2": "Bathroom facilities :",
+      "li1" : "Hair dryer",
+      "li2" : "Cleaning products",
+      "li3" : "Body soap", 
+      "li4" : "Towels",
+      "li5" : "Toilet paper"
     },
     "item5": {
-        "title": "Services",
-        "text": "Add description and equipment..."
+      "title": "Services",
+      "title2": "Good To Know :",
+      "li1" : "Lift in the residence",
+      "li2" : "Swimming pool in the residence",
+      "li3" : "Outdoor shower", 
+      "li4" : "Underground parking",
+      "li5" : "Self-checking",
+      "li6" : "Cot and high chair in the accommodation",
+      "li7" : "Cleaning is included. However, out of respect for the staff, please ensure that your accommodation is clean and tidy.",
+      "li8" : "Sheets and towels are included", 
+      "li9" : "Your pets are welcome",
+      "li10" : "Smoking is not allowed in the accommodation",
+      "li11" : "The accommodation is closed to parties"
     },
     "item6": {
-        "title": "Good To Know",
-        "text": "Add description and equipment..."
+      "title": "Nearby",
+      "title2": "Just a stone's throw from the accommodation :",
+      "li1" : "Supermarket 2 minutes' walk away",
+      "li2" : "Beach 2 minutes' walk away",
+      "li3" : "Car hire 5 minutes' walk away", 
+      "li4" : "Pharmacy 2 minutes' walk away",
+      "li5" : "Restaurants, bars and casino 2 minutes' walk away",
+      "li6" : "Marina 2 minutes' walk away, with boat trips and various activities"
     }
 
 },
 "reservation": {
-    "title": "Découvrez l'Algarve en séjournant dans notre appartement de vacances",
-    "text" : "Bonjour"
+  "title": "Want to discover Portimao?",
+  "text" : "Choose your dates, and book now!",
+  "title2": "Any question ?",
+  "text2" : "Contact us !"
   },
 
+
+    "articles": {
+      "section1" : {
+
+        "article1": {
+          "title": "Praia da Rocha",
+          "text": "Just a 1-minute walk from the flat, 'Praia da Rocha' is a huge golden sandy beach. You'll find plenty of bars and restaurants as you walk along the boardwalk on the beach. During the day, take in the views of the impressive rocks and cliffs that make the Algarve so beautiful, and admire the beautiful sunsets as night falls.",
+          "image": "portimao-plage-1.webp",
+          "url": "https://maps.app.goo.gl/QCdEXRcq544XmxoaA",
+          "texturl" : "See beach location"
+        },
   "blog": {
 
     "home" : {
   
     "title1": "Portimão",
-    "subtitle1": "Faites un tour d'horizon des activités et bonnes adresses à ne pas manquer !",
+    "subtitle1": "Discover our selection of activities and good adresses.",
     "title2": "",
-    "subtitle2": "Choisissez une catégorie"
+    "subtitle2": "Choose a category",
+    "title3": "Browse our recommendations near the flat"
     
   },
 
     "navbar" : {
       
       "title1": "Portimão",
-      "subtitle1": "Faites un tour d'horizon des activités et bonnes adresses à ne pas manquer !",
+      "subtitle1": "We have selected the activities and good addresses for you...",
       "title2": "",
-      "subtitle2": "Choisissez une catégorie",
+      "subtitle2": "Choose a category",
       
       "item1": {
-        "title1": "Les plages"
+        "title1": "Beaches"
       },
       "item2": {
-        "title1": "Les activités"
+        "title1": "Activities"
       },
       "item3": {
-        "title1": "Les restaurants"
+        "title1": "Restaurants"
       },
       "item4": {
-        "title1": "Bonnes adresses"
+        "title1": "Best places to go"
       }
     },
 
-    "articles": {
+        "article2": {
+          "title": "Praia da Angrinha",
+          "text": "This quiet little beach is located on the opposite side of the  Arade river. You'll find yourself right next to the medieval castle of Ferragudo. Take the opportunity to admire this magnificent and lively district.",
+          "image": "ferragudo-chateau-plage.webp",
+          "url": "https://www.google.com/maps/place/Praia+da+Angrinha,+Ferragudo,+Portugal/data=!4m2!3m1!1s0xd1b28538072ac31:0xb30a3af697af1017?sa=X&ved=2ahUKEwjN86PS47yCAxXNSKQEHVedAIEQ8gF6BAhTEAA",
+          "texturl" : "See beach location"
+        },
 
-      "article1": {
-        "title": "Article Title in English",
-        "text": "Article text in English.",
-        "image": "/path-to-your-article-image.jpg"
+        "article3": {
+          "title": "Praia dos Três Irmãos",
+          "text": "To discover this beach, you'll need to drive about 10 minutes from the flat. But it's worth it: the beach is next to impressive cliffs, the water is crystal clear and turquoise (ideal for snorckelling), and you can enjoy a walk along the beach under the rock arches.",
+          "image": "praia-dos-tres-irmaos.webp",
+          "url": "https://maps.app.goo.gl/pUNckBEjuEQsGsNk8",
+          "texturl" : "See beach location"
+        }
       },
+      "section2" : {
 
-      "article2": {
-        "title": "Article Title in English",
-        "text": "Article text in English.",
-        "image": "/path-to-your-article-image.jpg"
+        "article1": {
+          "title": "Take a trip with the dolphins",
+          "text": "Along the marina, just below the flat, a number of skippers offer their services to take you on a boat trip to see the dolphins. You'll see several species of dolphin and, if you're lucky, you might even spot a whale !",
+          "image": "portimao-dauphins.webp",
+          "url": "https://www.tripadvisor.fr/Attractions-g189120-Activities-c61-t188-Portimao_Faro_District_Algarve.html",
+          "texturl" : "Find a boat trip with the dolphins"
+        },
+
+        "article2": {
+          "title": "Discover the Algarve's sea caves",
+          "text": "The Algarve region is well known for the beauty of its sea caves, carved into the cliffs by the waves. There are a number of options: for the more adventurous, rent a canoe, kayak or paddle. You can also opt for a boat trip, which will take you from cave to cave for an unforgettable spectacle. The Benagil cave, the most famous of all the caves, offers a splendid panoramic view. Don't forget your camera! ",
+          "image": "portimao-grottes-de-benagil.webp",
+          "url": "https://www.tripadvisor.fr/Attractions-g189120-Activities-c55-Portimao_Faro_District_Algarve.html",
+          "texturl" : "Discover the sea caves of Algarve"
+        },
+
+        "article3": {
+          "title": "Ferragudo, an authentic fishermen's village ",
+          "text": "Ferragudo offers an authentic getaway with its charming cobbled streets and whitewashed houses. Perched on the side of the Arade river, this fishermen's village has a peaceful atmosphere and breathtaking sea views. Explore its lively little port, golden beaches and local restaurants, where fresh seafood is the order of the day. Ferragudo is the perfect place for those looking to immerse themselves in traditional Portuguese culture while enjoying a spectacular natural setting.",
+          "image": "ferragudo.webp",
+          "url": "https://maps.app.goo.gl/CWy2kYAp1kzimgaa8",
+          "texturl" : "Go to Ferragudo"
+        },
+
+        "article4": {
+          "title": "A safari in the Algarve hinterland",
+          "text": "Safaris in the Algarve hinterland offer a unique experience to discover the wild and untouched nature of this Portuguese region. Aboard off-road vehicles, adventurers can explore the varied landscapes, from lush green hills to hidden valleys, while observing the local flora and fauna. These excursions also offer the chance to discover the Algarve's cultural heritage, with stops in traditional villages where time seems to stand still. It's an ideal adventure for those looking to combine natural wonder with cultural immersion.",
+          "image": "algarve-safari.webp",
+          "url": "https://www.tripadvisor.fr/Attractions-g189111-Activities-c61-t243-Algarve.html",
+          "texturl" : "Go on safari in the Algarve"
+        },
+
+        "article5": {
+          "title": "Portimão Casino",
+          "text": "The Portimão Casino is a must-see in the region. Open every day, and just a short walk from the Casa Marerio flat, you'll find a wide variety of games and slot machines. You can also enjoy 'dinner show' evenings on site.",
+          "image": "casino-portimao-3.webp",
+          "url": "https://maps.app.goo.gl/saXQv6w34Y4hDSJm6",
+          "texturl" : "Go to the Portimão casino"
+        }
       },
+      "section3" : {
 
-      "article3": {
-        "title": "Article Title in English",
-        "text": "Article text in English.",
-        "image": "/path-to-your-article-image.jpg"
+        "article1": {
+          "title": "Marisqueira Coral, Portimão",
+          "text": "Located in Praia da Rocha, just a stone's throw from the Casa Marerio flat, Marisqueira Coral is a must for seafood lovers. This famous restaurant is known for its wide selection of fresh fish and seafood, prepared with exceptional culinary expertise. The generous portions will delight even the biggest appetites, all in a friendly, welcoming atmosphere. Marisqueira Coral is the perfect place for a memorable gastronomic experience in the heart of the Algarve.",
+          "image": "marisqueira-coral-portimao.webp",
+          "url": "https://maps.app.goo.gl/oF8ZDEe3j3GYPg547",
+          "texturl" : "Go to 'Marisqueira Coral' restaurant in Portimão"
+        },
+
+        "article2": {
+          "title": "Super Juice, Portimão",
+          "text": "In the centre of Portimão, Super Juice is an oasis for lovers of healthy and tasty food. This health food restaurant offers freshly squeezed juices, creative smoothies and a selection of light and nutritious dishes. With a focus on fresh, local ingredients, the restaurant is perfect for brunch, lunch or a snack. In short, Super Juice is the ideal place for those looking for a tasty and revitalising break in their day.",
+          "image": "super-juice-portimao.webp",
+          "url": "https://maps.app.goo.gl/SiWnMMXkXvph6Ymd6",
+          "texturl" : "Go to 'Super Juice' restaurant in Portimāo"
+        },
+
+        "article3": {
+          "title": "Borda do Cais, Ferragudo",
+          "text": "Nestling in the authentic village of Ferragudo, Borda do Cais is a true gastronomic gem on the side of the river. This charming restaurant offers an unforgettable culinary experience with its beautiful views over the port and a menu that celebrates the flavours of the sea. Visitors are invited to taste fresh seafood dishes, prepared with a creative touch and served in a cosy and relaxed atmosphere. Borda do Cais is a must for those looking to savour the delights of the Algarve.",
+          "image": "borda-do-cais-ferragudo.webp",
+          "url": "https://maps.app.goo.gl/MCviNzqNexDe6p1D8",
+          "texturl" : "Go to 'Borda do Cais' restaurant in Ferragudo"
+        },
+
+        "article4": {
+          "title": "Fogo de Chão, Portimão",
+          "text": "Fogo de Chão in Portimão is a celebration of Brazil's rich culinary tradition, offering an authentic and delicious barbecue experience. Known for its 'Rodizio', this address invites guests to savour a variety of perfectly grilled meats, served directly to the table. The warm atmosphere and friendly welcome complete the experience, making every meal at Fogo de Chão a memorable one. It's the ideal place for meat lovers and gourmets looking for quality cuisine and a festive atmosphere.",
+          "image": "fogo-do-chao.webp",
+          "url": "https://maps.app.goo.gl/1FPoiukGaffqsxQu5",
+          "texturl" : "Go to 'Fogo de Chão' restaurant in Portimāo"
+        }
       },
+      "section4" : {
 
-      "article4": {
-        "title": "Article Title in English",
-        "text": "Article text in English.",
-        "image": "/path-to-your-article-image.jpg"
+        "article1": {
+          "title": "Casa Inglesa, Portimão",
+          "text": "Casa Inglesa is a historic place in Portimão, perfect for a delicious breakfast. Here you can enjoy good coffee and authentic pasteis de nata. After your meal, a relaxing walk around the nearby marina is the perfect way to start the day.",
+          "image": "casa-inglesa-portimao.webp",
+          "url": "https://maps.app.goo.gl/YBGidqrm69N4faMi9",
+          "texturl" : "Go to 'Casa Inglesa' in Portimâo "
+        },
+
+        "article2": {
+          "title": "Pastelaria Arade, Portimão",
+          "text": "Pastelaria Arade in Portimão is a paradise for sweet lovers. Well-known for its traditional Portuguese pastries, this lovely patisserie offers a wide selection of cakes, tarts and pastéis de nata, homemade with love. The friendly atmosphere make every visit a sweet and memorable experience.",
+          "image": "pasteis-de-nata-portimao.webp",
+          "url": "https://maps.app.goo.gl/wL1B3grSKvZY35Jm7",
+          "texturl" : "Go to 'Pastelaria Arade' in Portimão"
+        }
+
       }
+
+
     }
 
+  }, 
+
+  "helmet":{
+    "home":{
+      "title":"Casa-Marerio",
+      "description" : "Holiday flat for 4 people in Portimão, with sea and marina views.",
+      "ogtitle" :"Casa-Marerio",
+      "ogdescription" : "Holiday flat for 4 people in Portimão, with sea and marina views."
+    },
+    "logement":{
+      "description" : "Holiday flat for 4 people in Portimão, with sea and marina views.",
+      "ogtitle" : "Casa-Marerio, flat description",
+      "ogdescription" : "Fully-equipped holiday flat in Portimão, with sea and marina views."
+    }
+
+  },
+  "errorPage":{
+    "title" : "Error",
+    "description" : "The page you're looking for doesn't exist.",
+    "homeLink" : "Return to Casa-Marerio home page"
+    
+  },
+
+  "policy": {
+
+    "title": "Our privacy policy",
+   
+    "section1": {
+      "sectiontitle": "Last update: 25 November 2023",
+      "article1": {
+        "articletitle": "",
+        "content": "This Privacy Policy describes our policies and procedures regarding the collection, use and disclosure of your information when you use the Service and informs you of your privacy rights and how the law protects you. We use your personal data to provide and improve the Service. By using the Service, you consent to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Privacy Policy Generator."
+      }
+    },
+
+    "section2": {
+      "sectiontitle": "Interpretation and definitions",
+      "article1": {
+        "articletitle": "Interpretation",
+        "content": "Words whose first letter is capitalized have meanings defined under the following conditions. The following definitions will have the same meaning whether they appear in the singular or plural."
+      },
+      "article2": {
+        "articletitle": "Definitions",
+        "content": "For the purposes of this Privacy Policy: 'Account' means a unique account created for you to access our Service or certain parts of our Service. 'Affiliate' means an entity that controls, is controlled by or is under common control with a party, where 'control' means ownership of 50% or more of the shares, equity interests or other securities giving the right to vote for the election of directors or other management authority. Company' (referred to as 'the Company', 'we', 'us' or 'our' in this Agreement) means Casa-Marerio. Cookies' are small files placed on your computer, mobile device or other device by a website, containing details of your browsing history on that website and its many uses.'Country' refers to : France. Device' refers to any device that can access the Service such as a computer, mobile phone or digital tablet. Personal Data' is any information relating to an identified or identifiable individual. Service' refers to the Website. 'Service Provider' means any natural or legal person who processes data on behalf of the Company. It refers to third party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analysing how the Service is used. Usage Data' means automatically collected data generated by use of the Service or from the Service infrastructure itself (for example, the duration of a page visit). Website' refers to Casa-Marerio, accessible from casa-marerio.com. You' refers to the individual accessing or using the Service, or the company or other legal entity on whose behalf that individual accesses or uses the Service, as the case may be."
+      }
+    },
+    "section3": {
+      "sectiontitle": "Collection and Use of Your Personal Data: Types of Data Collected",
+      "article1": {
+        "articletitle": "Personal data",
+        "content": "When using our Service, we may ask you to provide certain personally identifiable information that may be used to contact or identify you. Personally identifiable information may include, but is not limited to: e-mail address; first and last name; telephone number; address, state, province, postcode, city."
+      },
+        "article2": {
+        "articletitle": "Usage data",
+        "content": "Usage Data is collected automatically when you use the Service and may include information such as the Internet Protocol address of your Device (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the date and time of your visit, the time spent on those pages, unique device identifiers and other diagnostic data. When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you are using, the unique ID of your mobile device, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you are using, unique device identifiers and other diagnostic data. We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device." 
+      }
+    },
+    "section4": {
+      "sectiontitle": "Collection and Use of Your Personal Data: Tracking Technologies and Cookies",
+      "article1": {
+        "articletitle": "",
+        "content": "We use Cookies and similar tracking technologies to track activity on our Service and store certain information. The tracking technologies used are beacons, tags and scripts to collect and track information and to improve and analyse our Service."
+      }
+        },
+        "section5": {
+          "sectiontitle": "The technologies we use may include :",
+          "article1": {
+              "articletitle": "Cookies or Browser Cookies.",
+              "content": "A cookie is a small file placed on your Device. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept Cookies, you may not be able to use certain parts of our Service. Unless you have adjusted your browser setting to refuse Cookies, our Service may use Cookies."
+            },
+            "article2": {
+              "articletitle": "Web tags.",
+              "content": "Certain sections of our Service and our emails may contain small electronic files known as web tags (also known as clear gifs, pixel tags and single-pixel gifs) which allow the Company, for example, to count users who have visited these pages or opened an email and for other website-related statistics (for example, to record the popularity of a certain section and to check the integrity of the system and server)."},
+            "article3": {
+              "articletitle": "",
+              "content": "Cookies can be 'Persistent' or 'Session' Cookies. Persistent Cookies remain on your personal computer or mobile device when you are offline, while Session Cookies are deleted as soon as you close your web browser. Read more about cookies in the Privacy Policy section of the website."},
+            "article4": {
+              "articletitle": "",
+              "content": "We use both Session and Persistent Cookies for the purposes set out below:"},
+            "article5": {
+              "articletitle": "Necessary / Essential Cookies :",
+              "content": "Type: Session Cookies; Administered by : Us; Purpose: These Cookies are essential to provide you with services available via the Website and to enable you to use some of its features. They help authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services you have requested cannot be provided, and we only use these Cookies to provide these services to you."},
+            "article6": {
+              "articletitle": "Policy Cookies / Acceptance of Cookies :",
+              "content": "Type: Persistent Cookies; Administered by : Us; Purpose: These Cookies identify whether users have accepted the use of cookies on the Website."},
+            "article7": {
+              "articletitle": "Functionality cookies :",
+              "content": "Type: Persistent Cookies; Administered by : Us; Purpose: These Cookies allow us to remember the choices you make when using the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide you with a more personal experience and to avoid you having to re-enter your preferences each time you use the Website."},
+            "article8": {
+              "articletitle": "",
+              "content": "For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy."}
+          },
+
+          "section6": {
+            "sectiontitle": "Use of Your Personal Data",
+            "article1": {
+              "articletitle": "The Company may use Personal Data for the following purposes:",
+              "content": "To provide and maintain our Service, including monitoring the use of our Service."
+            },
+            "article2": {
+              "articletitle": "",
+              "content": "To manage Your Account: to manage your registration as a user of the Service. The Personal Data you provide may give you access to various features of the Service that are available to you as a registered user."
+            },
+            "article3": {
+              "articletitle": "",
+              "content": "For the performance of a contract: the development, compliance and performance of the purchase contract for the products, items or services you have purchased or any other contract with Us through the Service."
+            },
+            "article4": {
+              "articletitle": "",
+              "content": "To contact you: to contact you by e-mail, telephone calls, SMS, or other equivalent forms of electronic communication, such as push notifications from a mobile application regarding updates or informative communications related to contracted features, products or services, including security updates, where necessary or reasonable for their implementation."
+            },
+            "article5": {
+              "articletitle": "",
+              "content": "To manage your requests: to respond to and manage your requests to us."
+            },
+            "article6": {
+              "articletitle": "",
+              "content": "For other purposes: We may use your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience."
+            },
+            "article7": {
+              "articletitle": "We may share your personal information in the following situations:",
+              "content": "With service providers: We may share your personal information with service providers to monitor and analyse the use of our Service and to contact you."
+            },
+            "article8": {
+              "articletitle": "",
+              "content": "With commercial partners: We may share your information with our commercial partners to offer you certain products, services or promotions. "
+            }
+        },
+        "section7": {
+            "sectiontitle": "Storage of your personal data",
+            "article1": {
+              "articletitle": "",
+              "content": "The Company will retain your personal data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your personal data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes and enforce our legal agreements and policies."
+            },
+            "article2": {
+              "articletitle": "",
+              "content": "The Company will also retain usage data for internal analysis. Usage data is generally retained for a shorter period of time, except where such data is used to enhance the security or improve the functionality of our Service, or where we are legally obliged to retain such data for longer periods of time."
+            }
+        },
+        "section8": {
+          "sectiontitle": "Transfer of your personal data",
+          "article1": {
+            "articletitle": "",
+            "content": "Your information, including personal data, is processed at the Company's operating offices and at any other location where the parties involved in the processing are located. This means that such information may be transferred to - and maintained on - computers located outside your state, province, country or other governmental jurisdiction where data protection laws may differ from those in your jurisdiction."
+          },
+          "article2": {
+            "articletitle": "",
+            "content": "Your consent to this privacy policy followed by your submission of such information represents your agreement to this transfer."
+          },
+          "article3": {
+            "articletitle": "",
+            "content": "The Company will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your personal data will take place to any organisation or country unless adequate controls are in place, including the security of your data and other personal information."
+          }
+      },
+      "section9": {
+          "sectiontitle": "Delete your personal data",
+          "article1": {
+              "articletitle": "",
+              "content": "You have the right to delete or request that we help delete the personal data we have collected about you. Our service may give you the opportunity to delete certain information about yourself from the service."
+          },
+          "article2": {
+              "articletitle": "",
+              "content": "You may contact us to request access, correction or deletion of any personal information you have provided to us. Please note, however, that we may be required to retain certain information where we have a legal obligation or legal basis to do so."
+          }
+      },"section10": {
+        "sectiontitle": "Disclosure of your personal datas",
+        "article1": {
+            "articletitle": "Transactions commerciales",
+            "content": "If the Company is involved in a merger, acquisition or sale of assets, your personal data may be transferred. We will inform you before your personal data is transferred and subject to a different privacy policy."
+        },
+        "article2": {
+            "articletitle": "Application of the law",
+            "content": "In certain circumstances, the Company may be required to disclose your personal data if it is required to do so by law or in response to valid requests from public authorities (for example, a court or a government agency)."
+        },
+        "article3": {
+            "articletitle": "Further legal requirements",
+            "content": "The Company may disclose your personal data in the good faith belief that such action is necessary to: Comply with a legal obligation; Protect and defend the rights or property of the Company; Prevent or investigate possible wrongdoing in connection with the Service; Protect the personal safety of users of the Service or the public; Protect against legal liability Security of your personal data;"
+        },
+        "article4": {
+            "articletitle": "",
+            "content": "The security of your personal data is important to us, but please remember that no method of transmission over the Internet or method of electronic storage is 100% secure. Although we endeavour to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security."
+        },
+        "article5": {
+            "articletitle": "Children's privacy",
+            "content": "Our service is not directed to anyone under the age of 18. We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and are aware that your child has provided us with personal data, please contact us. If we become aware that we have collected personal data from anyone under the age of 18 without verification of parental consent, we will take steps to delete that information from our servers. If we need to rely on consent as a legal basis for processing your information and your country requires parental consent, we may require your parent's consent before collecting and using that information."
+        },
+        "article6": {
+            "articletitle": "Links to other websites",
+            "content": "Our Service may contain links to other websites that are not operated by Us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to check the privacy policy of each site you visit. We have no control over, and assume no responsibility for, the content, privacy policies or practices of any third party site or service."
+        }
+    },
+    "section11": {
+        "sectiontitle": "Changes to this privacy policy",
+         "article1": {
+            "articletitle": "",
+            "content": "We may update our privacy policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. We will notify you by email and/or by a prominent notice on our Service, before the change becomes effective and will update the 'Last Updated' date at the top of this Privacy Policy. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when posted on this page."
+          }      
+    },
+    "section12": {
+        "sectiontitle": "Contact us",
+        "article1": {
+            "articletitle": "",
+            "content": "If you have any questions about this privacy policy, please contact us: casa-marerio@gmail.com"
+        }
+    }
+
+  
+
   }
+
 }
   

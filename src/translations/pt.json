@@ -1,162 +1,516 @@
 {
-    "home": {
-      "title1": "Portimão",
-      "subtitle1": "Relaxamento, aventura e memórias inesquecíveis...",
-      "card1": {
-        "title": "Desfrute de um apartamento de férias totalmente equipado.",
-        "button": "Descobrir"
-      },
-      "card2": {
-        "title": "Explore o ambiente incrivelmente relaxante de Portimão.",
-        "button": "Explorar"
-      },
-      "title2": "Sol, praia e vida boa.",
-      "subtitle2": "Consulte a nossa disponibilidade, reserve e desfrute.",
-      "hostQuestion": "Quem é o seu anfitrião",
-      "hostDescription": "Lorem ipsum dolor sit amet...",
-      "contactQuestion": "Tem uma pergunta ou sugestão? Então escreva-nos!"
+  "home": {
+    "title1": "Portimão",
+    "subtitle1": "Relaxamento, Aventura & Memórias Inesquecíveis...",
+    "card1": {
+      "title": "Desfrute de um apartamento de férias totalmente equipado.",
+      "button": "Explorar"
     },
-
-    "navbar": {
-        "nav": {
-          "item1": "Home",
-          "item2": "Alojamento",
-          "item3": "Preço"
-        },
-        "button": "Livro"
+    "card2": {
+      "title": "Descubra a vibe incrivelmente relaxante de Portimão.",
+      "button": "Descobrir"
     },
-
-    "banner": {
-        "title": "Descubra o Algarve com o nosso apartamento de férias",
-        "scroll" : "deslocar para baixo"
-    }, 
-
-    "contact": {
-        "form": {
-            "name": "Seu Nome",
-            "email": "Seu E-mail",
-            "message": "Mensagem"
-          },
-          "button" : "Enviar"
-        
-    },
-
-    "footer": {
-        "text" : "© 2023 Todos os direitos reservados | Casa Mar E Rio"
-      
+    "title2": "Sol, praia e o jeito fácil de viver.",
+    "subtitle2": "Confira nossa disponibilidade, reserve e aproveite.",
+    "hostQuestion": "Quem é o seu anfitrião?",
+    "hostDescription": "Meu nome é Khadija, e estou encantada em recebê-lo neste lindo apartamento à beira-mar em Portimão. Minhas paixões pela culinária local e conselhos de viagem refletem-se nas recomendações que compartilho com você, tendo estado nesta fantástica região do Algarve! Meu objetivo é criar uma atmosfera acolhedora e confortável no meu apartamento, com cada detalhe contribuindo para a sua experiência. Então, espero sua visita! Até breve!",
+    "contactQuestion": "Tem alguma pergunta ou sugestão? Envie-nos uma mensagem!"
   },
 
-  "logement": {
-    "title" : "Alojamento",
-    "text" : "Desfrute de um apartamento de férias totalmente equipado.",
-    "list": {
-        "item1": "Apartamento de 2 assoalhadas",
-        "item2": "Para até 4 pessoas",
-        "item3": "Duas varandas, com vista para o mar, o rio e o porto",
-        "item4": "Residência segura",
-        "item5": "Piscina na residência",
-        "item6": "Estacionamento subterrâneo seguro",
-        "item7": "Wifi",
-        "item8": "Chegada autónoma",
-        "item9": "Praia a 500 m",
-        "item10": "Lojas a 500 m",
-        "item11": "Ar condicionado"
-      }
-  
+  "navbar": {
+    "nav": {
+      "item1": "Início",
+      "item2": "Descrição",
+      "item3": "Blog"
+    },
+    "button": "Reserve Agora"
+},
+
+"banner": {
+    "title": "Experimente o Algarve a partir do Charme do Nosso Apartamento de Férias",
+    "scroll" : "Rolar"
+},
+
+"contact": {
+    "form": {
+        "name": "Seu Nome",
+        "email": "Seu E-mail",
+        "message": "Mensagem"
+      },
+      "button" : "Enviar"
+    
+},
+
+"footer": {
+    "text" : "© 2023 Todos os direitos reservados | Casa Mar E Rio",
+    "privacyPolicy" : "Política de Privacidade",
+    "termsConditions" : "Termos e Condições",
+    "contact" : "Contato"
+},
+
+"logement": {
+  "title" : "Alojamento",
+  "text" : "Desfrute de um Apartamento de Férias Totalmente Equipado.",
+  "list": {
+    "item1": "Apartamento de 2 quartos",
+    "item2": "Para até 4 pessoas",
+    "item3": "Duas varandas, com vistas para o mar, rio e porto",
+    "item4": "Residência segura",
+    "item5": "Piscina na residência",
+    "item6": "Estacionamento subterrâneo seguro",
+    "item7": "Wifi",
+    "item8": "Check-in autónomo",
+    "item9": "Praia a 500m",
+    "item10": "Lojas a 500m",
+    "item11": "Sistema de ar condicionado"
+  }
 },
 
 "equipments": {
-    "item1": {
-        "title": "A sala de estar",
-        "text": "Adicionar descrição e equipamento..."
-    },
-    "item2": {
-        "title": "A cozinha",
-        "text": "Adicionar descrição e equipamento..."
-    },
-    "item3": {
-        "title": "O quarto",
-        "text": "Adicionar descrição e equipamento..."
-    },
-    "item4": {
-        "title": "A casa de banho",
-        "text": "Adicionar descrição e equipamento..."
-    },
-    "item5": {
-        "title": "Serviços",
-        "text": "Adicionar descrição e equipamento...."
-    },
-    "item6": {
-        "title": "Bom saber",
-        "text": "Adicionar descrição e equipamento..."
-    }
+  "item1": {
+    "title": "A sala de estar",
+    "title2": "Equipamentos da sala de estar:",
+    "li1" : "Varanda com vista para o mar",
+    "li2" : "Wifi",
+    "li3" : "TV", 
+    "li4" : "Sofá-cama para 2 pessoas"
+  },
+  "item2": {
+    "title": "A cozinha",
+    "title2": "Equipamentos da cozinha:",
+    "li1" : "Frigorífico com compartimento de congelador",
+    "li2" : "Micro-ondas",
+    "li3" : "Máquina de lavar roupa", 
+    "li4" : "Forno",
+    "li5" : "Placas de aquecimento",
+    "li6" : "Louças, talheres e utensílios",
+    "li7" : "Utensílios de cozinha",
+    "li8" : "Chaleira elétrica",
+    "li9" : "Máquina de café de filtro",
+    "li10" : "Máquina de café expresso",
+    "li11" : "Torradeira"
+  },
+  "item3": {
+    "title": "O quarto",
+    "title2": "Equipamentos do quarto:",
+    "li1" : "Armários com cabides",
+    "li2" : "Almofadas e cobertores",
+    "li3" : "Lençóis", 
+    "li4" : "Ferro de engomar",
+    "li5" : "Estante para roupa",
+    "li6" : "Cofre",
+    "li7" : "Berço e cadeira alta",
+    "li8" : "Secretária / penteadeira"
+  },
+  "item4": {
+    "title": "A casa de banho",
+    "title2": "Equipamentos da casa de banho:",
+    "li1" : "Secador de cabelo",
+    "li2" : "Produtos de limpeza",
+    "li3" : "Sabonete corporal", 
+    "li4" : "Toalhas",
+    "li5" : "Papel higiénico"
+  },
+  "item5": {
+    "title": "Serviços",
+    "title2": "Bom Saber:",
+    "li1" : "Elevador na residência",
+    "li2" : "Piscina na residência",
+    "li3" : "Duche exterior", 
+    "li4" : "Estacionamento subterrâneo",
+    "li5" : "Check-in autónomo",
+    "li6" : "Berço e cadeira alta no alojamento",
+    "li7" : "A limpeza está incluída. No entanto, por respeito ao pessoal, por favor assegure que o seu alojamento está limpo e arrumado.",
+    "li8" : "Lençóis e toalhas estão incluídos", 
+    "li9" : "Os seus animais de estimação são bem-vindos",
+    "li10" : "Não é permitido fumar no alojamento",
+    "li11" : "O alojamento é fechado para festas"
+  },
+  "item6": {
+    "title": "Nas proximidades",
+    "title2": "A um passo do alojamento:",
+    "li1" : "Supermercado a 2 minutos a pé",
+    "li2" : "Praia a 2 minutos a pé",
+    "li3" : "Aluguer de carros a 5 minutos a pé", 
+    "li4" : "Farmácia a 2 minutos a pé",
+    "li5" : "Restaurantes, bares e casino a 2 minutos a pé",
+    "li6" : "Marina a 2 minutos a pé, com passeios de barco e várias atividades"
+  }
+},
 
-}, 
 "reservation": {
-    "title": "Découvrez l'Algarve en séjournant dans notre appartement de vacances",
-    "text" : "Bonjour"
-  }, 
+  "title": "Quer descobrir Portimão?",
+  "text" : "Escolha as suas datas e reserve agora!",
+  "title2": "Alguma questão?",
+  "text2" : "Contacte-nos!"
+},
 
-  "blog": {
-
-    "home" : {
-  
+"blog": {
+  "home" : {
     "title1": "Portimão",
-    "subtitle1": "Faites un tour d'horizon des activités et bonnes adresses à ne pas manquer !",
+    "subtitle1": "Descubra a nossa seleção de atividades e locais recomendados.",
     "title2": "",
-    "subtitle2": "Choisissez une catégorie"
-    
+    "subtitle2": "Escolha uma categoria",
+    "title3": "Explore as nossas recomendações perto do apartamento"
   },
 
-    "navbar" : {
-      
-      "title1": "Portimão",
-      "subtitle1": "Faites un tour d'horizon des activités et bonnes adresses à ne pas manquer !",
-      "title2": "",
-      "subtitle2": "Choisissez une catégorie",
-      
-      "item1": {
-        "title1": "Les plages"
-      },
-      "item2": {
-        "title1": "Les activités"
-      },
-      "item3": {
-        "title1": "Les restaurants"
-      },
-      "item4": {
-        "title1": "Bonnes adresses"
-      }
+  "navbar" : {
+    "title1": "Portimão",
+    "subtitle1": "Selecionamos para você as atividades e locais recomendados...",
+    "title2": "",
+    "subtitle2": "Escolha uma categoria",
+    
+    "item1": {
+      "title1": "Praias"
+    },
+    "item2": {
+      "title1": "Atividades"
+    },
+    "item3": {
+      "title1": "Restaurantes"
+    },
+    "item4": {
+      "title1": "Melhores lugares para ir"
+    }
+  }
+},
+
+"blog": {
+  "home" : {
+    "title1": "Portimão",
+    "subtitle1": "Descubra a nossa seleção de atividades e locais recomendados.",
+    "title2": "",
+    "subtitle2": "Escolha uma categoria",
+    "title3": "Explore as nossas recomendações perto do apartamento"
+  },
+
+  "navbar" : {
+    "title1": "Portimão",
+    "subtitle1": "Selecionamos para você as atividades e locais recomendados...",
+    "title2": "",
+    "subtitle2": "Escolha uma categoria",
+    
+    "item1": {
+      "title1": "Praias"
+    },
+    "item2": {
+      "title1": "Atividades"
+    },
+    "item3": {
+      "title1": "Restaurantes"
+    },
+    "item4": {
+      "title1": "Melhores lugares para ir"
+    }
+  },
+
+  "section2" : {
+    "article1": {
+      "title": "Faça um passeio com os golfinhos",
+      "text": "Ao longo da marina, logo abaixo do apartamento, vários capitães oferecem seus serviços para levá-lo em um passeio de barco para ver os golfinhos. Você verá várias espécies de golfinhos e, se tiver sorte, poderá até avistar uma baleia!",
+      "image": "portimao-dauphins.webp",
+      "url": "https://www.tripadvisor.fr/Attractions-g189120-Activities-c61-t188-Portimao_Faro_District_Algarve.html",
+      "texturl" : "Encontre um passeio de barco com os golfinhos"
     },
 
-    "articles": {
+    "article2": {
+      "title": "Descubra as grutas do mar do Algarve",
+      "text": "A região do Algarve é bem conhecida pela beleza de suas grutas marinhas, esculpidas nas falésias pelas ondas. Há várias opções: para os mais aventureiros, alugue um caiaque ou prancha de stand-up paddle. Você também pode optar por um passeio de barco, que o levará de gruta em gruta para um espetáculo inesquecível. A gruta de Benagil, a mais famosa de todas, oferece uma vista panorâmica esplêndida. Não esqueça sua câmera!",
+      "image": "portimao-grottes-de-benagil.webp",
+      "url": "https://www.tripadvisor.fr/Attractions-g189120-Activities-c55-Portimao_Faro_District_Algarve.html",
+      "texturl" : "Descubra as grutas do mar do Algarve"
+    },
 
-      "article1": {
-        "title": "Article Title in English",
-        "text": "Article text in English.",
-        "image": "/path-to-your-article-image.jpg"
-      },
+    "article3": {
+      "title": "Ferragudo, uma autêntica vila de pescadores",
+      "text": "Ferragudo oferece uma escapada autêntica com suas charmosas ruas de paralelepípedos e casas caiadas. Situada à margem do rio Arade, esta vila de pescadores tem uma atmosfera tranquila e vistas deslumbrantes para o mar. Explore seu pequeno porto animado, praias douradas e restaurantes locais, onde o marisco fresco é a especialidade. Ferragudo é o lugar perfeito para quem procura mergulhar na cultura portuguesa tradicional enquanto desfruta de um cenário natural espetacular.",
+      "image": "ferragudo.webp",
+      "url": "https://maps.app.goo.gl/CWy2kYAp1kzimgaa8",
+      "texturl" : "Vá para Ferragudo"
+    },
 
-      "article2": {
-        "title": "Article Title in English",
-        "text": "Article text in English.",
-        "image": "/path-to-your-article-image.jpg"
-      },
+    "article4": {
+      "title": "Um safari no interior do Algarve",
+      "text": "Os safaris no interior do Algarve oferecem uma experiência única para descobrir a natureza selvagem e intocada desta região portuguesa. A bordo de veículos todo-o-terreno, os aventureiros podem explorar as paisagens variadas, desde colinas verdejantes a vales escondidos, enquanto observam a flora e a fauna locais. Estas excursões também oferecem a chance de descobrir o patrimônio cultural do Algarve, com paradas em vilas tradicionais onde o tempo parece ter parado. É uma aventura ideal para quem procura combinar maravilhas naturais com imersão cultural.",
+      "image": "algarve-safari.webp",
+      "url": "https://www.tripadvisor.fr/Attractions-g189111-Activities-c61-t243-Algarve.html",
+      "texturl" : "Faça um safari no Algarve"
+    },
 
-      "article3": {
-        "title": "Article Title in English",
-        "text": "Article text in English.",
-        "image": "/path-to-your-article-image.jpg"
-      },
-
-      "article4": {
-        "title": "Article Title in English",
-        "text": "Article text in English.",
-        "image": "/path-to-your-article-image.jpg"
-      }
+    "article5": {
+      "title": "Casino de Portimão",
+      "text": "O Casino de Portimão é um local imperdível na região. Aberto todos os dias, e a apenas uma curta caminhada do apartamento Casa Marerio, você encontrará uma grande variedade de jogos e máquinas caça-níqueis. Você também pode desfrutar de noites de 'jantar e espetáculo' no local.",
+      "image": "casino-portimao-3.webp",
+      "url": "https://maps.app.goo.gl/saXQv6w34Y4hDSJm6",
+      "texturl" : "Vá para o casino de Portimão"
     }
-
+  },
+  "section3": {
+    "article1": {
+      "title": "Marisqueira Coral, Portimão",
+      "text": "Localizado na Praia da Rocha, a poucos passos do apartamento Casa Marerio, o Marisqueira Coral é uma visita obrigatória para os amantes de frutos do mar. Este famoso restaurante é conhecido pela sua ampla seleção de peixes frescos e frutos do mar, preparados com excepcional expertise culinária. As porções generosas vão satisfazer até os maiores apetites, tudo em um ambiente amigável e acolhedor. O Marisqueira Coral é o lugar perfeito para uma experiência gastronômica memorável no coração do Algarve.",
+      "image": "marisqueira-coral-portimao.webp",
+      "url": "https://maps.app.goo.gl/oF8ZDEe3j3GYPg547",
+      "texturl": "Visite o restaurante 'Marisqueira Coral' em Portimão"
+    },
+    "article2": {
+      "title": "Super Juice, Portimão",
+      "text": "No centro de Portimão, o Super Juice é um oásis para os amantes de comida saudável e saborosa. Este restaurante de comida saudável oferece sucos recém-espremidos, smoothies criativos e uma seleção de pratos leves e nutritivos. Com um foco em ingredientes frescos e locais, o restaurante é perfeito para brunch, almoço ou um lanche. Em resumo, o Super Juice é o lugar ideal para quem procura uma pausa saborosa e revitalizante no seu dia.",
+      "image": "super-juice-portimao.webp",
+      "url": "https://maps.app.goo.gl/SiWnMMXkXvph6Ymd6",
+      "texturl": "Visite o restaurante 'Super Juice' em Portimão"
+    },
+    "article3": {
+      "title": "Borda do Cais, Ferragudo",
+      "text": "Aninhado na autêntica vila de Ferragudo, o Borda do Cais é uma verdadeira joia gastronômica à beira do rio. Este charmoso restaurante oferece uma experiência culinária inesquecível com suas belas vistas sobre o porto e um menu que celebra os sabores do mar. Os visitantes são convidados a provar pratos de frutos do mar frescos, preparados com um toque criativo e servidos em um ambiente acolhedor e relaxante. O Borda do Cais é imperdível para quem deseja saborear as delícias do Algarve.",
+      "image": "borda-do-cais-ferragudo.webp",
+      "url": "https://maps.app.goo.gl/MCviNzqNexDe6p1D8",
+      "texturl": "Visite o restaurante 'Borda do Cais' em Ferragudo"
+    },
+    "article4": {
+      "title": "Fogo de Chão, Portimão",
+      "text": "O Fogo de Chão em Portimão é uma celebração da rica tradição culinária do Brasil, oferecendo uma autêntica e deliciosa experiência de churrasco. Conhecido pelo seu 'Rodízio', este endereço convida os hóspedes a saborear uma variedade de carnes perfeitamente grelhadas, servidas diretamente à mesa. A atmosfera calorosa e a recepção amigável completam a experiência, tornando cada refeição no Fogo de Chão memorável. É o lugar ideal para os amantes de carne e gourmets em busca de uma culinária de qualidade e um ambiente festivo.",
+      "image": "fogo-do-chao.webp",
+      "url": "https://maps.app.goo.gl/1FPoiukGaffqsxQu5",
+      "texturl": "Visite o restaurante 'Fogo de Chão' em Portimão"
+    }
+  },
+  "section4": {
+    "article1": {
+      "title": "Casa Inglesa, Portimão",
+      "text": "A Casa Inglesa é um lugar histórico em Portimão, perfeito para um delicioso café da manhã. Aqui você pode desfrutar de um bom café e autênticos pasteis de nata. Após a refeição, uma caminhada relaxante pela marina próxima é a maneira perfeita de começar o dia.",
+      "image": "casa-inglesa-portimao.webp",
+      "url": "https://maps.app.goo.gl/YBGidqrm69N4faMi9",
+      "texturl": "Visite a 'Casa Inglesa' em Portimão"
+    },
+    "article2": {
+      "title": "Pastelaria Arade, Portimão",
+      "text": "A Pastelaria Arade em Portimão é um paraíso para os amantes de doces. Bem conhecida por seus doces portugueses tradicionais, esta encantadora pastelaria oferece uma ampla seleção de bolos, tartes e pastéis de nata, feitos com amor. A atmosfera amigável torna cada visita uma experiência doce e memorável.",
+      "image": "pasteis-de-nata-portimao.webp",
+      "url": "https://maps.app.goo.gl/wL1B3grSKvZY35Jm7",
+      "texturl": "Visite a 'Pastelaria Arade' em Portimão"
+    }
   }
+},
 
+"helmet": {
+  "home": {
+    "title": "Casa-Marerio",
+    "description": "Apartamento para férias para 4 pessoas em Portimão, com vista para o mar e para a marina.",
+    "ogtitle": "Casa-Marerio",
+    "ogdescription": "Apartamento para férias para 4 pessoas em Portimão, com vista para o mar e para a marina."
+  },
+  "logement": {
+    "description": "Apartamento para férias para 4 pessoas em Portimão, com vista para o mar e para a marina.",
+    "ogtitle": "Casa-Marerio, descrição do apartamento",
+    "ogdescription": "Apartamento de férias totalmente equipado em Portimão, com vista para o mar e para a marina."
   }
+},
+"errorPage": {
+  "title": "Erro",
+  "description": "A página que está procurando não existe.",
+  "homeLink": "Retornar à página inicial da Casa-Marerio"
+},
+
+"policy": {
+  "title": "Nossa política de privacidade",
+  "section1": {
+    "sectiontitle": "Última atualização: 25 de novembro de 2023",
+    "article1": {
+      "articletitle": "",
+      "content": "Esta Política de Privacidade descreve nossas políticas e procedimentos sobre a coleta, uso e divulgação de suas informações quando você utiliza o Serviço e informa sobre seus direitos de privacidade e como a lei o protege. Usamos seus dados pessoais para fornecer e melhorar o Serviço. Ao usar o Serviço, você concorda com a coleta e uso das informações de acordo com esta Política de Privacidade. Esta Política de Privacidade foi criada com a ajuda do Gerador de Política de Privacidade."
+    }
+  },
+  "section2": {
+    "sectiontitle": "Interpretação e definições",
+    "article1": {
+      "articletitle": "Interpretação",
+      "content": "Palavras cuja primeira letra é maiúscula têm significados definidos sob as seguintes condições. As seguintes definições terão o mesmo significado, quer apareçam no singular ou no plural."
+    },
+    "article2": {
+      "articletitle": "Definições",
+      "content": "Para os fins desta Política de Privacidade: 'Conta' significa uma conta única criada para você acessar nosso Serviço ou certas partes do nosso Serviço. 'Afiliado' significa uma entidade que controla, é controlada por ou está sob controle comum com uma parte, onde 'controle' significa propriedade de 50% ou mais das ações, interesses patrimoniais ou outros valores mobiliários com direito a voto para a eleição de diretores ou outra autoridade gerencial. 'Empresa' (referida como 'a Empresa', 'nós', 'nos' ou 'nosso' neste Acordo) significa Casa-Marerio. 'Cookies' são pequenos arquivos colocados no seu computador, dispositivo móvel ou outro dispositivo por um site, contendo detalhes do seu histórico de navegação naquele site e suas muitas utilizações. 'País' refere-se a: França. 'Dispositivo' refere-se a qualquer dispositivo que possa acessar o Serviço, como um computador, celular ou tablet digital. 'Dados Pessoais' é qualquer informação relativa a um indivíduo identificado ou identificável. 'Serviço' refere-se ao Website. 'Fornecedor de Serviços' significa qualquer pessoa física ou jurídica que processe dados em nome da Empresa. Refere-se a empresas terceirizadas ou indivíduos empregados pela Empresa para facilitar o Serviço, fornecer o Serviço em nome da Empresa, realizar serviços relacionados ao Serviço ou ajudar a Empresa na análise de como o Serviço é usado. 'Dados de Uso' significa dados coletados automaticamente gerados pelo uso do Serviço ou da própria infraestrutura do Serviço (por exemplo, a duração de uma visita à página). 'Website' refere-se a Casa-Marerio, acessível em casa-marerio.com. 'Você' refere-se ao indivíduo que acessa ou usa o Serviço, ou à empresa ou outra entidade legal em nome da qual esse indivíduo acessa ou usa o Serviço, conforme o caso."
+    }
+  },
+  "section3": {
+    "sectiontitle": "Coleta e Uso dos Seus Dados Pessoais: Tipos de Dados Coletados",
+    "article1": {
+      "articletitle": "Dados pessoais",
+      "content": "Ao usar nosso Serviço, podemos pedir que você forneça certas informações pessoais identificáveis que podem ser usadas para contatar ou identificar você. Informações pessoais identificáveis podem incluir, mas não se limitam a: endereço de e-mail; nome e sobrenome; número de telefone; endereço, estado, província, código postal, cidade."
+    },
+    "article2": {
+      "articletitle": "Dados de uso",
+      "content": "Dados de Uso são coletados automaticamente quando você usa o Serviço e podem incluir informações como o endereço de Protocolo de Internet do seu Dispositivo (por exemplo, endereço IP), tipo de navegador, versão do navegador, as páginas do nosso Serviço que você visita, a data e hora da sua visita, o tempo gasto nessas páginas, identificadores únicos de dispositivos e outros dados diagnósticos. Quando você acessa o Serviço por ou através de um dispositivo móvel, podemos coletar certas informações automaticamente, incluindo, mas não se limitando a, o tipo de dispositivo móvel que você está usando, o ID único do seu dispositivo móvel, o endereço IP do seu dispositivo móvel, seu sistema operacional móvel, o tipo de navegador de Internet móvel que você está usando, identificadores únicos de dispositivos e outros dados diagnósticos. Também podemos coletar informações que o seu navegador envia sempre que você visita nosso Serviço ou quando você acessa o Serviço por ou através de um dispositivo móvel."
+    }
+  },
+  "section4": {
+    "sectiontitle": "Coleta e Uso dos Seus Dados Pessoais: Tecnologias de Rastreamento e Cookies",
+    "article1": {
+      "articletitle": "",
+      "content": "Usamos Cookies e tecnologias de rastreamento semelhantes para monitorar a atividade em nosso Serviço e armazenar certas informações. As tecnologias de rastreamento utilizadas são beacons, tags e scripts para coletar e rastrear informações e para melhorar e analisar nosso Serviço."
+    }
+  },
+  "section5": {
+    "sectiontitle": "As tecnologias que usamos podem incluir:",
+    "article1": {
+      "articletitle": "Cookies ou Cookies do Navegador.",
+      "content": "Um cookie é um pequeno arquivo colocado no seu Dispositivo. Você pode instruir seu navegador a recusar todos os cookies ou a indicar quando um cookie está sendo enviado. No entanto, se você não aceitar Cookies, pode não ser capaz de usar certas partes do nosso Serviço. A menos que você tenha ajustado a configuração do seu navegador para recusar Cookies, nosso Serviço pode usar Cookies."
+    },
+    "article2": {
+      "articletitle": "Web tags.",
+      "content": "Certas seções do nosso Serviço e nossos e-mails podem conter pequenos arquivos eletrônicos conhecidos como web tags (também conhecidos como clear gifs, pixel tags e single-pixel gifs) que permitem à Empresa, por exemplo, contar usuários que visitaram essas páginas ou abriram um e-mail e para outras estatísticas relacionadas ao site (por exemplo, para registrar a popularidade de uma seção específica e verificar a integridade do sistema e do servidor)."
+    },
+    "article3": {
+      "articletitle": "",
+      "content": "Cookies podem ser 'Persistentes' ou 'de Sessão'. Cookies Persistentes permanecem no seu computador pessoal ou dispositivo móvel quando você está offline, enquanto os Cookies de Sessão são deletados assim que você fecha seu navegador da web. Leia mais sobre cookies na seção Política de Privacidade do site."
+    },
+    "article4": {
+      "articletitle": "",
+      "content": "Usamos tanto Cookies de Sessão quanto Persistentes para os propósitos estabelecidos abaixo:"
+    },
+    "article5": {
+      "articletitle": "Cookies Necessários / Essenciais:",
+      "content": "Tipo: Cookies de Sessão; Administrado por: Nós; Propósito: Esses Cookies são essenciais para fornecer serviços disponíveis através do Website e para permitir que você use algumas de suas funcionalidades. Eles ajudam a autenticar usuários e prevenir o uso fraudulento de contas de usuários. Sem esses Cookies, os serviços que você solicitou não podem ser fornecidos, e nós usamos esses Cookies apenas para fornecer esses serviços a você."
+    },
+    "article6": {
+      "articletitle": "Cookies de Política / Aceitação de Cookies:",
+      "content": "Tipo: Cookies Persistentes; Administrado por: Nós; Propósito: Esses Cookies identificam se os usuários aceitaram o uso de cookies no Website."
+    },
+    "article7": {
+      "articletitle": "Cookies de Funcionalidade:",
+      "content": "Tipo: Cookies Persistentes; Administrado por: Nós; Propósito: Esses Cookies nos permitem lembrar as escolhas que você faz ao usar o Website, como lembrar seus detalhes de login ou preferência de idioma. O propósito desses Cookies é fornecer uma experiência mais pessoal e evitar que você tenha que reentrar suas preferências cada vez que usar o Website."
+    },
+    "article8": {
+      "articletitle": "",
+      "content": "Para mais informações sobre os cookies que usamos e suas escolhas em relação a cookies, visite nossa Política de Cookies ou a seção de Cookies de nossa Política de Privacidade."
+    }
+  },
+
+  "section6": {
+    "sectiontitle": "Uso dos Seus Dados Pessoais",
+    "article1": {
+      "articletitle": "A Empresa pode usar os Dados Pessoais para os seguintes propósitos:",
+      "content": "Para fornecer e manter nosso Serviço, incluindo monitorar o uso do nosso Serviço."
+    },
+    "article2": {
+      "articletitle": "",
+      "content": "Para gerenciar sua Conta: para gerenciar seu registro como usuário do Serviço. Os Dados Pessoais que você fornece podem lhe dar acesso a várias funcionalidades do Serviço que estão disponíveis para você como um usuário registrado."
+    },
+    "article3": {
+      "articletitle": "",
+      "content": "Para o desempenho de um contrato: o desenvolvimento, conformidade e desempenho do contrato de compra dos produtos, itens ou serviços que você adquiriu ou qualquer outro contrato conosco através do Serviço."
+    },
+    "article4": {
+      "articletitle": "",
+      "content": "Para contatar você: para entrar em contato com você por e-mail, chamadas telefônicas, SMS ou outras formas equivalentes de comunicação eletrônica, como notificações push de um aplicativo móvel, sobre atualizações ou comunicações informativas relacionadas a funcionalidades contratadas, produtos ou serviços, incluindo atualizações de segurança, quando necessário ou razoável para sua implementação."
+    },
+    "article5": {
+      "articletitle": "",
+      "content": "Para gerenciar suas solicitações: para responder e gerenciar suas solicitações a nós."
+    },
+    "article6": {
+      "articletitle": "",
+      "content": "Para outros propósitos: Podemos usar suas informações para outros propósitos, como análise de dados, identificação de tendências de uso, determinação da eficácia de nossas campanhas promocionais e para avaliar e melhorar nosso Serviço, produtos, serviços, marketing e sua experiência."
+    },
+    "article7": {
+      "articletitle": "Podemos compartilhar suas informações pessoais nas seguintes situações:",
+      "content": "Com prestadores de serviços: Podemos compartilhar suas informações pessoais com prestadores de serviços para monitorar e analisar o uso do nosso Serviço e para contatá-lo."
+    },
+    "article8": {
+      "articletitle": "",
+      "content": "Com parceiros comerciais: Podemos compartilhar suas informações com nossos parceiros comerciais para oferecer a você certos produtos, serviços ou promoções."
+    }
+  },
+  "section7": {
+    "sectiontitle": "Armazenamento dos seus dados pessoais",
+    "article1": {
+      "articletitle": "",
+      "content": "A Empresa reterá seus dados pessoais apenas pelo tempo necessário para os propósitos estabelecidos nesta Política de Privacidade. Vamos reter e usar seus dados pessoais na medida do necessário para cumprir com nossas obrigações legais (por exemplo, se somos obrigados a reter seus dados para cumprir com leis aplicáveis), resolver disputas e fazer cumprir nossos acordos e políticas legais."
+    },
+    "article2": {
+      "articletitle": "",
+      "content": "A Empresa também reterá dados de uso para análise interna. Dados de uso geralmente são retidos por um período de tempo mais curto, exceto quando esses dados são usados para melhorar a segurança ou a funcionalidade do nosso Serviço, ou quando somos legalmente obrigados a reter tais dados por períodos de tempo mais longos."
+    }
+  },
+  "section8": {
+    "sectiontitle": "Transferência dos seus dados pessoais",
+    "article1": {
+      "articletitle": "",
+      "content": "Suas informações, incluindo dados pessoais, são processadas nos escritórios operacionais da Empresa e em qualquer outro local onde as partes envolvidas no processamento estejam localizadas. Isso significa que tais informações podem ser transferidas para - e mantidas em - computadores localizados fora do seu estado, província, país ou outra jurisdição governamental onde as leis de proteção de dados podem ser diferentes das de sua jurisdição."
+    },
+    "article2": {
+      "articletitle": "",
+      "content": "Seu consentimento a esta política de privacidade seguido pela submissão de tais informações representa seu acordo com essa transferência."
+    },
+    "article3": {
+      "articletitle": "",
+      "content": "A Empresa tomará todas as medidas razoavelmente necessárias para garantir que seus dados sejam tratados de forma segura e de acordo com esta Política de Privacidade e nenhuma transferência dos seus dados pessoais ocorrerá para qualquer organização ou país, a menos que controles adequados estejam em vigor, incluindo a segurança dos seus dados e outras informações pessoais."
+    }
+  },
+  "section9": {
+    "sectiontitle": "Exclusão dos seus dados pessoais",
+    "article1": {
+      "articletitle": "",
+      "content": "Você tem o direito de excluir ou solicitar que ajudemos a excluir os dados pessoais que coletamos sobre você. Nosso serviço pode oferecer a oportunidade de excluir certas informações sobre você do serviço."
+    },
+    "article2": {
+      "articletitle": "",
+      "content": "Você pode nos contatar para solicitar acesso, correção ou exclusão de qualquer informação pessoal que tenha nos fornecido. No entanto, observe que podemos ser obrigados a reter certas informações quando temos uma obrigação legal ou base legal para fazê-lo."
+    }
+  },
+
+  "section10": {
+    "sectiontitle": "Divulgação dos seus dados pessoais",
+    "article1": {
+      "articletitle": "Transações comerciais",
+      "content": "Se a Empresa estiver envolvida em uma fusão, aquisição ou venda de ativos, seus dados pessoais podem ser transferidos. Nós o informaremos antes que seus dados pessoais sejam transferidos e sujeitos a uma política de privacidade diferente."
+    },
+    "article2": {
+      "articletitle": "Aplicação da lei",
+      "content": "Em certas circunstâncias, a Empresa pode ser obrigada a divulgar seus dados pessoais se for necessário fazê-lo por lei ou em resposta a solicitações válidas de autoridades públicas (por exemplo, um tribunal ou uma agência governamental)."
+    },
+    "article3": {
+      "articletitle": "Outras exigências legais",
+      "content": "A Empresa pode divulgar seus dados pessoais na crença de boa-fé de que tal ação é necessária para: Cumprir uma obrigação legal; Proteger e defender os direitos ou propriedade da Empresa; Prevenir ou investigar possíveis irregularidades em conexão com o Serviço; Proteger a segurança pessoal dos usuários do Serviço ou do público; Proteger contra responsabilidade legal Segurança dos seus dados pessoais;"
+    },
+    "article4": {
+      "articletitle": "",
+      "content": "A segurança dos seus dados pessoais é importante para nós, mas lembre-se que nenhum método de transmissão pela Internet ou método de armazenamento eletrônico é 100% seguro. Embora nos esforcemos para usar meios comercialmente aceitáveis para proteger seus dados pessoais, não podemos garantir sua segurança absoluta."
+    },
+    "article5": {
+      "articletitle": "Privacidade das crianças",
+      "content": "Nosso serviço não é direcionado a ninguém com menos de 18 anos. Não coletamos intencionalmente informações pessoais identificáveis de ninguém com menos de 18 anos. Se você é um pai ou responsável e está ciente de que seu filho nos forneceu dados pessoais, entre em contato conosco. Se tomarmos conhecimento de que coletamos dados pessoais de alguém com menos de 18 anos sem verificação de consentimento dos pais, tomaremos medidas para excluir essas informações de nossos servidores. Se precisarmos nos basear no consentimento como base legal para processar suas informações e seu país exigir consentimento dos pais, podemos exigir o consentimento dos seus pais antes de coletar e usar essas informações."
+    },
+    "article6": {
+      "articletitle": "Links para outros sites",
+      "content": "Nosso Serviço pode conter links para outros sites que não são operados por Nós. Se você clicar em um link de terceiros, será direcionado para o site desse terceiro. Aconselhamos fortemente que você verifique a política de privacidade de cada site que visitar. Não temos controle sobre e não assumimos nenhuma responsabilidade pelo conteúdo, políticas de privacidade ou práticas de qualquer site ou serviço de terceiros."
+    }
+  },
+  "section11": {
+    "sectiontitle": "Alterações a esta política de privacidade",
+    "article1": {
+      "articletitle": "",
+      "content": "Podemos atualizar nossa política de privacidade de tempos em tempos. Nós o notificaremos de quaisquer mudanças, publicando a nova Política de Privacidade nesta página. Nós o notificaremos por e-mail e/ou por um aviso proeminente em nosso Serviço, antes de a mudança se tornar efetiva e atualizaremos a data de 'Última Atualização' no topo desta Política de Privacidade. Você é aconselhado a revisar periodicamente esta Política de Privacidade para quaisquer mudanças. Mudanças nesta Política de Privacidade são efetivas quando publicadas nesta página."
+    }
+  },
+  "section12": {
+    "sectiontitle": "Contate-nos",
+    "article1": {
+      "articletitle": "",
+      "content": "Se você tem alguma dúvida sobre esta política de privacidade, entre em contato conosco: casa-marerio@gmail.com"
+    }
+  }
+  
+  
+
+
+  
+  
+}
+
+
+
+
+
+}
   

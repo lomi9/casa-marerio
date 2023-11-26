@@ -107,7 +107,7 @@ return (
             </div>
 
         </article>
-        <article className="article__contact">
+        <article className="article__contact" id="contact">
             <div className="article__contact-content">
             <h5 className="article__contact-content-h5" data-aos="fade-right">{t('home.contactQuestion')}</h5>
                 <Logo/>

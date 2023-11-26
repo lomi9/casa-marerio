@@ -11,9 +11,9 @@
         "button": "Explorer"
       },
       "title2": "Soleil, plage & douceur de vivre.",
-      "subtitle2": "Consultez nos disponibilités, resérvez, profitez.",
+      "subtitle2": "Consultez nos disponibilités, réservez, profitez.",
       "hostQuestion": "Qui est votre hôte",
-      "hostDescription": "Lorem ipsum dolor sit amet...",
+      "hostDescription": "Je m'appelle Khadija, et je suis ravie de vous accueillir dans ce bel appartement en bord de mer, à Portimão. Mes passions pour la cuisine locale et les conseils de voyage se reflètent dans les recommandations que je partage avec vous, étant moi-même partie à la découverte de cette fantastique région qu'est l'Algarve! Mon objectif est de créer une ambiance chaleureuse et confortable dans mon appartement, chaque détail contribuant à votre expérience. C'est donc avec impatience que j'attends votre visite! A bientôt!",
       "contactQuestion": "Vous avez une question ou une suggestion ? Écrivez-nous !"
     },
 
@@ -44,7 +44,8 @@
     "footer": {
           "text" : "© 2023 Tous droits réservés | Casa Mar E Rio",
           "privacyPolicy" : "Politique de confidentialité",
-          "termsConditions" : "Conditions générales"
+          "termsConditions" : "Conditions générales",
+          "contact" : "Nous contacter"
         
     },
      
@@ -70,7 +71,7 @@
             "item1": {
                 "title": "Le Salon-séjour",
                 "title2": "Équipements du salon :",
-                "li1" : "Balcon avec vue sur l'océan",
+                "li1" : "Balcon avec vue sur la mer",
                 "li2" : "Wifi",
                 "li3" : "TV", 
                 "li4" : "Canapé-lit avec couchage pour 2 personnes"
@@ -83,7 +84,7 @@
                 "li3" : "Lave-linge", 
                 "li4" : "Four",
                 "li5" : "Plaques de cuisson",
-                "li6" : "Vaiselle, couverts et ustensils",
+                "li6" : "Vaisselle, couverts et ustensiles",
                 "li7" : "Nécéssaire de cuisine",
                 "li8" : "Bouilloire éléctrique",
                 "li9" : "Cafetière à filtre",
@@ -103,8 +104,8 @@
                 "li8" : "Bureau / coiffeuse"
             },
             "item4": {
-                "title": "La salle de douche",
-                "title2": "La salle de douche :",
+                "title": "La salle de bain",
+                "title2": "Equipements de la salle de bain :",
                 "li1" : "Sèche cheveux",
                 "li2" : "Produits de nettoyage",
                 "li3" : "Savon pour le corps", 
@@ -130,11 +131,12 @@
             "item6": {
                 "title": "À proximité",
                 "title2": "À deux pas du logement :",
-                "li1" : "Superette à ...mn à pied",
-                "li2" : "plage à 1 mn à pied",
-                "li3" : "Location de véhicule à ...mn à pied", 
-                "li4" : "autre chose ?",
-                "li5" : "encore autre chose ?"
+                "li1" : "Superette à 2 mn à pied",
+                "li2" : "Plage à 2 mn à pied",
+                "li3" : "Location de véhicule à 5 mn à pied", 
+                "li4" : "Pharmacie à 2 mn à pied",
+                "li5" : "Restaurants, bars et casino à 2 mn à pied",
+                "li6" : "Marina à 2mn à pied, avec excursions en bateaux et diverses activités"
             }
       
   },
@@ -153,7 +155,7 @@
     "subtitle1": "Faites un tour d'horizon des activités et bonnes adresses à ne pas manquer !",
     "title2": "",
     "subtitle2": "Choisissez une catégorie",
-    "title3": "Parcourez notre séléction à proximité du logement"
+    "title3": "Parcourez nos recommandations à proximité du logement"
     
   },
 
@@ -184,7 +186,7 @@
 
         "article1": {
           "title": "Praia da Rocha",
-          "text": "Située à 1 minute à pied de l'appartement, la 'Praia da Rocha' est une immense plage de sable doré. Vous trouverez de nombreux bar et restaurants en vous promenant sur la promenade en bois longeant la plage. La journée, profitez de la vue sur les impressionnants rochers et sur les falaises faisant le charme de la région, et admirez les magnifiques couchés de soleil lorsque la nuit tombe.",
+          "text": "Située à 1 minute à pied de l'appartement, la 'Praia da Rocha' est une immense plage de sable doré. Vous trouverez de nombreux bars et restaurants en vous promenant sur la promenade en bois longeant la plage. La journée, profitez de la vue sur les impressionnants rochers et sur les falaises faisant le charme de la région, et admirez les magnifiques couchés de soleil lorsque la nuit tombe.",
           "image": "portimao-plage-1.webp",
           "url": "https://maps.app.goo.gl/QCdEXRcq544XmxoaA",
           "texturl" : "Voir où se trouve l'emplacement de la plage"
@@ -207,11 +209,11 @@
         }
 
       },
-        "section2" : {
+      "section2" : {
 
           "article1": {
             "title": "Partez en excursion avec les dauphins",
-            "text": "Le long de la marina, juste en bas de l'appartement, de nombreux skippers proposent leurs services pour vous embarquer en excursion à bord d'un zodiac, afin de partir à la rencontre des dauphins. Vous pourrez observer plusieurs espèces de dauphins en très grand nombre et de très près, et, si vous avez de la chance, vous aurez peut-être la chance de voir une baleine !",
+            "text": "Le long de la marina, juste en bas de l'appartement, de nombreux skippers proposent leurs services pour vous embarquer en excursion à bord d'un zodiac, afin de partir à la rencontre des dauphins. Vous pourrez observer plusieurs espèces de dauphins en très grand nombre et de très près, et, si vous avez de la chance, vous aurez peut-être la possibilité de voir une baleine !",
             "image": "portimao-dauphins.webp",
             "url": "https://www.tripadvisor.fr/Attractions-g189120-Activities-c61-t188-Portimao_Faro_District_Algarve.html",
             "texturl" : "Trouver une excursion pour partir à la rencontre des dauphins"
@@ -222,12 +224,12 @@
             "text": "La région de l'Algarve est réputée pour la beauté de ses grottes marines, sculptées par les vagues dans les falaises bordant la mer. Pour cela, vous aurez plusieurs possibilités : pour les plus aventuriers, louez un canöé, un kayak ou un paddle. Vous pouvez aussi opter pour une excursion en bateau, qui vous fera naviger de grottes en grottes pour un spectacle inoubliable. Bien qu'assez fréquentée, la grotte de Benagil, la plus connue de toutes, offre un splendide panorama. N'oubliez pas votre appareil photo ! ",
             "image": "portimao-grottes-de-benagil.webp",
             "url": "https://www.tripadvisor.fr/Attractions-g189120-Activities-c55-Portimao_Faro_District_Algarve.html",
-            "texturl" : "Partir à la découverte des grottes marines de Portimão"
+            "texturl" : "Partir à la découverte des grottes marines de l'Algarve"
           },
   
           "article3": {
             "title": "Ferragudo, le village de pécheurs pittoresque",
-            "text": "Ferragudo offre une escapade pittoresque avec ses charmantes ruelles pavées et ses maisons blanchies à la chaux. Perché sur les rives du fleuve Arade, ce village de pêcheurs authentique séduit par son ambiance paisible et ses vues imprenables sur l'océan Atlantique. Explorez son petit port animé, ses plages dorées et ses restaurants locaux, où les fruits de mer frais sont à l'honneur. Ferragudo est l'endroit parfait pour ceux qui cherchent à s'immerger dans la culture traditionnelle portugaise tout en profitant d'un cadre naturel spectaculaire.",
+            "text": "Ferragudo offre une escapade pittoresque avec ses charmantes ruelles pavées et ses maisons blanchies à la chaux. Perché sur la rive du fleuve Arade, ce village de pêcheurs authentique séduit par son ambiance paisible et ses vues imprenables sur la mer. Explorez son petit port animé, ses plages dorées et ses restaurants locaux, où les fruits de mer frais sont à l'honneur. Ferragudo est l'endroit parfait pour ceux qui cherchent à s'immerger dans la culture traditionnelle portugaise tout en profitant d'un cadre naturel spectaculaire.",
             "image": "ferragudo.webp",
             "url": "https://maps.app.goo.gl/CWy2kYAp1kzimgaa8",
             "texturl" : "Se rendre à Ferragudo"
@@ -244,13 +246,13 @@
           "article5": {
             "title": "Le casino de Portimão",
             "text": "Le Casino de Portimão est un lieu de divertissement incontournable de la région. Ouvert tous les jours, et situé à quelques pas de l'appartement Casa Marerio, vous trouverez une grande variété de jeux et de machines à sous. Vous pouvez également profiter d'une soirée dîner et spectacle sur place. ",
-            "image": "casino-portimao.webp",
+            "image": "casino-portimao-3.webp",
             "url": "https://maps.app.goo.gl/saXQv6w34Y4hDSJm6",
             "texturl" : "Se rendre au casino de Portimão"
           }
 
         },
-          "section3" : {
+        "section3" : {
 
             "article1": {
               "title": "Marisqueira Coral, Portimão",
@@ -278,14 +280,14 @@
     
             "article4": {
               "title": "Fogo de Chão, Portimão",
-              "text": "Fogo de Chão à Portimão est une célébration de la riche tradition culinaire brésilienne, offrant une expérience de barbecue authentique et exquise. Connue pour son rodizio haut de gamme, cette adresse invite ses convives à savourer une variété de viandes juteuses et parfaitement grillées, servies directement à la table. L'atmosphère chaleureuse et l'accueil convivial complètent l'expérience, rendant chaque repas à Fogo de Chão mémorable. C'est le lieu idéal pour les amateurs de viandes et les gourmets à la recherche d'une cuisine de qualité et d'une ambiance festive..",
+              "text": "Fogo de Chão à Portimão est une célébration de la riche tradition culinaire brésilienne, offrant une expérience de barbecue authentique et exquise. Connue pour son 'Rodizio' haut de gamme, cette adresse invite ses convives à savourer une variété de viandes juteuses et parfaitement grillées, servies directement à la table. L'atmosphère chaleureuse et l'accueil convivial complètent l'expérience, rendant chaque repas à Fogo de Chão mémorable. C'est le lieu idéal pour les amateurs de viandes et les gourmets à la recherche d'une cuisine de qualité et d'une ambiance festive.",
               "image": "fogo-do-chao.webp",
               "url": "https://maps.app.goo.gl/1FPoiukGaffqsxQu5",
               "texturl" : "Se rendre au restaurant 'Fogo de Chão' à Portimāo"
             }
           },
 
-            "section4" : {
+          "section4" : {
 
               "article1": {
                 "title": "Casa Inglesa, Portimão",
@@ -372,147 +374,147 @@
           }
             },
 
-            "section5": {
-              "sectiontitle": "Les technologies que nous utilisons peuvent inclure :",
-              "article1": {
+        "section5": {
+            "sectiontitle": "Les technologies que nous utilisons peuvent inclure :",
+            "article1": {
                 "articletitle": "Cookies ou Cookies de Navigateur.",
                 "content": "Un cookie est un petit fichier placé sur votre Dispositif. Vous pouvez instruire votre navigateur à refuser tous les Cookies ou à indiquer quand un Cookie est envoyé. Cependant, si vous n'acceptez pas les Cookies, vous ne pourrez peut-être pas utiliser certaines parties de notre Service. Sauf si vous avez ajusté votre paramètre de navigateur pour qu'il refuse les Cookies, notre Service peut utiliser des Cookies."},
-                "article2": {
-                  "articletitle": "Balises Web.",
-                  "content": "Certaines sections de notre Service et nos emails peuvent contenir de petits fichiers électroniques connus sous le nom de balises web (également appelées gifs clairs, pixel tags et gifs mono-pixel) qui permettent à la Société, par exemple, de compter les utilisateurs qui ont visité ces pages ou ouvert un e-mail et pour d'autres statistiques liées au site web (par exemple, enregistrer la popularité d'une certaine section et vérifier l'intégrité du système et du serveur). "},
-                  "article3": {
-                    "articletitle": "",
-                    "content": "Les Cookies peuvent être des Cookies 'Persistants' ou 'de Session'. Les Cookies Persistants restent sur votre ordinateur personnel ou dispositif mobile lorsque vous êtes hors ligne, tandis que les Cookies de Session sont supprimés dès que vous fermez votre navigateur web. En savoir plus sur les cookies sur l'article du site web des Politiques de Confidentialité."},
-                    "article4": {
-                      "articletitle": "",
-                      "content": "Nous utilisons à la fois des Cookies de Session et Persistants pour les objectifs énoncés ci-dessous :"},
-                      "article5": {
-                        "articletitle": "Cookies Nécessaires / Essentiels :",
-                        "content": "Type : Cookies de Session;Administré par : Nous; Objectif : Ces Cookies sont essentiels pour vous fournir des services disponibles via le Site Web et pour vous permettre d'utiliser certaines de ses fonctionnalités. Ils aident à authentifier les utilisateurs et à prévenir l'utilisation frauduleuse des comptes utilisateurs. Sans ces Cookies, les services que vous avez demandés ne peuvent pas être fournis, et nous utilisons seulement ces Cookies pour vous fournir ces services."},
-                        "article6": {
-                          "articletitle": "Cookies de Politique / Acceptation des Cookies :",
-                          "content": "Type : Cookies Persistants; Administré par : Nous; Objectif : Ces Cookies identifient si les utilisateurs ont accepté l'utilisation de cookies sur le Site Web."},
-                          "article7": {
-                            "articletitle": "Cookies de Fonctionnalité :",
-                            "content": "Type : Cookies Persistants; Administré par : Nous; Objectif : Ces Cookies nous permettent de nous souvenir des choix que vous faites lorsque vous utilisez le Site Web, comme de vous rappeler vos détails de connexion ou votre préférence de langue. L'objectif de ces Cookies est de vous fournir une expérience plus personnelle et d'éviter que vous ayez à ressaisir vos préférences chaque fois que vous utilisez le Site Web."},
-                            "article8": {
-                              "articletitle": "",
-                              "content": "Pour plus d'informations sur les cookies que nous utilisons et vos choix concernant les cookies, veuillez visiter notre Politique de Cookies ou la section Cookies de notre Politique de Confidentialité."}
-                },
-                "section6": {
-                  "sectiontitle": "Utilisation de Vos Données Personnelles",
-                  "article1": {
-                    "articletitle": "La Société peut utiliser les Données Personnelles aux fins suivantes :",
-                    "content": "Pour fournir et maintenir notre Service, y compris pour surveiller l'utilisation de notre Service."
-                  },
-                  "article2": {
-                    "articletitle": "",
-                    "content": "Pour gérer Votre Compte : pour gérer votre inscription en tant qu'utilisateur du Service. Les Données Personnelles que vous fournissez peuvent vous donner accès à différentes fonctionnalités du Service qui sont disponibles pour vous en tant qu'utilisateur enregistré."
-                  },
-                  "article3": {
-                    "articletitle": "",
-                    "content": "Pour l'exécution d'un contrat : le développement, la conformité et l'entreprise du contrat d'achat pour les produits, articles ou services que vous avez achetés ou de tout autre contrat avec Nous à travers le Service."
-                  },
-                  "article4": {
-                    "articletitle": "",
-                    "content": "Pour vous contacter : pour vous contacter par e-mail, appels téléphoniques, SMS, ou autres formes équivalentes de communication électronique, telles que les notifications push d'une application mobile concernant les mises à jour ou les communications informatives liées aux fonctionnalités, produits ou services contractés, y compris les mises à jour de sécurité, lorsque cela est nécessaire ou raisonnable pour leur mise en œuvre."
-                  },
-                  "article5": {
-                    "articletitle": "",
-                    "content": "Pour gérer vos demandes : pour répondre et gérer vos demandes à notre égard."
-                  },
-                  "article6": {
-                    "articletitle": "",
-                    "content": "Pour d'autres fins : Nous pouvons utiliser vos informations à d'autres fins, telles que l'analyse de données, l'identification des tendances d'utilisation, la détermination de l'efficacité de nos campagnes promotionnelles et pour évaluer et améliorer notre Service, produits, services, marketing et votre expérience."
-                  },
-                  "article7": {
-                    "articletitle": "Nous pouvons partager vos informations personnelles dans les situations suivantes :",
-                    "content": "Avec des fournisseurs de services : Nous pouvons partager vos informations personnelles avec des fournisseurs de services pour surveiller et analyser l'utilisation de notre Service, pour vous contacter. "
-                  },
-                  "article8": {
-                    "articletitle": "",
-                    "content": "Avec des partenaires commerciaux : Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous proposer certains produits, services ou promotions. "
-                  }
-                    },
-                    "section7": {
-                      "sectiontitle": "Conservation de vos données personnelles",
-                      "article1": {
-                        "articletitle": "",
-                        "content": "La Société conservera vos données personnelles uniquement aussi longtemps que nécessaire aux fins énoncées dans cette politique de confidentialité. Nous conserverons et utiliserons vos données personnelles dans la mesure nécessaire pour nous conformer à nos obligations légales (par exemple, si nous sommes tenus de conserver vos données pour nous conformer aux lois applicables), résoudre des litiges et faire respecter nos accords et politiques légaux."
-                      },
-                      "article2": {
-                        "articletitle": "",
-                        "content": "La Société conservera également les données d'utilisation à des fins d'analyse interne. Les données d'utilisation sont généralement conservées pendant une période plus courte, sauf lorsque ces données sont utilisées pour renforcer la sécurité ou améliorer la fonctionnalité de notre Service, ou lorsque nous sommes légalement obligés de conserver ces données pendant des périodes de temps plus longues."
-                      }
-                    },
+              "article2": {
+                "articletitle": "Balises Web.",
+                "content": "Certaines sections de notre Service et nos emails peuvent contenir de petits fichiers électroniques connus sous le nom de balises web (également appelées gifs clairs, pixel tags et gifs mono-pixel) qui permettent à la Société, par exemple, de compter les utilisateurs qui ont visité ces pages ou ouvert un e-mail et pour d'autres statistiques liées au site web (par exemple, enregistrer la popularité d'une certaine section et vérifier l'intégrité du système et du serveur). "},
+              "article3": {
+                "articletitle": "",
+                "content": "Les Cookies peuvent être des Cookies 'Persistants' ou 'de Session'. Les Cookies Persistants restent sur votre ordinateur personnel ou dispositif mobile lorsque vous êtes hors ligne, tandis que les Cookies de Session sont supprimés dès que vous fermez votre navigateur web. En savoir plus sur les cookies sur l'article du site web des Politiques de Confidentialité."},
+              "article4": {
+                "articletitle": "",
+                "content": "Nous utilisons à la fois des Cookies de Session et Persistants pour les objectifs énoncés ci-dessous :"},
+              "article5": {
+                "articletitle": "Cookies Nécessaires / Essentiels :",
+                "content": "Type : Cookies de Session;Administré par : Nous; Objectif : Ces Cookies sont essentiels pour vous fournir des services disponibles via le Site Web et pour vous permettre d'utiliser certaines de ses fonctionnalités. Ils aident à authentifier les utilisateurs et à prévenir l'utilisation frauduleuse des comptes utilisateurs. Sans ces Cookies, les services que vous avez demandés ne peuvent pas être fournis, et nous utilisons seulement ces Cookies pour vous fournir ces services."},
+              "article6": {
+                "articletitle": "Cookies de Politique / Acceptation des Cookies :",
+                "content": "Type : Cookies Persistants; Administré par : Nous; Objectif : Ces Cookies identifient si les utilisateurs ont accepté l'utilisation de cookies sur le Site Web."},
+              "article7": {
+                "articletitle": "Cookies de Fonctionnalité :",
+                "content": "Type : Cookies Persistants; Administré par : Nous; Objectif : Ces Cookies nous permettent de nous souvenir des choix que vous faites lorsque vous utilisez le Site Web, comme de vous rappeler vos détails de connexion ou votre préférence de langue. L'objectif de ces Cookies est de vous fournir une expérience plus personnelle et d'éviter que vous ayez à ressaisir vos préférences chaque fois que vous utilisez le Site Web."},
+              "article8": {
+                "articletitle": "",
+                "content": "Pour plus d'informations sur les cookies que nous utilisons et vos choix concernant les cookies, veuillez visiter notre Politique de Cookies ou la section Cookies de notre Politique de Confidentialité."}
+            },
+            "section6": {
+              "sectiontitle": "Utilisation de Vos Données Personnelles",
+              "article1": {
+                "articletitle": "La Société peut utiliser les Données Personnelles aux fins suivantes :",
+                "content": "Pour fournir et maintenir notre Service, y compris pour surveiller l'utilisation de notre Service."
+              },
+              "article2": {
+                "articletitle": "",
+                "content": "Pour gérer Votre Compte : pour gérer votre inscription en tant qu'utilisateur du Service. Les Données Personnelles que vous fournissez peuvent vous donner accès à différentes fonctionnalités du Service qui sont disponibles pour vous en tant qu'utilisateur enregistré."
+              },
+              "article3": {
+                "articletitle": "",
+                "content": "Pour l'exécution d'un contrat : le développement, la conformité et l'entreprise du contrat d'achat pour les produits, articles ou services que vous avez achetés ou de tout autre contrat avec Nous à travers le Service."
+              },
+              "article4": {
+                "articletitle": "",
+                "content": "Pour vous contacter : pour vous contacter par e-mail, appels téléphoniques, SMS, ou autres formes équivalentes de communication électronique, telles que les notifications push d'une application mobile concernant les mises à jour ou les communications informatives liées aux fonctionnalités, produits ou services contractés, y compris les mises à jour de sécurité, lorsque cela est nécessaire ou raisonnable pour leur mise en œuvre."
+              },
+              "article5": {
+                "articletitle": "",
+                "content": "Pour gérer vos demandes : pour répondre et gérer vos demandes à notre égard."
+              },
+              "article6": {
+                "articletitle": "",
+                "content": "Pour d'autres fins : Nous pouvons utiliser vos informations à d'autres fins, telles que l'analyse de données, l'identification des tendances d'utilisation, la détermination de l'efficacité de nos campagnes promotionnelles et pour évaluer et améliorer notre Service, produits, services, marketing et votre expérience."
+              },
+              "article7": {
+                "articletitle": "Nous pouvons partager vos informations personnelles dans les situations suivantes :",
+                "content": "Avec des fournisseurs de services : Nous pouvons partager vos informations personnelles avec des fournisseurs de services pour surveiller et analyser l'utilisation de notre Service, pour vous contacter. "
+              },
+              "article8": {
+                "articletitle": "",
+                "content": "Avec des partenaires commerciaux : Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous proposer certains produits, services ou promotions. "
+              }
+          },
+          "section7": {
+              "sectiontitle": "Conservation de vos données personnelles",
+              "article1": {
+                "articletitle": "",
+                "content": "La Société conservera vos données personnelles uniquement aussi longtemps que nécessaire aux fins énoncées dans cette politique de confidentialité. Nous conserverons et utiliserons vos données personnelles dans la mesure nécessaire pour nous conformer à nos obligations légales (par exemple, si nous sommes tenus de conserver vos données pour nous conformer aux lois applicables), résoudre des litiges et faire respecter nos accords et politiques légaux."
+              },
+              "article2": {
+                "articletitle": "",
+                "content": "La Société conservera également les données d'utilisation à des fins d'analyse interne. Les données d'utilisation sont généralement conservées pendant une période plus courte, sauf lorsque ces données sont utilisées pour renforcer la sécurité ou améliorer la fonctionnalité de notre Service, ou lorsque nous sommes légalement obligés de conserver ces données pendant des périodes de temps plus longues."
+              }
+          },
 
-                    "section8": {
-                      "sectiontitle": "Transfert de vos données personnelles",
-                      "article1": {
-                        "articletitle": "",
-                        "content": "Vos informations, y compris les données personnelles, sont traitées dans les bureaux d'exploitation de la Société et dans tout autre lieu où les parties impliquées dans le traitement sont situées. Cela signifie que ces informations peuvent être transférées vers — et maintenues sur — des ordinateurs situés en dehors de votre état, province, pays ou autre juridiction gouvernementale où les lois sur la protection des données peuvent différer de celles de votre juridiction."
-                      },
-                      "article2": {
-                        "articletitle": "",
-                        "content": "Votre consentement à cette politique de confidentialité suivi de votre soumission de telles informations représente votre accord à ce transfert."
-                      },
-                      "article3": {
-                        "articletitle": "",
-                        "content": "La Société prendra toutes les mesures raisonnablement nécessaires pour garantir que vos données sont traitées de manière sécurisée et conformément à cette politique de confidentialité et aucun transfert de vos données personnelles n'aura lieu vers une organisation ou un pays à moins que des contrôles adéquats soient en place, y compris la sécurité de vos données et autres informations personnelles."
-                      }
-                    },
-                    "section9": {
-                      "sectiontitle": "Supprimer vos données personnelles",
-                      "article1": {
-                        "articletitle": "",
-                        "content": "Vous avez le droit de supprimer ou de demander que nous aidions à supprimer les données personnelles que nous avons collectées à votre sujet. Notre service peut vous donner la possibilité de supprimer certaines informations vous concernant depuis le service."
-                      },
-                      "article2": {
-                        "articletitle": "",
-                        "content": "Vous pouvez nous contacter pour demander l'accès, la correction ou la suppression de toute information personnelle que vous nous avez fournie. Veuillez noter, cependant, que nous pouvons être tenus de conserver certaines informations lorsque nous avons une obligation légale ou une base légale pour le faire."
-                      }
-                    },
-                    "section10": {
-                      "sectiontitle": "Divulgation de vos données personnelles",
-                      "article1": {
-                        "articletitle": "Transactions commerciales",
-                        "content": "Si la Société est impliquée dans une fusion, acquisition ou vente d'actifs, vos données personnelles peuvent être transférées. Nous vous informerons avant que vos données personnelles soient transférées et soumises à une politique de confidentialité différente."
-                      },
-                      "article2": {
-                        "articletitle": "Application de la loi",
-                        "content": "Dans certaines circonstances, la Société peut être tenue de divulguer vos données personnelles si elle est tenue de le faire par la loi ou en réponse à des demandes valides d'autorités publiques (par exemple, un tribunal ou une agence gouvernementale)."
-                      },
-                      "article3": {
-                        "articletitle": "Autres exigences légales",
-                        "content": "La Société peut divulguer vos données personnelles en croyant de bonne foi que cette action est nécessaire pour : Se conformer à une obligation légale; Protéger et défendre les droits ou les biens de la Société; Prévenir ou enquêter sur un éventuel acte répréhensible en relation avec le Service; Protéger la sécurité personnelle des utilisateurs du Service ou du public; Se protéger contre une responsabilité légale Sécurité de vos données personnelles;"
-                      },
-                      "article4": {
-                        "articletitle": "",
-                        "content": "La sécurité de vos données personnelles est importante pour nous, mais rappelez-vous qu'aucune méthode de transmission sur Internet ou méthode de stockage électronique n'est sûre à 100 %. Bien que nous nous efforcions d'utiliser des moyens commercialement acceptables pour protéger vos données personnelles, nous ne pouvons pas garantir leur sécurité absolue."
-                      },
-                      "article5": {
-                        "articletitle": "Confidentialité des enfants",
-                        "content": "Notre service ne s'adresse pas à toute personne âgée de moins de 18 ans. Nous ne collectons pas sciemment des informations personnellement identifiables de toute personne âgée de moins de 18 ans. Si vous êtes un parent ou un tuteur et que vous êtes conscient que votre enfant nous a fourni des données personnelles, veuillez nous contacter. Si nous prenons conscience que nous avons collecté des données personnelles de toute personne âgée de moins de 18 ans sans vérification du consentement parental, nous prenons des mesures pour supprimer ces informations de nos serveurs. Si nous devons nous appuyer sur le consentement comme base légale pour traiter vos informations et que votre pays exige le consentement d'un parent, nous pouvons exiger le consentement de votre parent avant de collecter et d'utiliser ces informations."
-                      },
-                      "article6": {
-                        "articletitle": "Liens vers d'autres sites Web",
-                        "content": "Notre Service peut contenir des liens vers d'autres sites Web qui ne sont pas exploités par Nous. Si vous cliquez sur un lien tiers, vous serez dirigé vers le site de ce tiers. Nous vous conseillons vivement de consulter la politique de confidentialité de chaque site que vous visitez.Nous n'avons aucun contrôle sur et n'assumons aucune responsabilité pour le contenu, les politiques de confidentialité ou les pratiques de tout site ou service tiers."
-                      }
-                    },
-                    "section11": {
-                      "sectiontitle": "Modifications de cette politique de confidentialité",
-                      "article1": {
-                        "articletitle": "",
-                        "content": "Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page. Nous vous informerons par e-mail et/ou par un avis bien visible sur notre Service, avant que le changement ne devienne effectif et mettrons à jour la date de 'Dernière mise à jour' en haut de cette politique de confidentialité. Vous êtes conseillé de revoir cette politique de confidentialité périodiquement pour tout changement. Les modifications de cette politique de confidentialité sont effectives lorsqu'elles sont publiées sur cette page."
-                      }      
-      },
-      "section12": {
-        "sectiontitle": "Contactez-nous",
-        "article1": {
-          "articletitle": "",
-          "content": "Si vous avez des questions sur cette politique de confidentialité, vous pouvez nous contacter : casa-marerio@gmail.com"
-        }
-    }
+          "section8": {
+              "sectiontitle": "Transfert de vos données personnelles",
+              "article1": {
+                "articletitle": "",
+                "content": "Vos informations, y compris les données personnelles, sont traitées dans les bureaux d'exploitation de la Société et dans tout autre lieu où les parties impliquées dans le traitement sont situées. Cela signifie que ces informations peuvent être transférées vers — et maintenues sur — des ordinateurs situés en dehors de votre état, province, pays ou autre juridiction gouvernementale où les lois sur la protection des données peuvent différer de celles de votre juridiction."
+              },
+              "article2": {
+                "articletitle": "",
+                "content": "Votre consentement à cette politique de confidentialité suivi de votre soumission de telles informations représente votre accord à ce transfert."
+              },
+              "article3": {
+                "articletitle": "",
+                "content": "La Société prendra toutes les mesures raisonnablement nécessaires pour garantir que vos données sont traitées de manière sécurisée et conformément à cette politique de confidentialité et aucun transfert de vos données personnelles n'aura lieu vers une organisation ou un pays à moins que des contrôles adéquats soient en place, y compris la sécurité de vos données et autres informations personnelles."
+              }
+          },
+          "section9": {
+              "sectiontitle": "Supprimer vos données personnelles",
+              "article1": {
+                  "articletitle": "",
+                  "content": "Vous avez le droit de supprimer ou de demander que nous aidions à supprimer les données personnelles que nous avons collectées à votre sujet. Notre service peut vous donner la possibilité de supprimer certaines informations vous concernant depuis le service."
+              },
+              "article2": {
+                  "articletitle": "",
+                  "content": "Vous pouvez nous contacter pour demander l'accès, la correction ou la suppression de toute information personnelle que vous nous avez fournie. Veuillez noter, cependant, que nous pouvons être tenus de conserver certaines informations lorsque nous avons une obligation légale ou une base légale pour le faire."
+              }
+          },
+          "section10": {
+              "sectiontitle": "Divulgation de vos données personnelles",
+              "article1": {
+                  "articletitle": "Transactions commerciales",
+                  "content": "Si la Société est impliquée dans une fusion, acquisition ou vente d'actifs, vos données personnelles peuvent être transférées. Nous vous informerons avant que vos données personnelles soient transférées et soumises à une politique de confidentialité différente."
+              },
+              "article2": {
+                  "articletitle": "Application de la loi",
+                  "content": "Dans certaines circonstances, la Société peut être tenue de divulguer vos données personnelles si elle est tenue de le faire par la loi ou en réponse à des demandes valides d'autorités publiques (par exemple, un tribunal ou une agence gouvernementale)."
+              },
+              "article3": {
+                  "articletitle": "Autres exigences légales",
+                  "content": "La Société peut divulguer vos données personnelles en croyant de bonne foi que cette action est nécessaire pour : Se conformer à une obligation légale; Protéger et défendre les droits ou les biens de la Société; Prévenir ou enquêter sur un éventuel acte répréhensible en relation avec le Service; Protéger la sécurité personnelle des utilisateurs du Service ou du public; Se protéger contre une responsabilité légale Sécurité de vos données personnelles;"
+              },
+              "article4": {
+                  "articletitle": "",
+                  "content": "La sécurité de vos données personnelles est importante pour nous, mais rappelez-vous qu'aucune méthode de transmission sur Internet ou méthode de stockage électronique n'est sûre à 100 %. Bien que nous nous efforcions d'utiliser des moyens commercialement acceptables pour protéger vos données personnelles, nous ne pouvons pas garantir leur sécurité absolue."
+              },
+              "article5": {
+                  "articletitle": "Confidentialité des enfants",
+                  "content": "Notre service ne s'adresse pas à toute personne âgée de moins de 18 ans. Nous ne collectons pas sciemment des informations personnellement identifiables de toute personne âgée de moins de 18 ans. Si vous êtes un parent ou un tuteur et que vous êtes conscient que votre enfant nous a fourni des données personnelles, veuillez nous contacter. Si nous prenons conscience que nous avons collecté des données personnelles de toute personne âgée de moins de 18 ans sans vérification du consentement parental, nous prenons des mesures pour supprimer ces informations de nos serveurs. Si nous devons nous appuyer sur le consentement comme base légale pour traiter vos informations et que votre pays exige le consentement d'un parent, nous pouvons exiger le consentement de votre parent avant de collecter et d'utiliser ces informations."
+              },
+              "article6": {
+                  "articletitle": "Liens vers d'autres sites Web",
+                  "content": "Notre Service peut contenir des liens vers d'autres sites Web qui ne sont pas exploités par Nous. Si vous cliquez sur un lien tiers, vous serez dirigé vers le site de ce tiers. Nous vous conseillons vivement de consulter la politique de confidentialité de chaque site que vous visitez.Nous n'avons aucun contrôle sur et n'assumons aucune responsabilité pour le contenu, les politiques de confidentialité ou les pratiques de tout site ou service tiers."
+              }
+          },
+          "section11": {
+              "sectiontitle": "Modifications de cette politique de confidentialité",
+               "article1": {
+                  "articletitle": "",
+                  "content": "Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page. Nous vous informerons par e-mail et/ou par un avis bien visible sur notre Service, avant que le changement ne devienne effectif et mettrons à jour la date de 'Dernière mise à jour' en haut de cette politique de confidentialité. Vous êtes conseillé de revoir cette politique de confidentialité périodiquement pour tout changement. Les modifications de cette politique de confidentialité sont effectives lorsqu'elles sont publiées sur cette page."
+                }      
+          },
+          "section12": {
+              "sectiontitle": "Contactez-nous",
+              "article1": {
+                  "articletitle": "",
+                  "content": "Si vous avez des questions sur cette politique de confidentialité, vous pouvez nous contacter : casa-marerio@gmail.com"
+              }
+          }
   }
 }
 
