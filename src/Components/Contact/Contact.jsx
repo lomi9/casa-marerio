@@ -1,19 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useTranslation } from "react-i18next";
 import emailjs from 'emailjs-com';
 
 export default function Contact() {
     const { t } = useTranslation();
     const [formSent, setFormSent] = useState(false);
+    const formRef = useRef(); 
+
     const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-const userID = process.env.REACT_APP_EMAILJS_USER_ID;
+    const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const userID = process.env.REACT_APP_EMAILJS_USER_ID;
 
 
     const sendEmail = (e) => {
         e.preventDefault(); // Empêche le formulaire d'envoyer une requête POST classique
 
-        emailjs.sendForm(serviceID, templateID, form.current, userID)
+        emailjs.sendForm(serviceID, templateID, formRef.current, userID)
             .then((result) => {
                 console.log(result.text);
                 setFormSent(true); // Mettre à jour l'état pour indiquer l'envoi réussi
@@ -24,7 +26,7 @@ const userID = process.env.REACT_APP_EMAILJS_USER_ID;
 
     return (
         <div className="contact-container">
-            <form name="contact" className="contact-container-form" onSubmit={sendEmail}>
+            <form ref={formRef} name="contact" className="contact-container-form" onSubmit={sendEmail}>
                 <input type="hidden" name="form-name" value="contact" />
 
                 <div className="input-group">
