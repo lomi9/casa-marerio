@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/casa-marerio/static/css/main.6bcdce61.css",
+    "main.js": "/casa-marerio/static/js/main.2b6d3d1a.js",
+    "static/media/portimao-mer-rochers.webp": "/casa-marerio/static/media/portimao-mer-rochers.e54d88373aceb7247c02.webp",
+    "static/media/portimao-salades.webp": "/casa-marerio/static/media/portimao-salades.653e26ff1ba04a382275.webp",
+    "static/media/portimao-bougie.webp": "/casa-marerio/static/media/portimao-bougie.91905361af34719d43c1.webp",
+    "static/media/portimao-vue2.webp": "/casa-marerio/static/media/portimao-vue2.d5132bcf19f5c7bb597e.webp",
+    "static/media/portimao-hall.webp": "/casa-marerio/static/media/portimao-hall.3339a4d006a1eb8a368c.webp",
+    "static/media/portimao-plage-1.webp": "/casa-marerio/static/media/portimao-plage-1.cf14e500c6b570bc52d8.webp",
+    "static/media/portimao-chambre-1.webp": "/casa-marerio/static/media/portimao-chambre-1.e95f3d63ffdfcf321ec1.webp",
+    "static/media/portimao-chambre-2.webp": "/casa-marerio/static/media/portimao-chambre-2.b5e1d0586fc483b5b92e.webp",
+    "static/media/portimao-chambre-3.webp": "/casa-marerio/static/media/portimao-chambre-3.43bae7db537b64983ba8.webp",
+    "static/media/portimao-sable.webp": "/casa-marerio/static/media/portimao-sable.33f755a39bc463d3c675.webp",
+    "static/media/portimao-fleurs.webp": "/casa-marerio/static/media/portimao-fleurs.1d988bc26017dee85049.webp",
+    "static/media/portimao-piscine-1.webp": "/casa-marerio/static/media/portimao-piscine-1.c703971a93d527b8c497.webp",
+    "static/media/portimao-coquillages.webp": "/casa-marerio/static/media/portimao-coquillages.034c64ebb5f8fffd5c10.webp",
+    "static/media/portimao-vue-marina-1.webp": "/casa-marerio/static/media/portimao-vue-marina-1.4810abe14f446e582dac.webp",
+    "static/media/portimao-chateau.webp": "/casa-marerio/static/media/portimao-chateau.99e7b0fb5b2a1da52d67.webp",
+    "static/media/portimao-vue-mer-1.webp": "/casa-marerio/static/media/portimao-vue-mer-1.56f475b5b944ff3c9029.webp",
+    "static/media/portimao-douche.webp": "/casa-marerio/static/media/portimao-douche.06b2a949c9aca68b19bd.webp",
+    "static/media/portimao-cuisine-1.webp": "/casa-marerio/static/media/portimao-cuisine-1.8bf1f857069c335409cf.webp",
+    "static/media/portimao-salon-2.webp": "/casa-marerio/static/media/portimao-salon-2.b64043611572994a9e71.webp",
+    "static/media/portimao-chambre-4.webp": "/casa-marerio/static/media/portimao-chambre-4.4e7a0c764ae1f2322e50.webp",
+    "static/media/portimao-salon-1.webp": "/casa-marerio/static/media/portimao-salon-1.ea5ba650592e0db7397d.webp",
+    "static/media/portimao-cuisine-2.webp": "/casa-marerio/static/media/portimao-cuisine-2.e7eb3ba5ffcf3f20ca2b.webp",
+    "static/media/logo-casa-marerio-grand.png": "/casa-marerio/static/media/logo-casa-marerio-grand.3e2b3a67f780507be916.png",
+    "static/media/logo-casa-marerio-scroll.png": "/casa-marerio/static/media/logo-casa-marerio-scroll.62930a017a22b6ced31b.png",
+    "static/media/logo-contact.png": "/casa-marerio/static/media/logo-contact.72f1b4affc9f88c66d53.png",
+    "static/media/logo-casa-marerio-tranparant.png": "/casa-marerio/static/media/logo-casa-marerio-tranparant.a33e3bcd44eef7f25368.png",
+    "index.html": "/casa-marerio/index.html",
+    "static/media/pt.webp": "/casa-marerio/static/media/pt.ed1b8fd4bdbb30b5a8cf.webp",
+    "main.6bcdce61.css.map": "/casa-marerio/static/css/main.6bcdce61.css.map",
+    "main.2b6d3d1a.js.map": "/casa-marerio/static/js/main.2b6d3d1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bcdce61.css",
+    "static/js/main.2b6d3d1a.js"
+  ]
+}
