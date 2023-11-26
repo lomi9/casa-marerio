@@ -37,7 +37,7 @@ export default function Navbar() {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, []);
+  }, [i18n]);
 
   const languageOptions = [
     { value: 'fr', label: <><img src={flagFR} alt="FR" className="flag-icon" /> FR</>, },
