@@ -6,7 +6,7 @@
     justify-content: center;
 &-text{
     display: flex;
-    padding: 5rem 5px;
+    padding: 5rem 32px;
     @include title-font-style;
     color: $main-background-color;
     font-size: 2rem;
