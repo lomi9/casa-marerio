@@ -52,8 +52,8 @@ return (
   "description": "Logement de vacances pour 4 personnes, avec vue sur la mer et sur la marina, entièrement équipé. ",
   "image": "https://www.casa-marerio.com/assets/portimao-chambre-1.webp",
   "address": {
-    "@type": "Rua Engenheiro José de Bívar",
-    "streetAddress": "Adresse de la rue",
+    "@type": "Adresse de la rue",
+    "streetAddress": "Rua Engenheiro José de Bívar",
     "addressLocality": "Portimão",
     "addressRegion": "Algarve",
     "postalCode": "8500-802",

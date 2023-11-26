@@ -151,6 +151,7 @@
 
     "home" : {
   
+    "title" : "Casa-Marerio Blog",
     "title1": "Portimão",
     "subtitle1": "Faites un tour d'horizon des activités et bonnes adresses à ne pas manquer !",
     "title2": "",
@@ -318,9 +319,16 @@
         "ogdescription" : "Appartement de vacances pour 4 personnes à Portimão, avec vue sur la mer et sur la marina."
       },
       "logement":{
+        "title":"Casa-Marerio",
         "description" : "Appartement de vacances entièrement équipé à Portimão, avec vue sur la mer et sur la marina.",
         "ogtitle" : "Casa-Marerio, description du logement",
         "ogdescription" : "Appartement de vacances entièrement équipé à Portimão, avec vue sur la mer et sur la marina."
+      },
+      "blog":{
+        "title":"Casa-Marerio Blog",
+        "description" : "Recommandation pour votre séjour à Portimão.",
+        "ogtitle" : "Casa-Marerio, activités et bonnes adresses à proximité",
+        "ogdescription" : "Recommandation pour votre séjour à Portimão."
       }
 
     },
@@ -512,7 +520,7 @@
               "sectiontitle": "Contactez-nous",
               "article1": {
                   "articletitle": "",
-                  "content": "Si vous avez des questions sur cette politique de confidentialité, vous pouvez nous contacter : casa-marerio@gmail.com"
+                  "content": "Si vous avez des questions sur cette politique de confidentialité, vous pouvez nous contacter : casamarerio@gmail.com"
               }
           }
   }, 
@@ -533,7 +541,7 @@
       },
       "article4":{
         "title" : "4. Annulations et Remboursements",
-        "content" : "Les demandes d'annulation doivent être notifiées par écrit à casa-marerio@gmail.com. Les annulations effectuées plus de 7 jours avant la date d'arrivée seront remboursées à hauteur de 50%. Les annulations effectuées moins de 48 heures avant la date d'arrivée ne seront pas remboursées."
+        "content" : "Les demandes d'annulation doivent être notifiées par écrit à casamarerio@gmail.com. Les annulations effectuées plus de 7 jours avant la date d'arrivée seront remboursées à hauteur de 50%. Les annulations effectuées moins de 48 heures avant la date d'arrivée ne seront pas remboursées."
       },
       "article5":{
         "title" : "5. Utilisation du Logement",
@@ -569,7 +577,7 @@
       },
       "article13":{
         "title" : "13. Contact",
-        "content" : "Pour toute question ou préoccupation, veuillez contacter Casa-Marerio à l'adresse e-mail casa-marerio@gmail.com."
+        "content" : "Pour toute question ou préoccupation, veuillez contacter Casa-Marerio à l'adresse e-mail casamarerio@gmail.com."
       }
 
 }

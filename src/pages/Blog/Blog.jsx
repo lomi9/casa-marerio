@@ -11,21 +11,19 @@ export default function Blog() {
     return(
     <>
     <Helmet>
-          {/* Balises Meta pour SEO */}
-          <title>{t('blog.home.title')}</title>
+          <title>{t('helmet.blog.title')}</title>
                 <meta name="description" content={t('blog.home.description')} />
 
-                {/* Balises Open Graph */}
-                <meta property="og:title" content={t('blog.home.title')} />
-                <meta property="og:description" content={t('blog.home.description')} />
+                <meta property="og:title" content={t('helmet.blog.ogtitle')} />
+                <meta property="og:description" content={t('helmetblog.ogdescription')} />
                 <meta property="og:image" content="URL_de_l'image" />
                 <meta property="og:url" content="URL_de_la_page_de_blog" />
                 <meta property="og:type" content="website" />
 
                 {/* Balises Twitter Card */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content={t('blog.home.title')} />
-                <meta name="twitter:description" content={t('blog.home.description')} />
+                <meta name="twitter:title" content={t('helmet.blog.title')} />
+                <meta name="twitter:description" content={t('helmet.blog.description')} />
                 <meta name="twitter:image" content="URL_de_l'image" />
                 <script type="application/ld+json">
                 {`

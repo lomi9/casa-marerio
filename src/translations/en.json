@@ -160,7 +160,7 @@
   "blog": {
 
     "home" : {
-  
+      "title" : "Casa-Marerio Blog",
     "title1": "Portimão",
     "subtitle1": "Discover our selection of activities and good adresses.",
     "title2": "",
@@ -315,9 +315,16 @@
       "ogdescription" : "Holiday flat for 4 people in Portimão, with sea and marina views."
     },
     "logement":{
+      "title":"Casa-Marerio",
       "description" : "Holiday flat for 4 people in Portimão, with sea and marina views.",
       "ogtitle" : "Casa-Marerio, flat description",
       "ogdescription" : "Fully-equipped holiday flat in Portimão, with sea and marina views."
+    },
+    "blog": {
+      "title": "Casa-Marerio Blog",
+      "description": "Recommendations for your stay in Portimão.",
+      "ogtitle": "Casa-Marerio, activities and good addresses nearby",
+      "ogdescription": "Recommendations for your stay in Portimão."
     }
 
   },
@@ -507,7 +514,7 @@
         "sectiontitle": "Contact us",
         "article1": {
             "articletitle": "",
-            "content": "If you have any questions about this privacy policy, please contact us: casa-marerio@gmail.com"
+            "content": "If you have any questions about this privacy policy, please contact us: casamarerio@gmail.com"
         }
     }
 

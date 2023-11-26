@@ -49,7 +49,7 @@ return (
             "logo": "https://www.casa-marerio.com/assets/logo-contact.png",
             "contactPoint": {
                 "@type": "ContactPoint",
-                "email": "contact@casa-marerio.com",
+                "email": "casamarerio@gmail.com",
                 "contactType": "customer service"
             }
         },
@@ -66,8 +66,8 @@ return (
             }]
         }
         "address": {
-            "@type": "Rua Engenheiro José de Bívar",
-            "streetAddress": "Adresse de la rue",
+            "@type": "Adresse",
+            "streetAddress": "Rua Engenheiro José de Bívar",
             "addressLocality": "Portimão",
             "addressRegion": "Algarve",
             "postalCode": "8500-802",

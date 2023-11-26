@@ -147,6 +147,7 @@
 
 "blog": {
   "home" : {
+    "title" : "Casa-Marerio Blog",
     "title1": "Portimão",
     "subtitle1": "Descubra a nossa seleção de atividades e locais recomendados.",
     "title2": "",
@@ -271,10 +272,18 @@
     "ogdescription": "Apartamento para férias para 4 pessoas em Portimão, com vista para o mar e para a marina."
   },
   "logement": {
+    "title":"Casa-Marerio",
     "description": "Apartamento para férias para 4 pessoas em Portimão, com vista para o mar e para a marina.",
     "ogtitle": "Casa-Marerio, descrição do apartamento",
     "ogdescription": "Apartamento de férias totalmente equipado em Portimão, com vista para o mar e para a marina."
+  },
+  "blog": {
+    "title": "Blog da Casa-Marerio",
+    "description": "Recomendações para a sua estadia em Portimão.",
+    "ogtitle": "Casa-Marerio, atividades e bons endereços nas proximidades",
+    "ogdescription": "Recomendações para a sua estadia em Portimão."
   }
+  
 },
 "errorPage": {
   "title": "Erro",
@@ -467,7 +476,7 @@
     "sectiontitle": "Contate-nos",
     "article1": {
       "articletitle": "",
-      "content": "Se você tem alguma dúvida sobre esta política de privacidade, entre em contato conosco: casa-marerio@gmail.com"
+      "content": "Se você tem alguma dúvida sobre esta política de privacidade, entre em contato conosco: casamarerio@gmail.com"
     }
   }
   
