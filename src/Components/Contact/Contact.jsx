@@ -26,8 +26,8 @@ export default function Contact() {
 
     return (
         <div className="contact-container">
-            <form ref={formRef} name="contact" className="contact-container-form" onSubmit={sendEmail}>
-                <input type="hidden" name="form-name" value="contact" />
+            <form ref={formRef} name="template_clst4ep" className="contact-container-form" onSubmit={sendEmail}>
+                <input type="hidden" name="form-name" value="template_clst4ep" />
 
                 <div className="input-group">
                     <label htmlFor="name">{t('contact.form.name')}</label>
