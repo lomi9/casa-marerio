@@ -515,7 +515,64 @@
                   "content": "Si vous avez des questions sur cette politique de confidentialité, vous pouvez nous contacter : casa-marerio@gmail.com"
               }
           }
-  }
+  }, 
+
+  "conditions" : {
+      "title" : "Conditions générales de réservation de séjour Casa-Marerio",
+      "article1":{
+         "title" : "1. Introduction",
+         "content" : "Ces conditions générales régissent les réservations de l'appartement de vacances situé à [Adresse Complète de la Propriété]. En effectuant une réservation, vous acceptez de vous conformer et d'être lié par ces conditions."
+      },
+      "article2":{
+        "title" : "2. Réservations",
+        "content" : "Les réservations peuvent être effectuées en ligne via casa-marerio.com. Une réservation est considérée comme confirmée une fois que casa-marerio a reçu le montant du coût total de la location, ainsi qu'une copie lisible du passeport ou de la pièce d'identité de la totalité des locataires majeurs occupant le logement durant la période de réservation doit être fournie. Le paiement complet doit être reçu au moins [nombre] jours avant la date d'arrivée. Une fois ces conditions satisfaites, une confirmation de réservation vous sera envoyée."
+      },
+      "article3":{
+        "title" : "3. Paiements",
+        "content" : "Le paiement complet doit être reçu au moins 7 jours avant la date d'arrivée. Les paiements peuvent être effectués par carte bancaire."
+      },
+      "article4":{
+        "title" : "4. Annulations et Remboursements",
+        "content" : "Les demandes d'annulation doivent être notifiées par écrit à casa-marerio@gmail.com. Les annulations effectuées plus de 7 jours avant la date d'arrivée seront remboursées à hauteur de 50%. Les annulations effectuées moins de 48 heures avant la date d'arrivée ne seront pas remboursées."
+      },
+      "article5":{
+        "title" : "5. Utilisation du Logement",
+        "content" : "Le logement est louée pour des vacances à court terme uniquement et ne peut être utilisée à d'autres fins sans consentement préalable écrit. Le nombre maximum de visiteurs est de 4 personnes. Il est strictement interdit de faire séjourner plus de 4 personnes dans le logement. De plus, l'organisation de soirées et tout événement bruyant sont interdits afin de respecter la tranquillité du voisinage. Il est également interdit de fumer dans le logement et au sein de la résidence."
+      },
+      "article6":{
+        "title" : "6. Arrivée et Départ Autonomes",
+        "content" : "L'appartement de vacances offre un système d'arrivée et de départ autonomes pour votre commodité. Les instructions détaillées pour l'accès autonome seront fournies avant votre arrivée. L'heure d'arrivée est fixée à [heure d'arrivée, par exemple, 15h00] et l'heure de départ à [heure de départ, par exemple, 11h00]. Il est impératif de respecter ces horaires pour assurer une transition en douceur pour tous les locataires. En cas de besoin de départ tardif ou d'arrivée anticipée, veuillez en faire la demande au moins [nombre de jours] jours à l'avance. Cette demande sera sujette à disponibilité et peut entraîner des frais supplémentaires."
+      },
+      "article7":{
+        "title" : "7. Responsabilités du Locataire",
+        "content" : "Le locataire s'engage à maintenir le logement propre et en bon état, et à signaler tout dommage ou problème immédiatement à Casa-Marerio."
+      },
+      "article8":{
+        "title" : "8. Accès à la Propriété",
+        "content" : "Casa-Marerio se réserve le droit d'accéder à la propriété pour des réparations urgentes ou des inspections régulières."
+      },
+      "article9":{
+        "title" : "9. Non-responsabilité",
+        "content" : "Casa-Marerio ne peut être tenu responsable des accidents, blessures ou maladies qui surviennent aux locataires ou à leurs invités à la suite de l'utilisation de la propriété. Les locataires sont responsables de la souscription d'une assurance voyage appropriée."
+      },
+      "article10":{
+        "title" : "10. Force Majeure",
+        "content" : "Casa-Marerio ne sera pas tenu responsable de l'impossibilité de remplir ses obligations en cas de force majeure."
+      },
+      "article11":{
+        "title" : "11. Droit Applicable et Juridiction",
+        "content" : "Ces conditions sont régies par la loi du Portugal et tout litige sera soumis à la juridiction exclusive des tribunaux du Portugal."
+      },
+      "article12":{
+        "title" : "12. Modifications des Conditions",
+        "content" : "Casa-Marerio se réserve le droit de modifier ces conditions à tout moment. Les locataires seront informés des modifications importantes avant leur effet."
+      },
+      "article13":{
+        "title" : "13. Contact",
+        "content" : "Pour toute question ou préoccupation, veuillez contacter Casa-Marerio à l'adresse e-mail casa-marerio@gmail.com."
+      }
+
+}
 }
 
 

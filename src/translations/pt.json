@@ -172,36 +172,6 @@
     "item4": {
       "title1": "Melhores lugares para ir"
     }
-  }
-},
-
-"blog": {
-  "home" : {
-    "title1": "Portimão",
-    "subtitle1": "Descubra a nossa seleção de atividades e locais recomendados.",
-    "title2": "",
-    "subtitle2": "Escolha uma categoria",
-    "title3": "Explore as nossas recomendações perto do apartamento"
-  },
-
-  "navbar" : {
-    "title1": "Portimão",
-    "subtitle1": "Selecionamos para você as atividades e locais recomendados...",
-    "title2": "",
-    "subtitle2": "Escolha uma categoria",
-    
-    "item1": {
-      "title1": "Praias"
-    },
-    "item2": {
-      "title1": "Atividades"
-    },
-    "item3": {
-      "title1": "Restaurantes"
-    },
-    "item4": {
-      "title1": "Melhores lugares para ir"
-    }
   },
 
   "section2" : {
