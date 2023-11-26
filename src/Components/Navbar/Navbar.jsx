@@ -16,7 +16,7 @@ import flagPT from "../../assets/pt.webp";
 
 export default function Navbar() {
   const { t, i18n  } = useTranslation();
-    const [scrolling, setScrolling] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const menuRef = useRef();
 
@@ -27,6 +27,11 @@ export default function Navbar() {
   };
 
   useEffect(() => {
+    const supportedLanguages = ['en', 'fr', 'pt'];
+    if (!supportedLanguages.includes(i18n.language)) {
+      i18n.changeLanguage('en');
+    }
+    
     document.addEventListener("mousedown", handleClickOutside);
 
     return () => {
