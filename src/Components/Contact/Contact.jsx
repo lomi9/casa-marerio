@@ -57,11 +57,12 @@ export default function Contact() {
                     <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
                 <p className="contact-container-msg">{formStatus.message}</p>
-
+            <div className="captcha-container">
                 <ReCAPTCHA
                    sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                     onChange={onChangeCaptcha}
                 />
+                </div>
 
                 <div className="input-group button__div">
                     <button type="submit">{t('contact.button')}</button>

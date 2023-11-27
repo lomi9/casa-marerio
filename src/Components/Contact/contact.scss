@@ -61,6 +61,14 @@ button {
 
 @media (max-width: $mobile-breakpoint ){
 
+    .captcha-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: $mobile-breakpoint ){
+
     .contact-container{
         padding: 2rem 0;
         margin: 0;
