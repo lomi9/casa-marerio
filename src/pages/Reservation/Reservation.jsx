@@ -29,6 +29,7 @@ export default function Reservation () {
         <li className="reservation__article1-list-item">{t('reservation.article1.item4')}</li>
         <li className="reservation__article1-list-item">{t('reservation.article1.item5')}</li>
       </ul>
+      <h4 className="reservation__article1-prices">{t('reservation.article1.prices')}</h4>
 
     </article>
 

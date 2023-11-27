@@ -150,7 +150,9 @@
     "item2": "O pagamento do custo total da estadia é devido no momento da reserva",
     "item3": "Em caso de cancelamento 7 dias antes da data de início da estadia, reembolsaremos o valor total",
     "item4": "Em caso de cancelamento com menos de 7 dias antes da data de início da estadia, reembolsaremos 50%",
-    "item5": "Abaixo, você tem a opção de verificar os detalhes de uma reserva anterior."
+    "item5": "Abaixo, você tem a opção de verificar os detalhes de uma reserva anterior.",
+    "prices": "Nossos Preços: 130€ por noite na temporada, 90€ por noite fora da temporada (de 01/10 a 30/04)."
+
 
 },
   "title2": "Deseja consultar uma reserva já efetuada?",

@@ -151,7 +151,9 @@
     "item2": "Payment for the total cost of the stay is due at the time of booking",
     "item3": "In case of cancellation 7 days before the start date of the stay, we will refund you in full",
     "item4": "In case of cancellation less than 7 days before the start date of the stay, we will refund 50%",
-    "item5": "Below, you have the option to review the details of a previous reservation."
+    "item5": "Below, you have the option to review the details of a previous reservation.",
+    "prices": "Our Rates: 130€ per night in season, 90€ per night off-season (from 01/10 to 30/04)."
+
 
 },
   "title2": "You want to check an existing reservation?",
