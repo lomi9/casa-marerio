@@ -57,9 +57,9 @@ export default function Contact() {
                     <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
                 <p className="contact-container-msg">{formStatus.message}</p>
-                
+
                 <ReCAPTCHA
-                    sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+                   sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                     onChange={onChangeCaptcha}
                 />
 

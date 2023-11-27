@@ -145,8 +145,19 @@
 "reservation": {
   "title": "Want to discover Portimao?",
   "text" : "Choose your dates, and book now!",
-  "title2": "Any question ?",
-  "text2" : "Contact us !"
+  "article1": {
+    "title": "Some information for your reservation:",
+    "item1": "The minimum number of nights is 2",
+    "item2": "Payment for the total cost of the stay is due at the time of booking",
+    "item3": "In case of cancellation 7 days before the start date of the stay, we will refund you in full",
+    "item4": "In case of cancellation less than 7 days before the start date of the stay, we will refund 50%",
+    "item5": "Below, you have the option to review the details of a previous reservation."
+
+},
+  "title2": "You want to check an existing reservation?",
+  "text2" : "Search for your reservation here.",
+  "title3": "Any question ?",
+  "text3" : "Contact us !"
   },
 
 

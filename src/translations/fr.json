@@ -146,8 +146,20 @@
   "reservation": {
     "title": "Vous souhaitez réserver ?",
     "text" : "Choisissez les dates qui vous conviennent, puis réservez !",
-    "title2": "Une question ?",
-    "text2" : "N'hésitez pas à nous contacter !"
+    "article1" : {
+      "title" :"Quelques informations pour votre réservation :",
+      "item1":"Le nombre de nuits minimum est de 2",
+      "item2":"Le paiement de la totalité du coût du séjour est dû lors de la réservation",
+      "item3":"En cas d'annulation 7 jours avant la date de début de séjour, nous vous remboursons en totalité ",
+      "item4":"En cas d'annulation moins de 7 jours avant la date de début de séjour, nous vous remboursons à hauteur de 50%",
+      "item5": "Ci-dessous, vous pouvez vérifier les détails d'une réservation précédente."
+
+    
+    },
+    "title2": "Vous souhaitez consulter une réservation dejà effectuée ?",
+    "text2" : "Recherchez ici votre réservation. ",
+    "title3": "Une question ?",
+    "text3" : "N'hésitez pas à nous contacter !"
   },
 
   "blog": {

@@ -1,7 +1,37 @@
 @import "../../styles/utilities.scss";
 
+.reservation__article1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: $main-background-image;
+    padding-bottom: 4rem;
+    padding-left: 35px;
+    font-family: $font-family-1;
+    color: $blue-color;
+    &-title{
+        width: 100%;
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+        font-weight: 600;
+        color: rgb(41, 28, 28);
 
-.reservation__article2{
+    }
+    &-list{
+        padding: 0 2rem;
+
+        &-item{
+            list-style-type:disc;
+            font-family: $font-family-2;
+            font-size: 0.8rem;
+            padding-top: 0.5rem;
+            color: rgb(104, 88, 88);
+
+        }
+    }
+}
+
+.reservation__article3{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -19,7 +49,7 @@
 }
 @media (max-width: $mobile-breakpoint ){
 
-    .reservation__article2{
+    .reservation__article3{
         flex-direction: column-reverse;
         &-div-logo{
             width: 100%; 

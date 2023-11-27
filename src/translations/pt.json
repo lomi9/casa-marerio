@@ -144,8 +144,19 @@
 "reservation": {
   "title": "Quer descobrir Portimão?",
   "text" : "Escolha as suas datas e reserve agora!",
-  "title2": "Alguma questão?",
-  "text2" : "Contacte-nos!"
+  "article1": {
+    "title": "Algumas informações para a sua reserva:",
+    "item1": "O número mínimo de noites é 2",
+    "item2": "O pagamento do custo total da estadia é devido no momento da reserva",
+    "item3": "Em caso de cancelamento 7 dias antes da data de início da estadia, reembolsaremos o valor total",
+    "item4": "Em caso de cancelamento com menos de 7 dias antes da data de início da estadia, reembolsaremos 50%",
+    "item5": "Abaixo, você tem a opção de verificar os detalhes de uma reserva anterior."
+
+},
+  "title2": "Deseja consultar uma reserva já efetuada?",
+  "text2" : "Pesquise aqui a sua reserva.",
+  "title3": "Alguma questão?",
+  "text3" : "Contacte-nos!"
 },
 
 "blog": {
