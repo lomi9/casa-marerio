@@ -54,14 +54,6 @@
     .reservation__article1-title{
         max-width: 450px;
     }
-
-}
-@media (max-width: $mobile-breakpoint ){
-
-    .reservation__article1{
-        max-width: 330px;
-    }
-
     .reservation__article3{
         flex-direction: column-reverse;
         &-div-logo{
@@ -72,4 +64,12 @@
             width: 100%;
         }
     }
+
+}
+@media (max-width: $mobile-breakpoint ){
+
+    .reservation__article1{
+        max-width: 330px;
+    }
+
 }
