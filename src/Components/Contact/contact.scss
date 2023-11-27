@@ -59,13 +59,11 @@ button {
     font-weight: 600;
 }
 
-@media (max-width: $tab-breakpoint ){
-
-    .captcha-container{
-        display: flex;
-        justify-content: center;
-    }
+.captcha-container{
+    display: flex;
+    justify-content: center;
 }
+
 
 @media (max-width: $mobile-breakpoint ){
 
