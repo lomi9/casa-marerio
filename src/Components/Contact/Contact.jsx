@@ -39,7 +39,6 @@ export default function Contact() {
 
     return (
         <div className="contact-container">
-            <p className="contact-container-msg">{formStatus.message}</p>
             <form ref={formRef} name="template_clst4ep" className="contact-container-form" onSubmit={sendEmail}>
                 <input type="hidden" name="form-name" value="template_clst4ep" />
 
@@ -57,7 +56,8 @@ export default function Contact() {
                     <label htmlFor="message">{t('contact.form.message')}</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
-
+                <p className="contact-container-msg">{formStatus.message}</p>
+                
                 <ReCAPTCHA
                     sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                     onChange={onChangeCaptcha}
