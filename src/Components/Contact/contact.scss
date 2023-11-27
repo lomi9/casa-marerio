@@ -59,7 +59,7 @@ button {
     font-weight: 600;
 }
 
-@media (max-width: $mobile-breakpoint ){
+@media (max-width: $tab-breakpoint ){
 
     .captcha-container{
         display: flex;
