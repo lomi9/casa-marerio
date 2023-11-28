@@ -190,6 +190,35 @@
       "title1": "Melhores lugares para ir"
     }
   },
+  "articles": {
+  "section1" : {
+
+    "article1": {
+      "title": "Praia da Rocha",
+      "text": "Situada a 1 minuto a pé do apartamento, a 'Praia da Rocha' é uma imensa praia de areia dourada. Encontrará vários bares e restaurantes ao passear pelo calçadão ao longo da praia. Durante o dia, desfrute da vista dos impressionantes rochedos e das falésias que são o charme da região, e admire os magníficos pores do sol ao anoitecer.",
+      "image": "portimao-plage-1.webp",
+      "url": "https://maps.app.goo.gl/QCdEXRcq544XmxoaA",
+      "texturl": "Ver a localização da praia"
+  },
+  
+  "article2": {
+      "title": "Praia da Angrinha",
+      "text": "Esta pequena praia pouco frequentada situa-se na outra margem do Arade. Aqui, encontrará-se aos pés do castelo medieval de Ferragudo. Aproveite para admirar esta magnífica área cheia de vida e encanto.",
+      "image": "ferragudo-chateau-plage.webp",
+      "url": "https://www.google.com/maps/place/Praia+da+Angrinha,+Ferragudo,+Portugal/data=!4m2!3m1!1s0xd1b28538072ac31:0xb30a3af697af1017?sa=X&ved=2ahUKEwjN86PS47yCAxXNSKQEHVedAIEQ8gF6BAhTEAA",
+      "texturl": "Ver a localização da praia"
+  },
+  
+  "article3": {
+      "title": "Praia dos Três Irmãos",
+      "text": "Para chegar a esta praia, conte com cerca de 10 minutos de carro a partir do apartamento. Mas vale a pena: a praia está localizada abaixo de impressionantes falésias, a água é cristalina e turquesa (ideal para snorkeling), e poderá desfrutar de um passeio na praia passando por baixo dos arcos de rocha.",
+      "image": "praia-dos-tres-irmaos.webp",
+      "url": "https://maps.app.goo.gl/pUNckBEjuEQsGsNk8",
+      "texturl": "Ver a localização da praia"
+  }
+  
+
+  },
 
   "section2" : {
     "article1": {
@@ -278,6 +307,7 @@
       "texturl": "Visite a 'Pastelaria Arade' em Portimão"
     }
   }
+}
 },
 
 "helmet": {
