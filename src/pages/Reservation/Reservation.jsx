@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../../Components/Navbar/Navbar';
 import Title from '../../Components/Title/Title';
