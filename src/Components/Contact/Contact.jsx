@@ -59,8 +59,9 @@ export default function Contact() {
                 <p className="contact-container-msg">{formStatus.message}</p>
             <div className="captcha-container">
                 <ReCAPTCHA
-                   sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
-                    onChange={onChangeCaptcha}
+                   //sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+                   sitekey="6LekdR0pAAAAAAC8yKCVc0HVxI1N-k61VjEmkam7" 
+                   onChange={onChangeCaptcha}
                 />
                 </div>
 

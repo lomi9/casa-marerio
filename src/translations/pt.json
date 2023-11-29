@@ -56,8 +56,8 @@
   "text" : "Desfrute de um Apartamento de Férias Totalmente Equipado.",
   "list": {
     "item1": "Apartamento de 2 quartos",
-    "item2": "Para até 4 pessoas",
-    "item3": "Duas varandas, com vistas para o mar, rio e porto",
+    "item2": "Até 4 adultos e 1 criança -12 anos",
+    "item3": "Duas varandas, com vistas mar e rio",
     "item4": "Residência segura",
     "item5": "Piscina na residência",
     "item6": "Estacionamento subterrâneo seguro",
@@ -102,7 +102,7 @@
     "li4" : "Ferro de engomar",
     "li5" : "Estante para roupa",
     "li6" : "Cofre",
-    "li7" : "Berço e cadeira alta",
+    "li7" : "Cama dobrável para criança -12 anos",
     "li8" : "Secretária / penteadeira"
   },
   "item4": {
@@ -122,12 +122,11 @@
     "li3" : "Duche exterior", 
     "li4" : "Estacionamento subterrâneo",
     "li5" : "Check-in autónomo",
-    "li6" : "Berço e cadeira alta no alojamento",
-    "li7" : "A limpeza está incluída. No entanto, por respeito ao pessoal, por favor assegure que o seu alojamento está limpo e arrumado.",
-    "li8" : "Lençóis e toalhas estão incluídos", 
-    "li9" : "Os seus animais de estimação são bem-vindos",
-    "li10" : "Não é permitido fumar no alojamento",
-    "li11" : "O alojamento é fechado para festas"
+    "li6" : "A limpeza está incluída. No entanto, por respeito ao pessoal, por favor assegure que o seu alojamento está limpo e arrumado.",
+    "li7" : "Lençóis e toalhas estão incluídos", 
+    "li8" : "Os seus animais de estimação são bem-vindos",
+    "li9" : "Não é permitido fumar no alojamento",
+    "li10" : "O alojamento é fechado para festas"
   },
   "item6": {
     "title": "Nas proximidades",

@@ -56,8 +56,8 @@
     "text" : "Enjoy A Fully Equipped Holiday Apartment.",
     "list": {
         "item1": "2 room flat",
-        "item2": "For up to 4 people",
-        "item3": "Two balconies, with views of the sea, river and port",
+        "item2": "Up to 4 adults & 1 child -12 years old",
+        "item3": "Two balconies, with sea & river views",
         "item4": "Secure residence",
         "item5": "Swimming pool in the residence",
         "item6": "Secure underground parking",
@@ -103,7 +103,7 @@
       "li4" : "Iron",
       "li5" : "Laundry rack",
       "li6" : "Safe deposit box",
-      "li7" : "Baby bed and high chair",
+      "li7" : "Folding bed for child -12 years old",
       "li8" : "Desk / dressing table"
     },
     "item4": {
@@ -123,12 +123,11 @@
       "li3" : "Outdoor shower", 
       "li4" : "Underground parking",
       "li5" : "Self-checking",
-      "li6" : "Cot and high chair in the accommodation",
-      "li7" : "Cleaning is included. However, out of respect for the staff, please ensure that your accommodation is clean and tidy.",
-      "li8" : "Sheets and towels are included", 
-      "li9" : "Your pets are welcome",
-      "li10" : "Smoking is not allowed in the accommodation",
-      "li11" : "The accommodation is closed to parties"
+      "li6" : "Cleaning is included. However, out of respect for the staff, please ensure that your accommodation is clean and tidy.",
+      "li7" : "Sheets and towels are included", 
+      "li8" : "Your pets are welcome",
+      "li9" : "Smoking is not allowed in the accommodation",
+      "li10" : "The accommodation is closed to parties"
     },
     "item6": {
       "title": "Nearby",

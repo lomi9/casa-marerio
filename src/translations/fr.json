@@ -57,7 +57,7 @@
         "text" : "Appréciez Un Appartement De Vacances Entièrement Équipé",
         "list": {
             "item1": "Appartement 2 pièces",
-            "item2": "Jusqu'à 4 personnes",
+            "item2": "Jusqu'à 4 adultes et 1 enfant -12 ans",
             "item3": "Deux balcons : vue sur mer et marina",
             "item4": "Résidence sécurisée",
             "item5": "Piscine dans la résidence",
@@ -103,7 +103,7 @@
                 "li4" : "Fer à repasser",
                 "li5" : "Étendoir à linge",
                 "li6" : "Coffre-fort",
-                "li7" : "Lit pour bébé et chaise haute",
+                "li7" : "Lit pliable pour enfant -12 ans",
                 "li8" : "Bureau / coiffeuse"
             },
             "item4": {
@@ -123,12 +123,11 @@
                 "li3" : "Douche exterieure", 
                 "li4" : "Parking sous-terrain",
                 "li5" : "Arrivée autonome",
-                "li6" : "Lit et chaise bébé dans le logement",
-                "li7" : "Le ménage est inclus. Cependant, merci de rendre un logement convenable par respect pour le personnel",
-                "li8" : "Les draps et le linge de bain sont inclus", 
-                "li9" : "Vos animaux de compagnie sont les bienvenus",
-                "li10" : "Il est interdit de fumer dans le logement",
-                "li11" : "Le logement est interdit aux soirées"
+                "li6" : "Le ménage est inclus. Cependant, merci de rendre un logement convenable par respect pour le personnel",
+                "li7" : "Les draps et le linge de bain sont inclus", 
+                "li8" : "Vos animaux de compagnie sont les bienvenus",
+                "li9" : "Il est interdit de fumer dans le logement",
+                "li10" : "Le logement est interdit aux soirées"
 
             },
             "item6": {
