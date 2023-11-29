@@ -145,16 +145,25 @@
   "title": "Want to discover Portimāo?",
   "text" : "Choose your dates, and book now!",
   "article1" : {
-    "title1" :"Some information for your booking:",
-    "item1":"The minimum number of nights is 2.",
-    "item2":"Full payment of the total cost of the stay is due at the time of booking.",
-    "item3":"To validate your booking, please provide us by email with a copy of the ID of every adult staying in the accommodation for the booking period.",
-    "item4":"Below, you can check the details of a previous booking, and request a cancellation if necessary.",
-    "title2":"Cancellation conditions:",
-    "item5":"In case of cancellation at least 7 days before the start date of the stay, we will refund you in full.",
-    "item6":"In case of cancellation at least 48 hours before the start date of the stay, we will refund you 50%.",
-    "prices":"Our Rates: 130€ per night in season, 90€ per night off-season (from 01/10 to 30/04)."
+    "collapse1" : {
+      "title" : "Some information for your reservation",
+      "item1":"The minimum number of nights is 2.",
+      "item2":"Full payment of the total cost of the stay is due at the time of booking.",
+      "item3":"To validate your reservation, please provide us by email with a copy of the ID of every adult staying in the accommodation for the booking period.",
+      "item4":"Below, you can check the details of a previous booking, and request a cancellation if necessary."
+    },
+    "collapse2" : {
+      "title":"Cancellation conditions",
+      "item1":"In case of cancellation at least 7 days before the start date of the stay, we will refund you in full.",
+      "item2":"In case of cancellation at least 48 hours before the start date of the stay, we will refund you 50%."
+    },
+    "collapse3" : {
+      "title":"Rates",
+      "item1":"€130 per night in high season (from 01/05 to 30/09)",
+      "item2":"€90 per night off-season (from 01/10 to 30/04)"
+    }
 },
+
   "title2": "You want to check an existing reservation?",
   "text2" : "Search for your reservation here.",
   "title3": "Any question ?",
