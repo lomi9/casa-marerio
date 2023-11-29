@@ -524,13 +524,63 @@
       "content": "Se você tem alguma dúvida sobre esta política de privacidade, entre em contato conosco: casamarerio@gmail.com"
     }
   }
-  
-  
-
-
-  
-  
+},
+"condições" : {
+  "title" : "Termos e Condições Gerais de Estadia na Casa-Marerio",
+  "article1":{
+     "title" : "1. Introdução",
+     "content" : "Estes termos gerais regem as reservas do apartamento de férias Casa Marerio. Ao efetuar uma reserva, você concorda em cumprir e estar vinculado a estes termos."
+  },
+  "article2":{
+    "title" : "2. Reservas",
+    "content" : "As reservas podem ser feitas online através do casa-marerio.com. Uma reserva é considerada confirmada uma vez que casa-marerio tenha recebido o valor total do custo do aluguel, assim como uma cópia legível do passaporte ou identidade de todos os inquilinos adultos que ocupam o alojamento durante o período da reserva. O pagamento integral deve ser recebido pelo menos 48 horas antes da data de chegada. Uma vez que estas condições sejam satisfeitas, uma confirmação de reserva será enviada para você."
+  },
+  "article3":{
+    "title" : "3. Pagamentos",
+    "content" : "O pagamento integral deve ser recebido pelo menos 7 dias antes da data de chegada. Os pagamentos podem ser feitos por cartão de crédito."
+  },
+  "article4":{
+    "title" : "4. Cancelamentos e Reembolsos",
+    "content" : "Os pedidos de cancelamento devem ser notificados por escrito para casamarerio@gmail.com. Cancelamentos feitos até 7 dias antes da data de chegada serão totalmente reembolsados. Cancelamentos feitos com menos de 7 dias e até 48 horas antes da data de chegada serão reembolsados em 50%. Cancelamentos feitos com menos de 48 horas antes da data de chegada não serão reembolsados."
+  },
+  "article5":{
+    "title" : "5. Uso do Alojamento",
+    "content" : "O alojamento é alugado apenas para férias de curto prazo e não pode ser utilizado para outros fins sem consentimento prévio por escrito. O número máximo de visitantes é de 5 pessoas, incluindo uma criança menor de 12 anos. É estritamente proibido acomodar mais de 5 pessoas (incluindo uma criança menor de 12 anos) no alojamento. Além disso, a organização de festas e qualquer evento barulhento são proibidos para respeitar a tranquilidade da vizinhança. Também é proibido fumar no alojamento e dentro da residência."
+  },
+  "article6":{
+    "title" : "6. Check-In e Check-Out Autônomos",
+    "content" : "O apartamento de férias oferece um sistema de check-in e check-out autônomos para sua conveniência. Instruções detalhadas para acesso autônomo serão fornecidas antes de sua chegada. O horário de check-in é às 16h e o de check-out às 12h. É imperativo respeitar esses horários para garantir uma transição suave para todos os inquilinos. Em caso de necessidade de check-out tardio ou check-in antecipado, por favor, solicite pelo menos 7 dias de antecedência. Este pedido estará sujeito à disponibilidade e pode incorrer em taxas adicionais."
+  },
+  "article7":{
+    "title" : "7. Responsabilidades do Inquilino",
+    "content" : "O inquilino compromete-se a manter o alojamento limpo e em bom estado, e a relatar qualquer dano ou problema imediatamente à Casa-Marerio."
+  },
+  "article8":{
+    "title" : "8. Acesso à Propriedade",
+    "content" : "Casa-Marerio reserva-se o direito de acessar a propriedade para reparos urgentes ou inspeções regulares."
+  },
+  "article9":{
+    "title" : "9. Responsabilidade",
+    "content" : "Casa-Marerio não pode ser responsabilizada por acidentes, lesões ou doenças que ocorram aos inquilinos ou seus convidados como resultado do uso da propriedade. Os inquilinos são responsáveis por contratar um seguro de viagem adequado."
+  },
+  "article10":{
+    "title" : "10. Força Maior",
+    "content" : "Casa-Marerio não será responsabilizada por não cumprir suas obrigações em caso de força maior."
+  },
+  "article11":{
+    "title" : "11. Lei Aplicável e Jurisdição",
+    "content" : "Estes termos são regidos pela lei de Portugal e qualquer disputa estará sujeita à jurisdição exclusiva dos tribunais de Portugal."
+  },
+  "article12":{
+    "title" : "12. Modificações dos Termos",
+    "content" : "Casa-Marerio reserva-se o direito de modificar estes termos a qualquer momento. Os inquilinos serão informados de mudanças significativas antes de entrarem em vigor."
+  },
+  "article13":{
+    "title" : "13. Contato",
+    "content" : "Para quaisquer dúvidas ou preocupações, por favor, contate a Casa-Marerio no endereço de e-mail casamarerio@gmail.com."
+  }
 }
+
 
 
 

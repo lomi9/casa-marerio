@@ -533,9 +533,64 @@
         }
     }
 
-  
+  },
 
-  }
+  "conditions" : {
+    "title" : "General Terms and Conditions of Stay at Casa-Marerio",
+    "article1":{
+       "title" : "1. Introduction",
+       "content" : "These general terms govern the bookings of the holiday apartment Casa Marerio. By making a booking, you agree to comply with and be bound by these terms."
+    },
+    "article2":{
+      "title" : "2. Bookings",
+      "content" : "Bookings can be made online via casa-marerio.com. A booking is considered confirmed once casa-marerio has received the full rental cost amount, as well as a readable copy of the passport or identity card of all adult tenants occupying the accommodation during the booking period. Full payment must be received at least 48 hours before the arrival date. Once these conditions are satisfied, a booking confirmation will be sent to you."
+    },
+    "article3":{
+      "title" : "3. Payments",
+      "content" : "Full payment must be received at least 7 days before the arrival date. Payments can be made by credit card."
+    },
+    "article4":{
+      "title" : "4. Cancellations and Refunds",
+      "content" : "Cancellation requests must be notified in writing to casamarerio@gmail.com. Cancellations made up to 7 days before the arrival date will be fully refunded. Cancellations made less than 7 days and up to 48 hours before the arrival date will be refunded at 50%. Cancellations made less than 48 hours before the arrival date will not be refunded."
+    },
+    "article5":{
+      "title" : "5. Use of the Accommodation",
+      "content" : "The accommodation is rented for short-term holidays only and cannot be used for other purposes without prior written consent. The maximum number of visitors is 5 people including a child under 12 years old. It is strictly forbidden to accommodate more than 5 people (including a child under 12 years old) in the accommodation. Furthermore, organizing parties and any noisy events are prohibited in order to respect the tranquility of the neighborhood. Smoking is also prohibited in the accommodation and within the residence."
+    },
+    "article6":{
+      "title" : "6. Self Check-In and Check-Out",
+      "content" : "The holiday apartment offers a self check-in and check-out system for your convenience. Detailed instructions for autonomous access will be provided before your arrival. Check-in time is set at 4 PM and check-out time at 12 PM. It is imperative to respect these times to ensure a smooth transition for all tenants. In case of need for late check-out or early check-in, please request at least 7 days in advance. This request will be subject to availability and may incur additional charges."
+    },
+    "article7":{
+      "title" : "7. Tenant's Responsibilities",
+      "content" : "The tenant undertakes to keep the accommodation clean and in good condition, and to report any damage or problems immediately to Casa-Marerio."
+    },
+    "article8":{
+      "title" : "8. Access to the Property",
+      "content" : "Casa-Marerio reserves the right to access the property for urgent repairs or regular inspections."
+    },
+    "article9":{
+      "title" : "9. Liability",
+      "content" : "Casa-Marerio cannot be held responsible for accidents, injuries or illnesses that occur to tenants or their guests as a result of the use of the property. Tenants are responsible for taking out appropriate travel insurance."
+    },
+    "article10":{
+      "title" : "10. Force Majeure",
+      "content" : "Casa-Marerio will not be held responsible for failing to fulfill its obligations in the event of force majeure."
+    },
+    "article11":{
+      "title" : "11. Governing Law and Jurisdiction",
+      "content" : "These conditions are governed by the law of Portugal and any dispute will be subject to the exclusive jurisdiction of the courts of Portugal."
+    },
+    "article12":{
+      "title" : "12. Modifications to the Terms",
+      "content" : "Casa-Marerio reserves the right to modify these terms at any time. Tenants will be informed of significant changes before they take effect."
+    },
+    "article13":{
+      "title" : "13. Contact",
+      "content" : "For any questions or concerns, please contact Casa-Marerio at the email address casamarerio@gmail.com."
+    }
+}
+
 
 }
   
