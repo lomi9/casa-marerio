@@ -79,7 +79,7 @@
   @media (max-width: $mobile-breakpoint ){
     .collapse{
         &-button{
- width: 100%;
+ width: auto;
             &-title{
                 font-size: 1rem;
             }
