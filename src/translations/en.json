@@ -144,16 +144,16 @@
 "reservation": {
   "title": "Want to discover Portimāo?",
   "text" : "Choose your dates, and book now!",
-  "article1": {
-    "title": "Some information for your reservation:",
-    "item1": "The minimum number of nights is 2",
-    "item2": "Payment for the total cost of the stay is due at the time of booking",
-    "item3": "In case of cancellation 7 days before the start date of the stay, we will refund you in full",
-    "item4": "In case of cancellation less than 7 days before the start date of the stay, we will refund 50%",
-    "item5": "Below, you have the option to review the details of a previous reservation.",
-    "prices": "Our Rates: 130€ per night in season, 90€ per night off-season (from 01/10 to 30/04)."
-
-
+  "article1" : {
+    "title1" :"Some information for your booking:",
+    "item1":"The minimum number of nights is 2.",
+    "item2":"Full payment of the total cost of the stay is due at the time of booking.",
+    "item3":"To validate your booking, please provide us by email with a copy of the ID of every adult staying in the accommodation for the booking period.",
+    "item4":"Below, you can check the details of a previous booking, and request a cancellation if necessary.",
+    "title2":"Cancellation conditions:",
+    "item5":"In case of cancellation at least 7 days before the start date of the stay, we will refund you in full.",
+    "item6":"In case of cancellation at least 48 hours before the start date of the stay, we will refund you 50%.",
+    "prices":"Our Rates: 130€ per night in season, 90€ per night off-season (from 01/10 to 30/04)."
 },
   "title2": "You want to check an existing reservation?",
   "text2" : "Search for your reservation here.",

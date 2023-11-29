@@ -143,17 +143,18 @@
 "reservation": {
   "title": "Quer descobrir Portimão?",
   "text" : "Escolha as suas datas e reserve agora!",
-  "article1": {
-    "title": "Algumas informações para a sua reserva:",
-    "item1": "O número mínimo de noites é 2",
-    "item2": "O pagamento do custo total da estadia é devido no momento da reserva",
-    "item3": "Em caso de cancelamento 7 dias antes da data de início da estadia, reembolsaremos o valor total",
-    "item4": "Em caso de cancelamento com menos de 7 dias antes da data de início da estadia, reembolsaremos 50%",
-    "item5": "Abaixo, você tem a opção de verificar os detalhes de uma reserva anterior.",
-    "prices": "Nossos Preços: 130€ por noite na temporada, 90€ por noite fora da temporada (de 01/10 a 30/04)."
-
-
+  "article1" : {
+    "title1" :"Algumas informações para a sua reserva:",
+    "item1":"O número mínimo de noites é 2.",
+    "item2":"O pagamento total do custo da estadia é devido no momento da reserva.",
+    "item3":"Para validar a sua reserva, por favor, forneça-nos por e-mail uma cópia da identificação de cada adulto que ficará no alojamento pelo período da reserva.",
+    "item4":"Abaixo, você pode verificar os detalhes de uma reserva anterior e solicitar um cancelamento, se necessário.",
+    "title2":"Condições de cancelamento:",
+    "item5":"Em caso de cancelamento pelo menos 7 dias antes da data de início da estadia, reembolsaremos o valor total.",
+    "item6":"Em caso de cancelamento pelo menos 48 horas antes da data de início da estadia, reembolsaremos 50%.",
+    "prices":"Nossas Tarifas: 130€ por noite na temporada, 90€ por noite fora da temporada (de 01/10 a 30/04)."
 },
+
   "title2": "Deseja consultar uma reserva já efetuada?",
   "text2" : "Pesquise aqui a sua reserva.",
   "title3": "Alguma questão?",

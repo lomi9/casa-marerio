@@ -1,0 +1,98 @@
+@import "../../styles/utilities.scss";
+
+.collapse{
+    width: 100%;
+    padding-bottom: 1rem;
+    &-button{
+        background-color: $main-background-color;
+        padding: 0.8rem;
+        width: 40%;
+        display: flex;
+        justify-content:space-between;
+        border-radius: 30px;
+        border: 1px solid rgb(41, 28, 28);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        cursor: pointer;
+        &-title{
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: rgb(41, 28, 28);
+            display: flex;
+            justify-content: left;
+            width: 100%;
+        }
+    }
+    &-content{
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+
+}
+
+.icon {
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    font-size: 1.5rem;
+    color: rgb(41, 28, 28);;
+  }
+  
+  .icon.open {
+    transform: rotate(180deg);
+  }
+
+.collapse.open .collapse-content {
+    max-height: 1000px; // Assurez-vous que cette valeur est suffisante pour votre contenu
+    transition: max-height 0.5s ease-in;
+  }
+
+  @media (max-width: 1210px ){
+    .collapse{
+        &-button{
+ width: 72%;
+        }
+    }
+}
+
+  @media (max-width: $tab-breakpoint ){
+    .collapse{
+        &-button{
+ width: 72%;
+            &-title{
+                font-size: 1rem;
+            }
+        }
+        &-content{
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+    
+    }
+    .icon{
+        font-size: 1rem;
+    }
+  }
+
+  @media (max-width: $mobile-breakpoint ){
+    .collapse{
+        &-button{
+ width: 100%;
+            &-title{
+                font-size: 1rem;
+            }
+        }
+        &-content{
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+    
+    }
+    .icon{
+        font-size: 1rem;
+    }
+  }
+

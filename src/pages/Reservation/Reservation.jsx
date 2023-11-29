@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../../Components/Navbar/Navbar';
 import Title from '../../Components/Title/Title';
@@ -6,11 +7,13 @@ import Footer from '../../Components/Footer/Footer';
 import Contact from '../../Components/Contact/Contact';
 import Logo from '../../Components/Logo/logo';
 import SirvoyReviewWidget from '../../Components/SirvoyReviewWidget';
+import Collapse from '../../Components/Collapse/Collapse';
 
 
 export default function Reservation () {
 
   const { t } = useTranslation();
+
 
   return (
     <>
@@ -21,15 +24,28 @@ export default function Reservation () {
     <Title h2Text={t('reservation.title')} pText={t('reservation.text')} bgColor="defaultColor"/>
     
     <article className="reservation__article1">
-      <h3 className="reservation__article1-title">{t('reservation.article1.title')}</h3>
-      <ul className="reservation__article1-list">
-        <li className="reservation__article1-list-item">{t('reservation.article1.item1')}</li>
-        <li className="reservation__article1-list-item">{t('reservation.article1.item2')}</li>
-        <li className="reservation__article1-list-item">{t('reservation.article1.item3')}</li>
-        <li className="reservation__article1-list-item">{t('reservation.article1.item4')}</li>
-        <li className="reservation__article1-list-item">{t('reservation.article1.item5')}</li>
-      </ul>
-      <h4 className="reservation__article1-prices">{t('reservation.article1.prices')}</h4>
+    <Collapse title={t('reservation.article1.collapse1.title')}>
+        <ul className='reservation__article1-list'>
+          <li className='reservation__article1-list-item'>{t('reservation.article1.collapse1.item1')}</li>
+          <li className='reservation__article1-list-item'>{t('reservation.article1.collapse1.item2')}</li>
+          <li className='reservation__article1-list-item'>{t('reservation.article1.collapse1.item3')}</li>
+          <li className='reservation__article1-list-item'>{t('reservation.article1.collapse1.item4')}</li>
+        </ul>
+      </Collapse>
+
+      <Collapse title={t('reservation.article1.collapse2.title')}>
+      <ul className='reservation__article1-list'>
+          <li className='reservation__article1-list-item'>{t('reservation.article1.collapse2.item1')}</li>
+          <li className='reservation__article1-list-item'>{t('reservation.article1.collapse2.item2')}</li>
+        </ul>
+      </Collapse>
+
+      <Collapse title={t('reservation.article1.collapse3.title')}>
+      <ul className='reservation__article1-list'>
+          <li className='reservation__article1-list-item'>{t('reservation.article1.collapse3.item1')}</li>
+          <li className='reservation__article1-list-item'>{t('reservation.article1.collapse3.item2')}</li>
+        </ul>
+      </Collapse>
 
     </article>
 

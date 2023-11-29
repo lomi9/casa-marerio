@@ -9,14 +9,7 @@
     padding-left: 35px;
     font-family: $font-family-1;
     color: $blue-color;
-    &-title{
-        width: 100%;
-        font-size: 1.5rem;
-        padding-bottom: 2rem;
-        font-weight: 600;
-        color: rgb(41, 28, 28);
 
-    }
     &-prices {
         width: 100%;
         font-size: 1.5rem;
@@ -26,7 +19,7 @@
         font-family: $font-family-2;
     }
     &-list{
-        padding: 0 2rem;
+        padding:1.5rem 2rem;
 
         &-item{
             list-style-type:disc;
@@ -37,6 +30,7 @@
 
         }
     }
+    
 }
 
 .reservation__article3{
@@ -78,6 +72,10 @@
 
     .reservation__article1{
         max-width: 330px;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        padding-left: 3px;
     }
 
 }

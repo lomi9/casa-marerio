@@ -146,14 +146,23 @@
     "title": "Vous souhaitez réserver ?",
     "text" : "Choisissez les dates qui vous conviennent, puis réservez !",
     "article1" : {
-      "title" :"Quelques informations pour votre réservation :",
-      "item1":"Le nombre de nuits minimum est de 2",
-      "item2":"Le paiement de la totalité du coût du séjour est dû lors de la réservation",
-      "item3":"En cas d'annulation au moins 7 jours avant la date de début de séjour, nous vous remboursons en totalité ",
-      "item4":"En cas d'annulation au moins 48h avant la date de début de séjour, nous vous remboursons à hauteur de 50%",
-      "item5": "Ci-dessous, vous pouvez vérifier les détails d'une réservation précédente.",
-      "prices":"Nos Tarifs : 130€ la nuitée en saison, 90€ la nuitée hors saison (du 01/10 au 30/04)."
-
+        "collapse1" : {
+          "title" : "Quelques informations pour votre réservation",
+          "item1":"Le nombre de nuits minimum est de 2.",
+          "item2":"Le paiement de la totalité du coût du séjour est dû lors de la réservation.",
+          "item3":"Afin de valider votre réservation, merci de nous fournir par mail une copie des pièces d'identité de toute personne majeur séjournant dans le logement pour la période de réservation.",
+          "item4":"Plus bas, vous pouvez vérifier les détails d'une réservation précédente, et demander une annulation si nécéssaire."
+        },
+        "collapse2" : {
+          "title":"Conditions d'annulation",
+          "item1":"En cas d'annulation au moins 7 jours avant la date de début de séjour, nous vous remboursons en totalité ",
+          "item2":"En cas d'annulation au moins 48h avant la date de début de séjour, nous vous remboursons à hauteur de 50%"
+        },
+        "collapse3" : {
+          "title":"Les tarifs",
+          "item1":"130€ la nuitée en haute saison (du 01/05 au 30/09)",
+          "item2":"90€ la nuitée hors saison (du 01/10 au 30/04)"
+        }
     
     },
     "title2": "Vous souhaitez consulter une réservation dejà effectuée ?",
