@@ -19,7 +19,6 @@ $blue-background-color : #000C29;
 }
 
 @mixin title-font-style{
-    //font-family: 'Capriola', sans-serif;
     font-family: 'Poiret One', sans-serif;
     font-size: 3rem;
     color: rgb(122, 114, 114);
@@ -27,7 +26,6 @@ $blue-background-color : #000C29;
 }
 
 @mixin title2-font-style{
-    //font-family: 'Barlow Condensed', sans-serif;
     font-family: 'Source Serif 4', serif;
     font-size: 2rem;
     font-weight: 400;
@@ -54,19 +52,19 @@ $blue-background-color : #000C29;
 @mixin link-bottom-style {
     position: relative;
   &:hover::before {
-    width: 100%; // étendre la barre de soulignement sur toute la largeur
+    width: 100%; 
 }
 
 &::before {
     content: "";
     position: absolute;
-    bottom: 0; // positionner en bas de .p1
-    left: 50%; // positionner au centre horizontalement
-    transform: translateX(-50%); // centrage horizontal
-    height: 2px; // épaisseur de la barre de soulignement
-    width: 0; // largeur initiale de 0
-    background-color: rgb(122, 114, 114); // couleur de la barre de soulignement
-    transition: width 0.3s ease-in-out; // animation de la largeur
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    height: 2px;
+    width: 0; 
+    background-color: rgb(122, 114, 114); 
+    transition: width 0.3s ease-in-out;
 }
 }
 

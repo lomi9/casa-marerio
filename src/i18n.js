@@ -20,7 +20,6 @@ i18n
       escapeValue: false,
     },
     detection: {
-      // Ajoutez cette configuration pour le détecteur de langue
       order: ["querystring", "cookie", "localStorage", "navigator", "htmlTag"],
       caches: ["localStorage", "cookie"], // pour stocker le choix de la langue
     },

@@ -41,18 +41,12 @@
      display: none;
    }
    
-   // ... (le reste de votre code)
-   
-   // Ajout d'un media query pour les petits écrans (ex: téléphones)
    @media (max-width: $tab-breakpoint) {
      .blog__navbar-container {
        .blog__navbar-menu {
          padding: 0;
          .blog__navbar-menu-item {
-           // Cachez tous les items
            display: none;
-   
-           // Affichez seulement l'item actif
            &.active {
              display: block;
            }
@@ -60,27 +54,25 @@
        }
      }
    
-     // ... (le reste de votre code)
-   
    .blog__navbar-section {
-     position: relative; // Pour positionner correctement les flèches
+     position: relative;
    }
    
    .blog__navbar-menu-arrow {
      display: block;
      position: absolute;
-     top: 50%; // Centré verticalement
-     font-size: 1.5rem; // Taille de l'icône
+     top: 50%; 
+     font-size: 1.5rem; 
      cursor: pointer;
      z-index: 5;
      color: $blue-background-color;
      
      &.left {
-       left: 15%; // Flèche de gauche
+       left: 15%;
      }
    
      &.right {
-       right: 15%; // Flèche de droite
+       right: 15%;
      }
    }
    

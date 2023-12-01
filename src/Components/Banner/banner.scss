@@ -1,11 +1,11 @@
 .banner__div {
-    height: 100%; // Fait la totalité de la hauteur de l'élément parent
+    height: 100%; 
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; // Centre verticalement le contenu principal
-    align-items: center;     // Centre horizontalement le contenu principal
-    position: relative;      // Pour positionner banner__scroll au bas
+    justify-content: center; 
+    align-items: center;     
+    position: relative;    
   
     @keyframes fadeIn {
       from {
@@ -23,19 +23,19 @@
       color: #D8D5DB;
       width: 80%;
       line-height: 3rem;
-      opacity: 0; // Commencez avec une opacité de 0
+      opacity: 0; 
       animation: fadeIn 3s ease forwards;
     }
   
     .banner__scroll {
       position: absolute;
-      bottom: 10px; // Ou tout autre marge que vous souhaitez du bas
+      bottom: 10px; 
       display: flex;
       flex-direction: column;
-      align-items: center; // Centré horizontalement
+      align-items: center;
       
       .banner__scroll-p, .banner__scroll-fleche {
-        margin: 0; // Pour s'assurer qu'il n'y a pas de marges par défaut perturbant votre disposition
+        margin: 0; 
         @include main-font-style;
         @include link-no-style;
         color: #D8D5DB;
