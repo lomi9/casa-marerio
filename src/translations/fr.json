@@ -1,7 +1,7 @@
 {
     "home": {
       "title1": "Portimão",
-      "subtitle1": "Se Détendre, Vivre L'Aventure & Garder Des Souvenirs Inoubliables...",
+      "subtitle1": "Se détendre, vivre l'aventure & garder des souvenirs inoubliables...",
       "card1": {
         "title": "Appréciez un appartement de vacances entièrement équipé.",
         "button": "Découvrir"
@@ -54,7 +54,7 @@
      
     "logement": {
         "title" : "Le Logement",
-        "text" : "Appréciez Un Appartement De Vacances Entièrement Équipé",
+        "text" : "Appréciez un appartement de vacances entièrement équipé",
         "list": {
             "item1": "Appartement 2 pièces",
             "item2": "Jusqu'à 4 adultes et 1 enfant -12 ans",
@@ -72,7 +72,7 @@
 
           "equipments": {
             "item1": {
-                "title": "Le Salon-séjour",
+                "title": "Le salon-séjour",
                 "title2": "Équipements du salon :",
                 "li1" : "Balcon avec vue sur la mer",
                 "li2" : "Wifi",
@@ -211,7 +211,7 @@
 
         "article1": {
           "title": "Praia da Rocha",
-          "text": "Située à 1 minute à pied de l'appartement, la 'Praia da Rocha' est une immense plage de sable doré. Vous trouverez de nombreux bars et restaurants en vous promenant sur la promenade en bois longeant la plage. La journée, profitez de la vue sur les impressionnants rochers et sur les falaises faisant le charme de la région, et admirez les magnifiques couchers de soleil lorsque la nuit tombe.",
+          "text": "Située à 1 minute à pied de l'appartement, la 'Praia da Rocha' est une immense plage de sable doré. Vous trouverez de nombreux bars et restaurants en vous baladant sur la promenade en bois longeant la plage. La journée, profitez de la vue sur les impressionnants rochers et sur les falaises faisant le charme de la région, et admirez les magnifiques couchers de soleil lorsque la nuit tombe.",
           "image": "portimao-plage-1.webp",
           "url": "https://maps.app.goo.gl/QCdEXRcq544XmxoaA",
           "texturl" : "Voir où se trouve l'emplacement de la plage"
@@ -246,14 +246,14 @@
   
           "article2": {
             "title": "Découvrir les grottes marines de l'Algarve",
-            "text": "La région de l'Algarve est réputée pour la beauté de ses grottes marines, sculptées par les vagues dans les falaises bordant la mer. Pour cela, vous aurez plusieurs possibilités : pour les plus aventuriers, louez un canöé, un kayak ou un paddle. Vous pouvez aussi opter pour une excursion en bateau, qui vous fera naviger de grottes en grottes pour un spectacle inoubliable. Bien qu'assez fréquentée, la grotte de Benagil, la plus connue de toutes, offre un splendide panorama. N'oubliez pas votre appareil photo ! ",
+            "text": "La région de l'Algarve est réputée pour la beauté de ses grottes marines, sculptées par les vagues dans les falaises bordant la mer. Pour cela, vous aurez plusieurs possibilités : pour les plus aventuriers, louez un canoë, un kayak ou un paddle. Vous pouvez aussi opter pour une excursion en bateau, qui vous fera naviguer de grotte en grotte pour un spectacle inoubliable. Bien qu'assez fréquentée, la grotte de Benagil, la plus connue de toutes, offre un splendide panorama. N'oubliez pas votre appareil photo ! ",
             "image": "portimao-grottes-de-benagil.webp",
             "url": "https://www.tripadvisor.fr/Attractions-g189120-Activities-c55-Portimao_Faro_District_Algarve.html",
             "texturl" : "Partir à la découverte des grottes marines de l'Algarve"
           },
   
           "article3": {
-            "title": "Ferragudo, le village de pécheurs pittoresque",
+            "title": "Ferragudo, le village de pêcheurs pittoresque",
             "text": "Ferragudo offre une escapade pittoresque avec ses charmantes ruelles pavées et ses maisons blanchies à la chaux. Perché sur la rive du fleuve Arade, ce village de pêcheurs authentique séduit par son ambiance paisible et ses vues imprenables sur la mer. Explorez son petit port animé, ses plages dorées et ses restaurants locaux, où les fruits de mer frais sont à l'honneur. Ferragudo est l'endroit parfait pour ceux qui cherchent à s'immerger dans la culture traditionnelle portugaise tout en profitant d'un cadre naturel spectaculaire.",
             "image": "ferragudo.webp",
             "url": "https://maps.app.goo.gl/CWy2kYAp1kzimgaa8",
@@ -289,7 +289,7 @@
 
             "article2": {
               "title": "Super Juice, Portimão",
-              "text": "Situé au cœur de Portimão, Super Juice est une oasis pour les amateurs de cuisine saine et savoureuse. Ce restaurant diététique se distingue par ses jus frais pressés, ses smoothies créatifs et une sélection de plats légers mais nourrissants. Avec un accent sur les ingrédients frais et locaux, le restaurant est parfait pour un brunch, un déjeuner ou un encas . En bref, Super Juice est l'endroit idéal pour ceux qui recherchent une pause gourmande et revitalisante dans leur journée.",
+              "text": "Située au cœur de Portimão, Super Juice est une oasis pour les amateurs de cuisine saine et savoureuse. Ce restaurant diététique se distingue par ses jus frais pressés, ses smoothies créatifs et une sélection de plats légers mais nourrissants. Avec un accent sur les ingrédients frais et locaux, le restaurant est parfait pour un brunch, un déjeuner ou un encas . En bref, Super Juice est l'endroit idéal pour ceux qui recherchent une pause gourmande et revitalisante dans leur journée.",
               "image": "super-juice-portimao.webp",
               "url": "https://maps.app.goo.gl/SiWnMMXkXvph6Ymd6",
               "texturl" : "Se rendre au restaurant 'Super Juice' à Portimāo"
@@ -297,7 +297,7 @@
     
             "article3": {
               "title": "Borda do Cais, Ferragudo",
-              "text": "Niché dans le pittoresque village de Ferragudo, Borda do Cais est une véritable perle gastronomique au bord de l'eau. Ce restaurant charmant offre une expérience culinaire inoubliable avec sa vue imprenable sur le port et une cuisine qui célèbre les saveurs de la mer. Les visiteurs sont invités à déguster des plats de fruits de mer frais, préparés avec une touche créative et servis dans une ambiance accueillante et décontractée. Borda do Cais est une destination incontournable pour ceux qui cherchent à savourer les délices de l'Algarve dans un cadre des plus enchanteurs.",
+              "text": "Nichée dans le pittoresque village de Ferragudo, Borda do Cais est une véritable perle gastronomique au bord de l'eau. Ce restaurant charmant offre une expérience culinaire inoubliable avec sa vue imprenable sur le port et une cuisine qui célèbre les saveurs de la mer. Les visiteurs sont invités à déguster des plats de fruits de mer frais, préparés avec une touche créative et servis dans une ambiance accueillante et décontractée. Borda do Cais est une destination incontournable pour ceux qui cherchent à savourer les délices de l'Algarve dans un cadre des plus enchanteurs.",
               "image": "borda-do-cais-ferragudo.webp",
               "url": "https://maps.app.goo.gl/MCviNzqNexDe6p1D8",
               "texturl" : "Se rendre au restaurant 'Borda do Cais' à Ferragudo"
