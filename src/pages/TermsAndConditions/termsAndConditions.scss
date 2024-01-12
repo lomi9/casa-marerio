@@ -4,7 +4,6 @@
     padding-top: 70px;
     height: auto;
     &-title{
-        width: 100%;
         display: flex;
         justify-content: center;
         @include title3-font-style;
@@ -23,5 +22,14 @@
         padding-top: 1rem;
         padding-bottom: 1.5rem;
     }
+    }
+}
+
+@media ( max-width : $mobile-breakpoint ) {
+
+    .conditions__section-title{
+        font-size: 1rem;
+        flex-wrap: wrap;
+        width: auto;
     }
 }
