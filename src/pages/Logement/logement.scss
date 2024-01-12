@@ -76,12 +76,15 @@
 
 @media (max-width: $tab-breakpoint ){
     .article__logement{
+        display: flex;
+        justify-content: center;
         &-content{
             display: flex;
             flex-direction: column-reverse;
             justify-content: center;
             align-content: center;
-            padding: 4rem 2rem;
+            padding: 4rem 0;
+            width: 85%;
             &-galerie{
                 width: 100%;
             }
