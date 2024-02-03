@@ -49,6 +49,7 @@
         "privacyPolicy" : "Privacy policy",
         "termsConditions" : "Terms and conditions",
         "contact" : "Contact"
+
   },
 
   "logement": {
@@ -67,7 +68,6 @@
         "item10": "Shops at 500m",
         "item11": "Air-conditioning system"
       }
-
   },
 
   "equipments": {
@@ -170,21 +170,11 @@
   "text3" : "Contact us !"
   },
 
-
-    "articles": {
-      "section1" : {
-
-        "article1": {
-          "title": "Praia da Rocha",
-          "text": "Just a 1-minute walk from the flat, 'Praia da Rocha' is a huge golden sandy beach. You'll find plenty of bars and restaurants as you walk along the boardwalk on the beach. During the day, take in the views of the impressive rocks and cliffs that make the Algarve so beautiful, and admire the beautiful sunsets as night falls.",
-          "image": "portimao-plage-1.webp",
-          "url": "https://maps.app.goo.gl/QCdEXRcq544XmxoaA",
-          "texturl" : "See beach location"
-        },
   "blog": {
 
     "home" : {
-      "title" : "Casa-Marerio Blog",
+
+    "title" : "Casa-Marerio Blog",
     "title1": "Portimão",
     "subtitle1": "Discover our selection of activities and good adresses.",
     "title2": "",
@@ -214,6 +204,18 @@
       }
     },
 
+      "articles" : {
+
+        "section1": {
+
+          "article1": {
+            "title": "Praia da Rocha",
+            "text": "Located just a 1-minute walk from the apartment, 'Praia da Rocha' is a vast beach of golden sand. As you stroll along the wooden promenade bordering the beach, you will find numerous bars and restaurants. During the day, enjoy the view of the impressive rocks and cliffs that contribute to the charm of the region, and admire the magnificent sunsets as night falls.",
+            "image": "portimao-plage-1.webp",
+            "url": "https://maps.app.goo.gl/QCdEXRcq544XmxoaA",
+            "texturl" : "See beach location"
+          },
+
         "article2": {
           "title": "Praia da Angrinha",
           "text": "This quiet little beach is located on the opposite side of the  Arade river. You'll find yourself right next to the medieval castle of Ferragudo. Take the opportunity to admire this magnificent and lively district.",
@@ -229,6 +231,7 @@
           "url": "https://maps.app.goo.gl/pUNckBEjuEQsGsNk8",
           "texturl" : "See beach location"
         }
+
       },
       "section2" : {
 
@@ -323,12 +326,8 @@
           "url": "https://maps.app.goo.gl/wL1B3grSKvZY35Jm7",
           "texturl" : "Go to 'Pastelaria Arade' in Portimão"
         }
-
       }
-
-
     }
-
   }, 
 
   "helmet":{
@@ -599,7 +598,5 @@
       "content" : "For any questions or concerns, please contact Casa-Marerio at the email address casamarerio@gmail.com."
     }
 }
-
-
 }
   

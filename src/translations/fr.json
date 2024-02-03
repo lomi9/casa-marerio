@@ -128,7 +128,6 @@
                 "li8" : "Vos animaux de compagnie sont les bienvenus",
                 "li9" : "Il est interdit de fumer dans le logement",
                 "li10" : "Le logement est interdit aux soirées"
-
             },
             "item6": {
                 "title": "À proximité",
@@ -163,8 +162,8 @@
           "item1":"130€ la nuitée en haute saison (du 01/05 au 30/09)",
           "item2":"90€ la nuitée hors saison (du 01/10 au 30/04)"
         }
-    
     },
+
     "title2": "Vous souhaitez consulter une réservation dejà effectuée ?",
     "text2" : "Recherchez ici votre réservation. ",
     "title3": "Une question ?",
@@ -329,9 +328,7 @@
                 "url": "https://maps.app.goo.gl/wL1B3grSKvZY35Jm7",
                 "texturl" : "Se rendre à la patisserie 'Pastelaria Arade' à Portimão"
               }
-
             }
-
       }
     },
 
