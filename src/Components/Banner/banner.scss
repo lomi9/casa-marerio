@@ -15,37 +15,52 @@
         opacity: 1;
       }
   }
+
+  &-h1 {
+    text-align: center;
+    @include title-font-style;
+    color: #D8D5DB;
+    width: 80%;
+    line-height: 3rem;
+    opacity: 0; 
+    animation: fadeIn 3s ease forwards;
+  }
   
 
-    .banner__h1 {
-      text-align: center;
-      @include title-font-style;
-      color: #D8D5DB;
-      width: 80%;
-      line-height: 3rem;
-      opacity: 0; 
-      animation: fadeIn 3s ease forwards;
-    }
   
-    .banner__scroll {
+    &-scroll {
       position: absolute;
       bottom: 10px; 
       display: flex;
       flex-direction: column;
       align-items: center;
       
-      .banner__scroll-p, .banner__scroll-fleche {
+      &-p, &-fleche {
         margin: 0; 
         @include main-font-style;
         @include link-no-style;
         color: #D8D5DB;
     }
+    &-fleche {
+      font-size: 2rem;
+     
+    }
     }
   }
 
-  .banner__scroll-fleche {
-    font-size: 2rem;
-   
+  @media (max-width : $mobile-breakpoint){
+    .banner__div-h1 {
+      text-align: left;
+      @include title-font-style;
+      color: #D8D5DB;
+      font-size: 10vw;
+      width: 97vw;
+      line-height: 12vw;
+      opacity: 0; 
+      animation: fadeIn 3s ease forwards;
+    }
+
+
   }
   
 
