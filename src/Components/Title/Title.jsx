@@ -23,7 +23,7 @@ export default function Title ({h2Text, pText, bgColor = 'defaultColor', h2Color
 
     return (
         <div className={`title ${bgColorClass}`}>
-                    <h2 className={`title__div-title-1 ${h2ColorClass}`} data-aos="fade-right">{h2Text}</h2>
+                    <h2 className={`title__div-title-1 ${h2ColorClass}`}>{h2Text}</h2>
         <p className={`title__div-title-2 ${pColorClass}`} data-aos="fade-right">{pText}</p>
         </div>
     )

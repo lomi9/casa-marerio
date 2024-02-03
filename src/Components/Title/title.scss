@@ -49,3 +49,20 @@ title{
         }
     }
   }
+
+@media (max-width : $mobile-breakpoint) {
+  .title__div-title{
+    &-1{
+      padding-top: 6rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    
+    &-2{
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 300;
+    padding: 2rem 2rem 6rem 2rem;
+  }
+}
+}

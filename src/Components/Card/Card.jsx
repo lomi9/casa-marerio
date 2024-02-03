@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 const Card = ({ cardBackground, title, buttonText, destination }) => {
     
     return (
-        <Link to={destination} className="card-container">
-            <div className="card-image" style={{ backgroundImage: `url(${cardBackground})` }}></div>
-            <div className="card-overlay">
-                <div className="card-div"> 
-             <h3 className="card-title"data-aos="fade-up">{title}</h3>
-            <button className="card-button" data-aos="fade-up">{buttonText}</button>
+        <Link to={destination} className="card">
+            <div className="card__image" style={{ backgroundImage: `url(${cardBackground})` }}>
+
             </div>
+            <div className="card__overlay">
+                <div className="card__overlay-div"> 
+                    <h3 className="card__overlay-div-title">{title}</h3>
+                    <button className="card__overlay-div-button" data-aos="fade-up">{buttonText}</button>
+                </div>
             </div>
         </Link>
     );
