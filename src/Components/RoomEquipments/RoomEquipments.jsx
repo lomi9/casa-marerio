@@ -9,7 +9,7 @@ export default function Salon({imageSrc1, imageSrc2, imageSrc3, title2, text, li
                     backgroundImage: `url(${imageSrc1})`
                 }} data-aos="fade-right"></div>
             </div>
-            <div className="salon__div2" data-aos="fade-left">
+            <div className="salon__div2">
                 <h3 className="salon__div2-title">{title2}</h3>
                 <ul className="salon__div2-list">
                     {li1 &&<li className="salon__div2-list-item">{li1}</li>}
