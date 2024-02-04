@@ -43,6 +43,7 @@ export default function Reservation () {
       <ul className='reservation__article1-list'>
           <li className='reservation__article1-list-item'>{t('reservation.article1.collapse3.item1')}</li>
           <li className='reservation__article1-list-item'>{t('reservation.article1.collapse3.item2')}</li>
+          <li className='reservation__article1-list-item'>{t('reservation.article1.collapse3.item3')}</li>
         </ul>
       </Collapse>
 
